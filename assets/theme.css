@@ -1,0 +1,19 @@
+body {
+    /* background-color: #16151d; */
+    background: radial-gradient(circle, #131120, #16151d);
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+}
