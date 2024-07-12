@@ -1,7 +1,17 @@
-# Translator
-
-This is a translator section using nuxt.
-
+---
+title: 'Translator'
+description: 'Penjelasan mendetail mengenai posisi Translator/Penerjemah.'
 ---
 
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
+# Translator
+
+::navigator
+---
+nextLink: '/typesetter'
+nextText: 'Typesetter'
+nextDesc: 'Penjelasan mendetail mengenai posisi Typesetter.'
+prevLink: '/perkenalan'
+prevText: 'Perkenalan'
+prevDesc: 'Perkenalan singkat mengenai dunia Scanlator.'
+---
+::

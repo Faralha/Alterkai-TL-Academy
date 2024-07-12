@@ -2,7 +2,7 @@
     <div class="pb-4">
         <h2 class="break">{{ title }}</h2>
         <hr>
-        <img :src="image" :alt="alt">
+        <img v-if="image" :src="image" :alt="alt">
     </div>
 </template>
 
@@ -13,7 +13,8 @@
             default: 'Default Title'
         },
         image: {
-            type: String
+            type: String,
+            default: ''
         },
         alt: {
             type: String,

@@ -1,17 +1,21 @@
 body {
     /* background-color: #16151d; */
-    background: radial-gradient(circle, #131120, #16151d);
+    background: radial-gradient(circle, #1a172a, #16151d);
+    background-attachment: fixed !important;
+    background-size: cover;
     color: #fff;
 }
 
 img {
     max-width: 100%;
+    width: auto;
     height: auto;
 }
 
 p {
     font-size: 1.2rem;
     line-height: 1.5;
+    font-family: 'Lato', sans-serif;
 }
 
 a {

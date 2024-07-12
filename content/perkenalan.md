@@ -3,6 +3,8 @@ title: 'Perkenalan'
 description: 'Sebuah perkenalan singkat ke dalam dunia Scanlator.'
 ---
 
+![img](/img/perkenalan/not-scanlator.png)
+
 # Perkenalan
 
 Sebelum belajar, kita harus tau apa saja istilah-istilah yang dipakai di dunia TL, beserta alur kerjanya.
@@ -10,7 +12,6 @@ Sebelum belajar, kita harus tau apa saja istilah-istilah yang dipakai di dunia T
 ::breakdown
 ---
 title: 'TL itu bukan Scanlator.'
-image: '/img/perkenalan/not-scanlator.png'
 alt: 'not scanlator'
 ---
 ::
@@ -58,5 +59,14 @@ Seperti dilihat dalam gambar, setiap posisi akan memiliki [ titik start yang sal
 
 Untuk penjelasan mendetail mengenai masing-masing posisi, bisa lihat di halaman berikutnya.
 
-Berikutnya : [/translator](/translator)
+::navigator
+---
+nextLink: '/translator'
+nextText: 'Translator'
+nextDesc: 'Penjelasan mendetail mengenai posisi Translator.'
+prevLink: '/'
+prevText: 'Home'
+prevDesc: 'Kembali ke beranda.'
+---
+::
 
