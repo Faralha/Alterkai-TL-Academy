@@ -24,7 +24,7 @@ alt: 'not scanlator'
 
 Loh kok bukan? Terus TL itu artinya apa?
 
-Begini, TL itu bagian dari scanlator, tapi orang indonesia suka pakai bahasa "TL" sebagai "Mereka yang menerjemahkan komik", termasuk proses mengedit. Nggak salah sebenernya, cuman dalam konteks pembelajaran sekarang, rasanya [ kurang tepat. ]{style="background-color: #e76f51; color: black;"}
+Begini, [TL itu bagian dari scanlator,]{style="background-color: #e76f51; color: black;"} tapi orang indonesia suka pakai bahasa "TL" sebagai "Mereka yang menerjemahkan komik", termasuk proses mengedit. Nggak salah sebenernya, cuman dalam konteks pembelajaran sekarang, rasanya [ kurang tepat. ]{style="background-color: #e76f51; color: black;"}
 
 Maka kedepannya, [ TL ]{style="background-color: #e76f51; color: black;"} atau 'mereka yang mengedit manga ke Indonesia' akan [ disebut dengan "Scanlator", ]{style="background-color: #e76f51; color: black;"} akronim dari Scan and Translate-or.
 

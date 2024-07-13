@@ -3,12 +3,21 @@
     <div class="container padding">
         <main class="d-flex flex-row">
             <Navbar />
-            <ContentDoc style="width: 100vw;"/>
+            <ContentDoc style="width: 100vw" />
         </main>
     </div>
 </template>
 
 <style scoped>
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-decoration: none;
+}
+
 .padding {
     padding-left: 5rem;
     padding-right: 5rem;
