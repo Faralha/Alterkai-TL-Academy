@@ -25,7 +25,6 @@ defineProps({
 
 <style scoped>
 .background-image {
-    width: 100%;
     height: 40vh;
     background-size: cover;
     background-position: center;
