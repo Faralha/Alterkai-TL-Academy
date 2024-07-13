@@ -4,7 +4,7 @@
             <h1>Alterkai TL Academy</h1>
             <NuxtLink to="/perkenalan" class="btn btn-outline-light">
                 <div class="py-2 px-4">
-                    Perkenalan
+                    <p style="margin: 0;">Mulai</p>
                 </div>
             </NuxtLink>
         </div>

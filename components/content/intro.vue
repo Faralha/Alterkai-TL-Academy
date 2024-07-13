@@ -1,8 +1,8 @@
 <template>
     <div :style="{ backgroundImage: 'url(' + image + ')' }" class="background-image d-flex align-items-end justify-content-start">
         <div class="text-area p-4">
-            <h1>Perkenalan</h1>
-            <p>Alterkai TL Academy.</p>
+            <h1>{{ text }}</h1>
+            <p>{{ desc }}</p>
         </div>
     </div>
     <div class="py-3"></div>
@@ -15,6 +15,9 @@ defineProps({
         default: 'https://via.placeholder.com/1920x1080', 
     },
     text: {
+        type: String,
+    },
+    desc: {
         type: String,
     },
 });
