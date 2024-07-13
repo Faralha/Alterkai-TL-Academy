@@ -1,7 +1,7 @@
 <template>
     <Header class="header" />
     <div class="container padding">
-        <main class="d-flex flex-row mt-5">
+        <main class="d-flex flex-row">
             <Navbar />
             <ContentDoc style="width: 100vw;"/>
         </main>
@@ -23,6 +23,7 @@
 
 .header {
     background-color: rgba(22, 21, 29, 0.75);
+    /* background-color: black; */
     backdrop-filter: blur(10px);
     z-index: 3;
 }

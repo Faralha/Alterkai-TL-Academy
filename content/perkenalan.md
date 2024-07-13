@@ -3,9 +3,15 @@ title: 'Perkenalan'
 description: 'Sebuah perkenalan singkat ke dalam dunia Scanlator.'
 ---
 
-![img](/img/perkenalan/not-scanlator.png)
+<!-- ![img](/img/perkenalan/not-scanlator.png) -->
+<!-- # Perkenalan -->
 
-# Perkenalan
+::intro
+---
+image: '/img/perkenalan/perkenalan-header.png'
+text: 'Perkenalan'
+---
+::
 
 Sebelum belajar, kita harus tau apa saja istilah-istilah yang dipakai di dunia TL, beserta alur kerjanya.
 
