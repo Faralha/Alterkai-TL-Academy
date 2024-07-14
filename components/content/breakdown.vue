@@ -25,6 +25,7 @@
 
 <style scoped>
     .break {
+        width: 100%;
         padding-top: 2rem;
     }
 </style>

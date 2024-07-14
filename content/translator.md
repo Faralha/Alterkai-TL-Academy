@@ -31,28 +31,31 @@ Umumnya, manga diterjemahkan per bubble dialog.
 - Beri penggalan kata awal buat penanda dialog mana yang diterjemahin `misal He: dia mau merampok...`
 - Jangan hilangkan satupun tanda baca dari manga
 
-:br
 Kira-kira format akhirnya akan terlihat seperti ini:
 
 ```txt [Kuroinu_II_Ch._3.txt] meta-info=val
-------------------------------------------------------
+------------------------------------------
 Kuroinu II Ch. 2
 TL: Faralha
 
 1
 Weak : Lemah! Kalian Semua-
 Too : Terlalu lemah!!!
-I told : sudah kukata jangan menghalangi jalanku
+I told : sudah kukata jangan menghalangi
+jalanku
 
 2
 the big : iblis yang besar adalah mangsaku!
-i, astrid : aku, astrid dari kimia, akan mengambil alih!
-our : golem-golemku akan mengamankan semuanya!
-i can't : kekalahan sekecil apapun takkan ditolerir!
+i, astrid : aku, astrid dari kimia, akan
+mengambil alih!
+our : golem-golemku akan mengamankan
+semuanya!
+i can't : kekalahan sekecil apapun takkan
+ditolerir!
 keep : lanjutkan penembakan!
 *that : di-disitu bahaya tau!
 it : semuanya berjalan lancar ya.
-------------------------------------------------------
+------------------------------------------
 ```
 
 ::breakdown
