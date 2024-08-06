@@ -1,9 +1,16 @@
+html {
+    display: block;
+}
+
 body {
-    /* background-color: #16151d; */
-    background: radial-gradient(circle, #1a172a, #16151d);
+    background-color: #16151d;
+    /* background: radial-gradient(circle, #1a172a, #16151d); */
+    /* background: linear-gradient(90deg, #1a172a, #16151d); */
     background-attachment: fixed !important;
     background-size: cover;
     color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 img {

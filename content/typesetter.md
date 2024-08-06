@@ -56,7 +56,32 @@ Selain google font diatas, kalian harus nyari sendiri tempat downloadnya hehe `p
 
 ### Do's
 
+1. Pisah file tiap halaman
 
+Good practice atau anjuran bagi typesetter adalah menggunakan satu file untuk tiap halaman, bukan satu file untuk satu chapter `misal halaman 1 dari chapter 1 manga X menjadi file sendiri.` Endingnya satu chapter akan terdiri dari beberapa file hasil typeset tiap halaman.
+
+Tapi kalau mau satu file buat satu chapter sih boleh aja. Ribetnya nanti kalau ada perbaikan, berarti cleaning ulang dan typeset ulang. `Emang lebih cepet, tapi ga praktis. Revisi terjemahan itu sangat langka dan jarang sekali :v`
+
+
+2. Text align ke tengah/middle
+
+3. Penggal/potong kalimat jika perlu
+
+4. Beri whitespace
+
+Kasih jarak biar teksnya nggak terlalu mepet sama dinding bubble. Penjelasan mendetail bisa lihat gambar dibawah ini.
+
+![img](/img/typesetter/tutorial-ts.png)
+
+### Don't
+
+1. Export dengan resolusi yang berbeda dari canvas/gambar mentahan
+
+2. Ukuran font dan whitespace yang tidak konsisten
+
+Udah sih itu aja. Gw awal typeset juga jelek, tapi gw tetep mencoba dan memperbaiki dimana jeleknya. Puncaknya ya sekarang ini. Ga kerasa udah 100 chapter lebih gw typeset. Dengan bertambahnya pengalaman, keahlian dan kerapihan typeset kamu juga bisa makin bagus kok `:).` Kuncinya jangan pernah menyerah scanlate, tetaplah mencoba `walau sepi komen dan apresiasi wkwk.` MahoAko awal rilis juga sepi kok. Baru ramenya 2023-2024 pas animenya rilis.
+
+Intinya tetap semangat kawan! Ganbatte~!
 
 ::navigator
 ---

@@ -15,17 +15,6 @@ desc: 'Menggambar ulang bagian yang terhapus ketika cleaning'
 - Estimasi pengerjaan `1-2 Hari/chapter`
 - Format pengumpulan? `*.png, *.jpg, *.psb`
 
-::breakdown
----
-title: 'Teknis Pengerjaan'
----
-::
-
-::breakdown
----
-title: 'Do`s and Don`t'
----
-::
 
 
 

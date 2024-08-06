@@ -31,12 +31,12 @@ a {
 
 p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 h1 {
     font-size: 15vh;
-    width: 60%;
+    width: 60vw;
     font-weight: 700;
     font-family: "Bitter", sans-serif;
     text-align: center;
@@ -55,7 +55,8 @@ h1 {
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.7rem;
+        text-align: center;
     }
 
     .padding {
@@ -68,6 +69,6 @@ h1 {
 
 .container,
 .inner-container {
-    height: 100vh !important;
+    min-height: 100vh;
 }
 </style>
