@@ -15,13 +15,14 @@ desc: 'Menerjemahkan komik dari bahasa asing ke Indonesia.'
 - Estimasi pengerjaan `1-2 Hari/chapter`
 - Format pengumpulan? `*.txt`
 
-::breakdown
----
-title: 'Teknis Pengerjaan'
----
-::
+## Teknis Pengerjaan
+:line
 
 Umumnya, manga diterjemahkan per bubble dialog. 
+
+![img](/img/translator/bubble.png)
+
+Bubble yang dimaksud bisa berupa dialog, ataupun perkataan didalam hati. Intinya mencakup semua teks yang bukan sound effect. Biasanya, sound effect tidak ikut diterjemahkan. 
 
 - Format pengumpulan menggunakan file .txt
 - Aplikasi bebas
@@ -31,29 +32,9 @@ Umumnya, manga diterjemahkan per bubble dialog.
 - Beri penggalan kata awal buat penanda dialog mana yang diterjemahin `misal He: dia mau merampok...`
 - Jangan hilangkan satupun tanda baca dari manga
 
-:br
 Kira-kira format akhirnya akan terlihat seperti ini:
 
-```txt [Kuroinu_II_Ch._3.txt] meta-info=val
-------------------------------------------------------
-Kuroinu II Ch. 2
-TL: Faralha
-
-1
-Weak : Lemah! Kalian Semua-
-Too : Terlalu lemah!!!
-I told : sudah kukata jangan menghalangi jalanku
-
-2
-the big : iblis yang besar adalah mangsaku!
-i, astrid : aku, astrid dari kimia, akan mengambil alih!
-our : golem-golemku akan mengamankan semuanya!
-i can't : kekalahan sekecil apapun takkan ditolerir!
-keep : lanjutkan penembakan!
-*that : di-disitu bahaya tau!
-it : semuanya berjalan lancar ya.
-------------------------------------------------------
-```
+![img](/img/translator/example.png)
 
 ::breakdown
 ---
