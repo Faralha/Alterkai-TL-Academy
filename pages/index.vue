@@ -20,8 +20,17 @@
     </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+useHead({
+    title: 'Alterkai TL Academy',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Belajar Translate TL Manga dengan Mudah, gratis, dan cepat.'
+            }
+        ]
+    })
 </script>
 
 <style scoped>

@@ -5,7 +5,9 @@ export default defineNuxtConfig({
     '@nuxt/content',
     "@nuxt/image",
     "@vesp/nuxt-fontawesome",
-    "@nuxtjs/google-fonts"
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/robots",
+    "@nuxtjs/sitemap"
   ],
   css: [
     '/assets/main.scss',
