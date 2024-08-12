@@ -2,20 +2,21 @@
     <div class="bg-image">
         <div class="container">
             <div
-                class="container d-flex flex-column justify-content-center align-items-center"
+                class="container d-flex flex-column justify-content-center align-items-left"
             >
-                <h1>Alterkai TL Academy</h1>
-                <p>Ditulis langsung oleh Faralha, founder Alterkai.</p>
-                <NuxtLink to="/perkenalan" class="btn btn-outline-light">
+                <div class="d-flex flex-row justify-content-center align-items-center">
+                    <h3>Alterkai TL Academy</h3>
+                    <span class="col mx-4" style="display: block; height: 0.3px; background-color: white;"></span>
+                </div>
+                <h1>Belajar Translate Manga dengan Mudah.</h1>
+                <p>Belajar konsep fundamental dunia Scanlator, sekaligus tata-caranya dengan benar, mudah, dan lengkap.</p>
+                <NuxtLink to="/perkenalan" class="btn btn-outline-light" style="max-width: 10rem;">
                     <div class="padding">
                         <p style="margin: 0">Mulai</p>
                     </div>
                 </NuxtLink>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <h2>Bagian apa yang ingin dipelajari?</h2>
     </div>
 </template>
 
@@ -30,16 +31,13 @@ a {
 }
 
 p {
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 h1 {
-    font-size: 15vh;
-    width: 60vw;
+    font-size: 4rem;
     font-weight: 700;
-    font-family: "Bitter", sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .padding {
@@ -47,6 +45,7 @@ h1 {
     padding-bottom: 0.4rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    
 }
 
 @media (max-width: 768px) {
@@ -55,8 +54,7 @@ h1 {
     }
 
     p {
-        font-size: 0.7rem;
-        text-align: center;
+        font-size: 1rem;
     }
 
     .padding {

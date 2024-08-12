@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     '/assets/theme.css'],
 
   routeRules: {
-    '/': { prerender: true }
+    '/*': { prerender: true }
   },
 
   fontawesome: {

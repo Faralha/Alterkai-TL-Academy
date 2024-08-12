@@ -6,6 +6,7 @@
             <ContentDoc style="width: 100vw" />
         </main>
     </div>
+    <Footer/>
 </template>
 
 <style scoped>
