@@ -15,7 +15,8 @@
     "@nuxtjs/sitemap": "^6.0.0-beta.1",
     "@vesp/nuxt-fontawesome": "^1.0.4",
     "bootstrap": "^5.3.3",
-    "nuxt": "^3.12.4"
+    "nuxt": "^3.12.4",
+    "sitemap": "^8.0.0"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",

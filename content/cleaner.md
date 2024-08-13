@@ -50,7 +50,53 @@ Final boss. Melakukan clean bersih[tanpa menggunakan Adobe Photoshop bisa dibila
 ## How-to
 :line
 
+![img](/img/cleaner/tools.png)
 
+Kalian harus sangat-sangat pake banget familiar dengan dua alat ini: "Polygonal Lasso Tool/Rectangular Marquee Tool" dan "Content Aware Fill". Keduanya akan selalu dipakai untuk cleaning.
+
+### Step 0: Pastikan layer sudah di rasterize.
+
+Kalau opsi Content-aware fillmu ga bisa dipakai, itu karena layer belum di rasterize. Caranya tinggal pilih layer, ketik `CTRL + B` untuk tool Brush, lalu klik sembarang pada gambar. Sebuah pop up windows akan muncul meminta untuk Rasterize layer, seperti dibawah ini.
+
+![img](/img/cleaner/rasterize.png)
+
+Klik ok, dan selesai. Lanjut step selanjutnya.
+
+### Step 1: Seleksi area yang ingin dihapus
+
+![img](/img/cleaner/step1-1.png)
+
+Pastikan layer yang ingin dihapus sudah diseleksi. Kemudian tandai area yang ingin dihapus dengan `Polygonal Marquee Tool` atau `Rectangular Marquee Tool`. Bebas mau pakai yang mana.
+
+### Step 2: Content aware fill
+
+Pilih `Edit > Content Aware Fill` seperti dibawah ini.
+
+![img](/img/cleaner/step2.png)
+
+Nantinya akan muncul sebuah window baru. Sebelumnya pastikan mode custom sudah dipilih seperti gambar dibawah:
+
+![img](/img/cleaner/step2-1.png)
+
+mode ini membiarkan penggunanya menentukan "sumber" atau "referensi" bagi AI photoshop untuk mengetahui akan diisi apa area seleksinya. Selanjutnya kita pilih area disekitar objek yang ingin dihapus seperti biasa.
+
+![img](/img/cleaner/step2-2.png)
+
+Kalau dirasa hasilnya kurang rapih, boleh coba seleksi ulang area referensinya sampai dapat yang cocok. Untuk patokan, hasil seperti diatas sudah bisa dibilang bagus dan rapih `(karena endingnya juga bakal ditiban teks lagi)` Pilih OK untuk menyelesaikan prosesnya.
+
+Kalau sudah keluar, pencet `CTRL + D` untuk deselect area seleksi.
+
+### Step 3: Practice makes perfect!
+
+Selesai! Inti dari cleaner itu aja. Sebagian besar cleaning bisa selesai hanya dengan Seleksi > content aware fill kayak diatas, tapi terkadang juga dibutuhkan cleaning manual pakai brush! Balik lagi, semua tergantung kondisi dan seberapa kreatif kalian dalam menggunakan selection tools dan content aware fill.
+
+Bonus, ini hasil cleaning + typeset kedua paling susah menurut gw selama nge-TL di Alterkai.
+
+![img](/img/cleaner/path.png)
+
+Semangat mencoba! Semakin lama jam terbang kalian, semakin jago juga kok lama-lama!
+
+Oiya, HARAM SEKALI HUKUMNYA PAKAI WAND MAGIC TOOL. `Terutama untuk daerah luas, hasilnya dijamin bakalan jelek (kayak hasil cleaning MahoAko awal-awal.)`
 
 ::navigator
 ---
