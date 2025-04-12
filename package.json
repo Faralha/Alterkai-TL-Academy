@@ -1,28 +1,33 @@
 {
+  "name": "alterkai-tl-academy",
+  "version": "1.0.0",
+  "description": "![Website](https://img.shields.io/website?url=https%3A%2F%2Facademy.alterkaiscans.my.id)\r ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/faralha/Alterkai-TL-Academy)",
+  "main": ".prettierrc.js",
   "private": true,
-  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "prettier": "prettier --write ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faralha/Alterkai-TL-Academy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faralha/Alterkai-TL-Academy/issues"
+  },
+  "homepage": "https://github.com/Faralha/Alterkai-TL-Academy#readme",
   "dependencies": {
-    "@nuxt/content": "2.13.0",
-    "@nuxt/image": "1.7.0",
-    "@nuxtjs/google-fonts": "3.2.0",
-    "@nuxtjs/robots": "4.0.2",
-    "@nuxtjs/sitemap": "6.0.0-beta.1",
-    "@vesp/nuxt-fontawesome": "1.0.4",
-    "bootstrap": "5.3.3",
-    "nuxt": "3.16.2",
-    "sitemap": "8.0.0"
+    "@nuxt/content": "^3.4.0",
+    "@nuxt/image": "^1.10.0",
+    "@nuxt/ui": "^3.0.2",
+    "nuxt": "^3.16.2"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "6.5.2",
-    "@fortawesome/free-regular-svg-icons": "6.5.2",
-    "@fortawesome/free-solid-svg-icons": "6.5.2",
-    "sass": "1.77.8",
-    "sass-loader": "14.2.1"
+    "prettier": "^3.5.3"
   }
 }

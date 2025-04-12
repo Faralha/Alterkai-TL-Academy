@@ -1,78 +1,61 @@
-<template>
-    <div class="d-none d-md-block sidebar">
-        <!-- Hide on screens smaller than medium -->
-        <div class="d-flex flex-column">
-            <!-- Full height vertical column -->
-            <NuxtLink 
-                to="/perkenalan" 
-                class="nav-link" 
-                :class="{ active: isActive('/perkenalan') }">
-                <div class="sidebar-item">Perkenalan</div>
-            </NuxtLink>
-            <NuxtLink 
-                to="/translator" 
-                class="nav-link" 
-                :class="{ active: isActive('/translator') }">
-                <div class="sidebar-item">Translator</div>
-            </NuxtLink>
-            <NuxtLink 
-                to="/typesetter" 
-                class="nav-link" 
-                :class="{ active: isActive('/typesetter') }">
-                <div class="sidebar-item">Typesetter</div>
-            </NuxtLink>
-            <NuxtLink 
-                to="/cleaner" 
-                class="nav-link" 
-                :class="{ active: isActive('/cleaner') }">
-                <div class="sidebar-item">Cleaner</div>
-            </NuxtLink>
-            <NuxtLink 
-                to="/redraw" 
-                class="nav-link" 
-                :class="{ active: isActive('/redraw') }">
-                <div class="sidebar-item">Redrawer</div>
-            </NuxtLink>
-        </div>
-    </div>
-</template>
+<script setup lang="ts">
+import type { NavigationMenuItem } from '@nuxt/ui';
 
-<script>
-import { useRoute } from 'vue-router';
-
-export default {
-    setup() {
-        const route = useRoute();
-
-        const isActive = (path) => {
-            return route.path === path;
-        };
-
-        return {
-            isActive
-        };
-    }
-};
+const items = ref<NavigationMenuItem[]>([
+  {
+    label: 'Home',
+    icon: 'i-lucide-home',
+    to: '/',
+  },
+  {
+    label: 'Guide',
+    icon: 'i-lucide-book-open',
+    defaultOpen: true,
+    children: [
+      {
+        label: 'Perkenalan',
+        description:
+          'Sebuah perkenalan mengenai dunia scanlator secara singkat.',
+        icon: 'i-lucide-house',
+        to: '/perkenalan',
+      },
+      {
+        label: 'Translator',
+        description:
+          'Menerjemahkan komik dari bahasa asing ke bahasa Indonesia.',
+        icon: 'i-material-symbols-language',
+        to: '/translator',
+      },
+      {
+        label: 'Typesetter',
+        icon: 'i-material-symbols-keyboard-alt-outline',
+        description: 'Memasukkan teks terjemahan ke dalam gambar',
+        to: '/typesetter',
+      },
+      {
+        label: 'Cleaner',
+        icon: 'i-material-symbols-cleaning-services-outline',
+        description:
+          'Membersihkan komik dari segala teks mulai dari dialog hingga efek.',
+        to: '/cleaner',
+      },
+      {
+        label: 'Redraw',
+        icon: 'i-material-symbols-brush',
+        description: 'Menggambar ulang bagian yang terhapus saat cleaning.',
+        to: '/redraw',
+      },
+    ],
+  },
+  {
+    label: 'GitHub',
+    icon: 'i-simple-icons-github',
+    to: 'https://github.com/faralha/alterkai-tl-academy',
+    target: '_blank',
+  },
+]);
 </script>
 
-<style scoped>
-.sidebar {
-    position: sticky;
-    top: 60px;
-    height: 100vh;
-    margin-right: 25px;
-}
-
-.sidebar-item{
-    padding: 10px 100px 10px 0px;
-}
-
-.nav-link.active .sidebar-item {
-    color: red;
-    background-color: #d63384;
-    border-radius: 5px;
-    padding-left: 20px;
-    color: white;
-    font-weight: bold;
-}
-</style>
+<template>
+  <UNavigationMenu :items="items" class="w-full justify-center" />
+</template>

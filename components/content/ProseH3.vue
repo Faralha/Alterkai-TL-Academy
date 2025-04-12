@@ -1,9 +1,6 @@
 <template>
-  <h3 :id="id">
-    <a
-      v-if="id && generate"
-      :href="`#${id}`"
-    >
+  <h3 class="text-xl" :id="id">
+    <a v-if="id && generate" :href="`#${id}`">
       <slot />
     </a>
     <slot v-else />
@@ -11,16 +8,22 @@
 </template>
 
 <script setup lang="ts">
-import { computed, useRuntimeConfig } from '#imports'
+import { computed, useRuntimeConfig } from '#imports';
 
-const props = defineProps<{ id?: string }>()
+const props = defineProps<{ id?: string }>();
 
-const { headings } = useRuntimeConfig().public.mdc
-const generate = computed(() => props.id && ((typeof headings?.anchorLinks === 'boolean' && headings?.anchorLinks === true) || (typeof headings?.anchorLinks === 'object' && headings?.anchorLinks?.h3)))
+const { headings } = useRuntimeConfig().public.mdc;
+const generate = computed(
+  () =>
+    props.id &&
+    ((typeof headings?.anchorLinks === 'boolean' &&
+      headings?.anchorLinks === true) ||
+      (typeof headings?.anchorLinks === 'object' && headings?.anchorLinks?.h3)),
+);
 </script>
 
 <style>
-    h3 {
-        padding-top: 1rem;
-    }
+h3 {
+  padding-top: 1rem;
+}
 </style>

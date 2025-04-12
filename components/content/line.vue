@@ -1,16 +1,14 @@
 <template>
-    <div class="white-line"></div>
+  <div class="white-line"></div>
 </template>
 
-<script>
-
-</script>
+<script></script>
 
 <style scoped>
 .white-line {
-    height: 1px;
-    opacity: 0.3;
-    background-color: white;
-    margin-bottom: 1rem;
+  height: 1px;
+  opacity: 0.3;
+  background-color: white;
+  margin-bottom: 1rem;
 }
 </style>

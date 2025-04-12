@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+.container {
+  @apply max-w-screen-xl mx-auto px-4;
+}
+
+:root {
+  --ui-primary: #d63384;
+  --background: #16151d;
+}
