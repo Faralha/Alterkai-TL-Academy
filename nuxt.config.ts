@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/image',
     'nuxt-gtag',
+    'nuxt-disqus',
   ],
   css: ['~/assets/css/main.css', '~/assets/css/theme.css'],
 
@@ -16,6 +17,10 @@ export default defineNuxtConfig({
   },
 
   components: true,
+
+  disqus: {
+    shortname: 'alterkai-tl-academy',
+  },
 
   ui: {
     colorMode: false,
@@ -28,15 +33,6 @@ export default defineNuxtConfig({
   site: {
     url: 'https://academy.alterkaiscans.my.id',
     name: 'Alterkai TL Academy',
-  },
-
-  googleFonts: {
-    families: {
-      Bitter: true,
-      'Open Sans': true,
-      Lato: true,
-    },
-    display: 'swap',
   },
 
   compatibilityDate: '2024-07-12',
