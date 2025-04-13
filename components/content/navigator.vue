@@ -15,7 +15,7 @@
             />
           </svg>
           <p class="text text-lg m-0">{{ prevText }}</p>
-          <p class="text-md text-left truncate">{{ prevDesc }}</p>
+          <p class="text-md text-left">{{ prevDesc }}</p>
         </div>
       </NuxtLink>
     </div>
@@ -35,7 +35,7 @@
             />
           </svg>
           <p class="text text-lg m-0">{{ nextText }}</p>
-          <p class="text-md text-right truncate">{{ nextDesc }}</p>
+          <p class="text-md text-right">{{ nextDesc }}</p>
         </div>
       </NuxtLink>
     </div>

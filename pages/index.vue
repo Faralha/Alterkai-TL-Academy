@@ -3,7 +3,7 @@
     <div class="container h-screen">
       <div class="container flex flex-col justify-center items-start">
         <div class="flex flex-row justify-center items-center">
-          <h3>Alterkai TL Academy</h3>
+          <img src="~/public/img/logo.png" class="h-[10rem]" alt="Logo" />
           <span
             class="col mx-4"
             style="display: block; height: 0.3px; background-color: white"
@@ -14,7 +14,7 @@
           Belajar konsep fundamental dunia Scanlator, sekaligus tata-caranya
           dengan benar, mudah, dan lengkap.
         </p>
-        <UButton>
+        <UButton class="px-12 py-2 mt-4">
           <NuxtLink to="/perkenalan"> Mulai </NuxtLink>
         </UButton>
       </div>

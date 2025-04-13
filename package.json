@@ -25,7 +25,10 @@
     "@nuxt/content": "^3.4.0",
     "@nuxt/image": "^1.10.0",
     "@nuxt/ui": "^3.0.2",
-    "nuxt": "^3.16.2"
+    "@nuxtjs/robots": "^5.2.9",
+    "@nuxtjs/sitemap": "^7.2.10",
+    "nuxt": "^3.16.2",
+    "nuxt-gtag": "^3.0.2"
   },
   "devDependencies": {
     "prettier": "^3.5.3"

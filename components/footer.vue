@@ -60,8 +60,8 @@
 
         <div class="row items-center">
           <div class="col-3">
-            <p class="text-lg text-center" style="font-weight: bold; margin: 0">
-              Made with love by Faralha.
+            <p class="text-lg text-center" style="margin: 0">
+              Made by Faralha with love. v2.0
             </p>
           </div>
 

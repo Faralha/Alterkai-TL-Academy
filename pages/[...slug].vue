@@ -21,21 +21,22 @@ watch(isMenuOpen, (newValue) => {
 <template>
   <div class="p-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 2xl:px-[20rem] parent">
     <!-- Navbar -->
-    <div class="navbar sticky top-0 z-100 w-full bg-(--background)">
-      <NuxtLink class="desktop p-4">
-        <img src="~/public/img/logo.png" class="h-[10rem]" />
-      </NuxtLink>
-
-      <!-- Desktop -->
-      <Navbar
-        class="desktop p-4 h-full flex flex-col justify-start"
-        orientation="vertical"
-      />
+    <div class="navbar fixed top-0 z-100 w-full bg-(--background)">
+      <!-- Dekstop -->
+      <div class="desktop navbar h-screen top-0">
+        <NuxtLink class="desktop p-4 h-screen">
+          <img src="~/public/img/logo.png" class="h-[10rem]" />
+        </NuxtLink>
+        <Navbar
+          class="desktop p-4 h-full flex flex-col justify-start"
+          orientation="vertical"
+        />
+      </div>
 
       <!-- Mobile -->
-      <div>
+      <div class="mobile w-full">
         <!-- Button and Logo -->
-        <div class="mobile p-4 flex justify-between items-center w-full">
+        <div class="p-4 flex justify-between items-center">
           <NuxtLink>
             <img src="~/public/img/logo.png" class="h-[10rem]" />
           </NuxtLink>
@@ -54,7 +55,7 @@ watch(isMenuOpen, (newValue) => {
         </div>
 
         <!-- Toggle Navbar -->
-        <div class="mobile z-100 flex flex-col items-end p-4 w-full">
+        <div class="z-100 flex flex-col items-end p-4">
           <div v-if="isMenuOpen == true" class="mobileNavbar">
             <Navbar orientation="vertical" />
           </div>
@@ -79,9 +80,9 @@ watch(isMenuOpen, (newValue) => {
   flex-direction: row;
 }
 
-/* .mobile {
-    display: none;
-} */
+.mobile {
+  display: none;
+}
 
 .mobileNavbar {
   height: 100vh;
@@ -91,9 +92,9 @@ watch(isMenuOpen, (newValue) => {
   background: var(--background);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .mobile {
-    display: sticky;
+    display: block;
   }
 
   .parent {

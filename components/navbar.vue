@@ -48,6 +48,31 @@ const items = ref<NavigationMenuItem[]>([
     ],
   },
   {
+    label: 'Other Websites',
+    icon: 'i-material-symbols-globe-asia',
+    defaultOpen: true,
+    children: [
+      {
+        label: 'Alterkai Scans',
+        description: 'Website tempat hasil scanlation Alterkai Scans.',
+        icon: 'i-material-symbols-globe-book',
+        to: 'https://alterkaiscans.my.id',
+      },
+      {
+        label: 'Alterkai TL Academy',
+        description: 'Website tempat belajar translate manga.',
+        icon: 'i-material-symbols-globe-book',
+        to: 'https://academy.alterkaiscans.my.id',
+      },
+      {
+        label: 'Trakteer',
+        description: 'Dukung kami dengan cara donasi di Trakteer.',
+        icon: 'i-material-symbols-attach-money',
+        to: 'https://trakteer.id/faralha',
+      },
+    ],
+  },
+  {
     label: 'GitHub',
     icon: 'i-simple-icons-github',
     to: 'https://github.com/faralha/alterkai-tl-academy',
