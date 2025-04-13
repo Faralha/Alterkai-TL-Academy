@@ -2,21 +2,26 @@
   <div class="bg-image">
     <div class="container h-screen">
       <div class="container flex flex-col justify-center items-start">
+
+        <!-- LOGO -->
         <div class="flex flex-row justify-center items-center">
-          <img src="~/public/img/logo.png" class="h-[10rem]" alt="Logo" />
-          <span
-            class="col mx-4"
-            style="display: block; height: 0.3px; background-color: white"
-          ></span>
+          <NuxtImg src="/img/logo.png" alt="Logo" />
+          <span class="col mx-4" style="display: block; height: 0.3px; background-color: white"></span>
         </div>
+
+        <!-- HERO SECTION -->
         <h1>Belajar Translate Manga dengan Mudah.</h1>
         <p>
           Belajar konsep fundamental dunia Scanlator, sekaligus tata-caranya
           dengan benar, mudah, dan lengkap.
         </p>
-        <UButton class="px-12 py-2 mt-4">
-          <NuxtLink to="/perkenalan"> Mulai </NuxtLink>
-        </UButton>
+
+        <!-- CTA -->
+        <NuxtLink to="/perkenalan">
+          <UButton class="px-12 py-2 mt-4">
+            Mulai
+          </UButton>
+        </NuxtLink>
       </div>
     </div>
   </div>

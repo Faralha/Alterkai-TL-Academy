@@ -1,14 +1,17 @@
 <template>
-  <div
-    :style="{ backgroundImage: 'url(' + image + ')' }"
-    class="background-image flex items-end justify-start"
-  >
-    <div class="text-area p-4 py-6">
-      <h1 class="text-4xl">{{ text }}</h1>
-      <p class="text-gray-50/50">{{ desc }}</p>
+  <div class="relative mb-8">
+    <NuxtImg :src="image" sizes="10vw" class="!w-full max-h-[250px] object-cover" preload/>
+
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-75"></div>
+
+    <!-- Title Text -->
+    <div class="relative z-100 p-4">
+      <h1 class="text-4xl text-white">{{ text }}</h1>
+      <p class="text-gray-300">{{ desc }}</p>
     </div>
   </div>
-  <div class="py-3"></div>
+
 </template>
 
 <script setup>
@@ -27,33 +30,4 @@ defineProps({
 </script>
 
 <style scoped>
-.background-image {
-  height: 40vh;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  border-radius: 0.75rem;
-}
-
-p {
-  font-size: 1em;
-}
-
-.background-image::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), black);
-  border-radius: 0.75rem;
-  /* backdrop-filter: blur(10px); */
-}
-
-/* Ensure content is visible above the overlay */
-.background-image > * {
-  position: relative;
-  z-index: 2;
-}
 </style>

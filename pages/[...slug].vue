@@ -21,11 +21,11 @@ watch(isMenuOpen, (newValue) => {
 <template>
   <div class="p-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 2xl:px-[20rem] parent">
     <!-- Navbar -->
-    <div class="navbar fixed top-0 z-100 w-full bg-(--background)">
+    <div class="navbar fixed top-0 z-100 w-auto bg-(--background)">
       <!-- Dekstop -->
-      <div class="desktop navbar h-screen top-0">
-        <NuxtLink class="desktop p-4 h-screen">
-          <img src="~/public/img/logo.png" class="h-[10rem]" />
+      <div class="desktop navbar h-screen top-0 w-[20rem]">
+        <NuxtLink class="desktop p-4" to="/">
+          <NuxtImg src="/img/logo.png" height="5rem" width="auto" />
         </NuxtLink>
         <Navbar
           class="desktop p-4 h-full flex flex-col justify-start"
@@ -37,8 +37,8 @@ watch(isMenuOpen, (newValue) => {
       <div class="mobile w-full">
         <!-- Button and Logo -->
         <div class="p-4 flex justify-between items-center">
-          <NuxtLink>
-            <img src="~/public/img/logo.png" class="h-[10rem]" />
+          <NuxtLink to="/">
+            <NuxtImg src="/img/logo.png" class="h-[10rem] p-2" />
           </NuxtLink>
           <UIcon
             v-if="isMenuOpen == false"
@@ -64,7 +64,8 @@ watch(isMenuOpen, (newValue) => {
     </div>
 
     <div>
-      <ContentRenderer v-if="page" :value="page" class="" />
+      <ContentRenderer v-if="page" :value="page" class="w-full" />
+      <DisqusComments class="mt-3" />
       <Footer />
     </div>
   </div>
