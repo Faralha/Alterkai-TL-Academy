@@ -34,11 +34,11 @@ watch(isMenuOpen, (newValue) => {
 
       <!-- Mobile -->
       <div>
-        <NuxtLink class="mobile p-4" v-if="isMenuOpen == false">
-          <img src="~/public/img/logo.png" class="h-[10rem]" />
-        </NuxtLink>
-        <!-- Inner Mobile -->
-        <div class="mobile z-100 flex flex-col items-end p-4 w-full">
+        <!-- Button and Logo -->
+        <div class="mobile p-4 flex justify-between items-center w-full">
+          <NuxtLink>
+            <img src="~/public/img/logo.png" class="h-[10rem]" />
+          </NuxtLink>
           <UIcon
             v-if="isMenuOpen == false"
             name="i-material-symbols-menu"
@@ -51,6 +51,10 @@ watch(isMenuOpen, (newValue) => {
             class="size-5"
             @click="toggleMenu"
           />
+        </div>
+
+        <!-- Toggle Navbar -->
+        <div class="mobile z-100 flex flex-col items-end p-4 w-full">
           <div v-if="isMenuOpen == true" class="mobileNavbar">
             <Navbar orientation="vertical" />
           </div>
