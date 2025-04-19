@@ -30,6 +30,11 @@ export default defineNuxtConfig({
     id: 'G-M48MX6BEXN',
   },
 
+  image: {
+    quality: 75,
+    format: ['webp']
+  },
+
   site: {
     url: 'https://academy.alterkaiscans.my.id',
     name: 'Alterkai TL Academy',

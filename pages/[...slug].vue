@@ -1,8 +1,20 @@
 <script lang="ts" setup>
+useHead({
+  title: 'Alterkai TL Academy',
+  meta: [
+    {
+      name: 'description',
+      content: 'Belajar Translate TL Manga dengan Mudah, gratis, dan cepat.',
+    },
+  ],
+})
+
 const route = useRoute();
 const { data: page } = await useAsyncData(route.path, () => {
   return queryCollection('content').path(route.path).first();
 });
+
+const slug = route.params.slug;
 
 const isMenuOpen = ref(false);
 const toggleMenu = () => {
@@ -25,7 +37,7 @@ watch(isMenuOpen, (newValue) => {
       <!-- Dekstop -->
       <div class="desktop navbar h-screen top-0 w-[20rem]">
         <NuxtLink class="desktop p-4" to="/">
-          <NuxtImg src="/img/logo.png" height="5rem" width="auto" />
+          <NuxtImg src="/img/logo.png" height="5rem" width="auto" preload />
         </NuxtLink>
         <Navbar
           class="desktop p-4 h-full flex flex-col justify-start"
@@ -38,7 +50,7 @@ watch(isMenuOpen, (newValue) => {
         <!-- Button and Logo -->
         <div class="p-4 flex justify-between items-center">
           <NuxtLink to="/">
-            <NuxtImg src="/img/logo.png" class="h-[10rem] p-2" />
+            <NuxtImg src="/img/logo.png" class="h-[10rem] p-2" preload placeholder loading="lazy" />
           </NuxtLink>
           <UIcon
             v-if="isMenuOpen == false"
@@ -65,7 +77,7 @@ watch(isMenuOpen, (newValue) => {
 
     <div>
       <ContentRenderer v-if="page" :value="page" class="w-full" />
-      <DisqusComments class="mt-3" />
+      <DisqusComments class="mt-3" :identifier="slug[0]"/>
       <Footer />
     </div>
   </div>
