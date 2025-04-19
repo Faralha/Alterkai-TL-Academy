@@ -1,6 +1,6 @@
 <template>
   <div class="relative mb-8">
-    <NuxtImg :src="image" sizes="10vw" class="!w-full max-h-[250px] object-cover" preload/>
+    <NuxtImg :src="image" sizes="10vw" class="!w-full max-h-[250px] object-cover" preload placeholder loading="lazy"/>
 
     <!-- Gradient Overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-75"></div>

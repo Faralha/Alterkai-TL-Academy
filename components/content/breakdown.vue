@@ -2,7 +2,7 @@
   <div class="pb-4">
     <h2 class="break text-2xl">{{ title }}</h2>
     <hr />
-    <img v-if="image" :src="image" :alt="alt" />
+    <NuxtImg v-if="image" :src="image" :alt="alt" preload placeholder loading="lazy" />
   </div>
 </template>
 
