@@ -27,7 +27,7 @@
     "@nuxt/ui": "^3.0.2",
     "@nuxtjs/robots": "^5.2.9",
     "@nuxtjs/sitemap": "^7.2.10",
-    "nuxt": "^3.16.2",
+    "nuxt": "^3.19.0",
     "nuxt-disqus": "^1.1.1",
     "nuxt-gtag": "^3.0.2"
   },
