@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Faralha/Alterkai-TL-Academy#readme",
   "devDependencies": {
+    "@types/node": "^24.5.2",
     "prettier": "^3.5.3",
     "vitepress": "2.0.0-alpha.12"
   },

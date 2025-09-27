@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap - Both domains will have their own sitemap
+# Primary domain (.com)
+Sitemap: https://academy.alterkaiscans.com/sitemap.xml
+# Secondary domain (.my.id)  
+Sitemap: https://academy.alterkaiscans.my.id/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
+
+# Disallow specific paths if needed (uncomment if necessary)
+# Disallow: /admin/
+# Disallow: /_internal/
