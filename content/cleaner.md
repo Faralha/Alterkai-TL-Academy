@@ -1,110 +1,476 @@
 ---
 title: 'Cleaner'
 description: 'Penjelasan mendetail mengenai posisi Cleaner.'
+lang: id-ID
 ---
 
-::intro
----
-image: '/img/typesetter/typesetter-header.png'
-text: 'Cleaner'
-desc: 'Membersihkan komik dari segala teks mulai dari dialog hingga efek'
----
-::
+# 🧹 Cleaner
 
-- Tingkat kesulitan? `Susah`
-- Estimasi pengerjaan `1-2 Hari/chapter`
-- Format pengumpulan? `*.png, *.jpg, *.psb`
+> **Mengubah halaman manga mentah menjadi kanvas bersih yang siap untuk dipoles typesetter**
 
-## Teknis Pengerjaan
-:line
+Cleaner adalah ninja di balik layar yang membuat magic happen. Tanpa mereka, typesetter akan kesulitan membuat teks yang rapi dan natural. Posisi ini membutuhkan mata detail, kesabaran tinggi, dan kemampuan problem-solving untuk menangani berbagai tantangan cleaning.
 
-Yaudah sih, intinya mah anda membersihkan semua teks yang ada `:v` Untuk software jujur bebas, namun seiring bertambahnya level `(Dijelaskan dibawah)`, penggunaan aplikasi khusus seperti Adobe Photoshop sangat disarankan `Lantaran fitur Content Aware fillnya yang sangat membantu.`
+## 📊 Spesifikasi Posisi
+
+::: details 📈 **Tingkat Kesulitan: Susah**
+Membutuhkan kombinasi skill teknis aplikasi editing, mata artistik untuk recreate background, dan kesabaran untuk detail work yang memakan waktu lama. Setiap kesalahan akan keliatan di hasil final.
+:::
+
+::: details ⏱️ **Estimasi Waktu: 1-2 Hari/Chapter**
+Waktu sangat bervariasi tergantung:
+- Kompleksitas background dan jumlah teks
+- Level cleaning yang dibutuhkan (0-3)
+- Quality standard tim dan personal skill
+- Condition raw manga (scan quality, noise level)
+- Tools dan software yang digunakan
+:::
+
+::: details 📄 **Format Pengumpulan: Multiple**
+- 🖼️ **Indonesia:** `*.png, *.jpg` - Hasil final untuk typesetter
+- 🗂️ **Professional:** `*.psd, *.psb` - Working files dengan layers intact
+- 📁 **Backup:** Source files untuk revision dan emergency
+:::
+
+## 🌟 Kriteria Ideal Seorang Cleaner
+
+Sebagai garda terdepan dalam processing raw manga, cleaner harus memiliki kombinasi kemampuan teknis dan artistik yang solid untuk menghasilkan kanvas bersih berkualitas.
+
+::: info 🎨 **Mata Artistik & Detail**
+Mampu melihat pola background, tekstur, dan elemen visual yang perlu direcreate. Memahami lighting, shading, dan konsistensi art style manga original.
+
+**Indikator:** Hasil cleaning tidak terlihat "patchy" atau berbeda dari background asli.
+:::
+
+::: info ⚙️ **Penguasaan Tools & Software** 
+Menguasai aplikasi editing terutama selection tools, cloning, healing, dan content-aware features. Bisa beradaptasi dengan software berbeda sesuai kebutuhan.
+
+**Indikator:** Workflow efisien, bisa handle berbagai level kompleksitas cleaning.
+:::
+
+::: info 🔍 **Problem Solving & Patience**
+Kemampuan menganalisis area yang sulit dan mencari solusi kreatif. Sabar mengerjakan detail work yang membutuhkan presisi tinggi.
+
+**Indikator:** Bisa handle cleaning yang challenging tanpa shortcut yang merusak kualitas.
+:::
+
+::: info 🎯 **Konsistensi & Time Management**
+Menjaga standard kualitas yang sama sepanjang chapter dan mampu mengelola waktu untuk meet deadline tanpa compromise quality.
+
+**Indikator:** Output konsisten, tidak ada perbedaan kualitas antara halaman awal dan akhir.
+:::
+
+## ⚙️ Teknis Pengerjaan & Software
+
+### 🛠️ **Software Recommendations**
+
+::: tip 💡 **Prinsip Dasar**
+Intinya adalah **membersihkan semua teks yang ada** dari halaman manga, mulai dari dialog, narasi, hingga sound effects, sambil mempertahankan keutuhan background original.
+:::
+
+::: info 📱 **Level Pemula - Aplikasi Fleksibel**
+Untuk level cleaning basic, kamu bisa pakai hampir semua aplikasi editing:
+- **Mobile:** IbisPaint, PicsArt, Photoshop Express
+- **Desktop:** GIMP, Paint.NET, Krita
+- **Online:** Photopea, Canva Pro
+
+**Cocok untuk:** Dialog cleaning, background polos/sederhana
+:::
+
+::: warning 🏆 **Level Advanced - Adobe Photoshop**
+Seiring meningkatnya kompleksitas cleaning, **Adobe Photoshop menjadi sangat direkomendasikan** karena:
+- **Content Aware Fill** - AI yang bisa recreate background complex
+- **Advanced Selection Tools** - Presisi tinggi untuk area sulit
+- **Layer Management** - Non-destructive workflow
+- **Healing & Clone Tools** - Professional grade restoration
+
+**Wajib untuk:** Background gradasi, objek complex, cleaning level 2-3
+:::
 
 
-## Levels!
-:line
+## 🎯 Sistem Level Kesulitan Cleaning
 
-![img](/img/cleaner/cleaner-levels.png)
+![Cleaner Levels](../public/img/cleaner/cleaner-levels.png)
 
-### Level 0: Dialog
+Setiap halaman manga punya tingkat kesulitan cleaning yang berbeda. Memahami level ini penting untuk estimasi waktu dan pemilihan tools yang tepat.
 
-Level paling mudah. Disini kalian hanya [menghapus teks yang berada didalam bubble dialog.]{style="background-color: #e76f51; color: black;"} Aplikasi yang digunakan pun sangat luas. `Pake paint windows pun jadi :v`
+### 📝 **Level 0: Dialog Bubble** 
+::: details 🟢 **Kesulitan: Sangat Mudah**
+**Target:** Menghapus teks yang berada di dalam bubble dialog saja.
+
+**Karakteristik:**
+- Background bubble biasanya putih polos atau transparan
+- Area terbatas dan terdefinisi jelas
+- Tidak mengganggu artwork utama
+
+**Tools yang Cocok:**
+- Brush putih sederhana
+- Eraser tool basic
+- Bahkan Paint Windows bisa! 😄
+
+**Estimasi Waktu:** 15-30 menit per chapter
+**Skill Level:** Pemula friendly
+:::
+
+### 🔷 **Level 1: Teks di Background Polos**
+::: details 🔵 **Kesulitan: Mudah** 
+**Target:** Menghapus teks di luar bubble pada background solid/polos.
+
+**Karakteristik:**
+- Background satu warna atau pattern sederhana
+- Tidak ada gradasi atau objek rumit
+- Cukup match warna background
+
+**Tools yang Cocok:**
+- Brush dengan color picker
+- Eraser + background color
+- Clone stamp tool basic
+
+**Tips:** Gunakan eyedropper untuk sample warna background yang tepat
+**Estimasi Waktu:** 30-60 menit per chapter  
+**Skill Level:** Pemula dengan sedikit ketelitian
+:::
+
+### 🔶 **Level 2: Background Gradasi**
+::: details 🟠 **Kesulitan: Sedang**
+**Target:** Menghapus teks dari background yang punya gradasi warna atau tekstur.
+
+**Karakteristik:**
+- Background gradasi (light to dark, color transitions)
+- Tekstur halus atau pattern repetitif
+- Butuh recreate gradasi yang smooth
+
+**Tools yang Dibutuhkan:**
+- **Photoshop:** Content Aware Fill (SANGAT direkomendasikan)
+- **Alternative:** Gradient tool + manual blending
+- Clone stamp dengan soft brush
+
+**Challenge:** Bikin ulang gradasi yang natural dan seamless
+**Estimasi Waktu:** 1-3 jam per chapter
+**Skill Level:** Intermediate, butuh Photoshop
+:::
+
+### 🔴 **Level 3: Background Kompleks + Dense Text**
+::: details 🔴 **Kesulitan: Sangat Sulit (Final Boss)**
+**Target:** Cleaning dari background dengan objek, detail, atau banyak teks.
+
+**Karakteristik:**
+- Background punya objek (bangunan, alam, furniture)
+- Dense text coverage atau overlapping elements  
+- Butuh recreate detail yang rumit
+- Multiple layer depth dan perspective
+
+**Tools WAJIB:**
+- **Adobe Photoshop** dengan Content Aware Fill
+- Advanced selection tools (polygonal lasso, pen tool)
+- Layer masking dan blending modes
+- Manual painting/drawing skills
+
+**Reality Check:** **Hampir mustahil tanpa Photoshop**. Aplikasi lain bisa, tapi hasilnya akan keliatan jelas bedanya.
+
+**Estimasi Waktu:** 2-5 jam per chapter (atau lebih)
+**Skill Level:** Advanced, butuh experience dan patience tinggi
+
+**Pro Tip:** Keahlian memilih area sumber Content Aware Fill adalah game changer di level ini!
+:::
+
+### 🎮 **Progression Path**
+
+```
+📝 Level 0 (Dialog) 
+    ↓ (Master brush & color matching)
+🔵 Level 1 (Background Polos)
+    ↓ (Learn gradients & textures)  
+🟠 Level 2 (Gradasi)
+    ↓ (Master Content Aware Fill)
+🔴 Level 3 (Complex Background)
+```
+
+::: tip 💡 **Tips Progres**
+Jangan langsung loncat ke Level 3! Build skill secara bertahap:
+1. **Master Level 0-1** dengan berbagai manga style
+2. **Invest di Photoshop** sebelum tackle Level 2
+3. **Practice Content Aware Fill** di Level 2 extensively  
+4. **Baru challenge Level 3** setelah confident dengan tools advanced
+:::
 
 
-### Level 1: Selain Dialog latar polos/mudah
+## 🛠️ Tutorial Step-by-Step Cleaning
 
-Jatuhnya sama kayak level 0. Pakai tool eraser atau brush putih/item tergantung background pun gaakan keliatan bekasnya `:D`
-Paling [butuh ketelitian yang sedikit lebih banyak.]{style="background-color: #e76f51; color: black;"}
+### 🎯 **Essential Tools yang Wajib Dikuasai**
 
+![Cleaner Tools](../public/img/cleaner/tools.png)
 
-### Level 2: Selain dialog latar gradasi
+Dua tools ini adalah **senjata utama** setiap cleaner. Kuasai keduanya dan 80% cleaning bisa diselesaikan dengan mudah:
 
-Disini pakai paint atau ibis atau aplikasi gambar apapun masih bisa, ` walau agak ribet buat bikin ulang gradasinya`. Bisa, tapi ribet. Mulai dari level ini [sangat disarankan menggunakan Adobe Photoshop]{style="background-color: #e76f51; color: black;"} yang udah ada Content-aware fillnya.
+::: info ⚔️ **Primary Weapons**
+1. **Selection Tools:** Polygonal Lasso Tool / Rectangular Marquee Tool
+   - Untuk menandai area yang akan di-clean
+   - Presisi tinggi, control penuh atas area target
 
+2. **Content Aware Fill** 
+   - AI Photoshop yang bisa recreate background
+   - Game changer untuk background kompleks
+   - Butuh skill memilih area referensi yang tepat
+:::
 
-### Level 3: Selain dialog latar objek + banyak teks
+### 🚀 **Step 0: Persiapan Layer - Rasterize**
 
-Final boss. Melakukan clean bersih[tanpa menggunakan Adobe Photoshop bisa dibilang mustahil]{style="background-color: #e76f51; color: black;"} disini. Bisa gapake Photoshop, tapi bakal keliatan banget bedanya. Disini `Content Aware Fill` sangat-sangatlah dibutuhkan, juga keahlian memilih sumber content aware fillnya sangat berguna.
+::: warning ⚠️ **Troubleshooting Common Issue**
+Jika **Content Aware Fill tidak bisa digunakan**, kemungkinan besar layer belum di-rasterize.
 
+**Quick Fix:**
+1. Pilih layer yang mau di-edit
+2. Tekan `CTRL + B` (Brush Tool)
+3. Klik sembarang di gambar
+4. Pop-up window muncul → Klik **"Rasterize"**
 
-## How-to
-:line
+![Rasterize Layer](../public/img/cleaner/rasterize.png)
 
-![img](/img/cleaner/tools.png)
+**Selesai!** Layer sekarang siap untuk di-edit dengan Content Aware Fill.
+:::
 
-Kalian harus sangat-sangat pake banget familiar dengan dua alat ini: "Polygonal Lasso Tool/Rectangular Marquee Tool" dan "Content Aware Fill". Keduanya akan selalu dipakai untuk cleaning.
+### 🎯 **Step 1: Seleksi Area Target**
 
-### Step 0: Pastikan layer sudah di rasterize.
+![Selection Step 1](../public/img/cleaner/step1-1.png)
 
-Kalau opsi Content-aware fillmu ga bisa dipakai, itu karena layer belum di rasterize. Caranya tinggal pilih layer, ketik `CTRL + B` untuk tool Brush, lalu klik sembarang pada gambar. Sebuah pop up windows akan muncul meminta untuk Rasterize layer, seperti dibawah ini.
+::: tip 📍 **Selection Strategy**
+1. **Pastikan layer correct** sudah dipilih
+2. **Pilih tool selection:**
+   - **Rectangular Marquee:** Untuk area kotak/persegi  
+   - **Polygonal Lasso:** Untuk area bentuk bebas (recommended)
+3. **Trace area teks** yang ingin dihilangkan dengan hati-hati
+4. **Include sedikit area background** sekitar teks untuk context AI
 
-![img](/img/cleaner/rasterize.png)
+**Pro Tip:** Jangan terlalu tight selection - beri margin kecil untuk hasil yang lebih natural!
+:::
 
-Klik ok, dan selesai. Lanjut step selanjutnya.
+### 🤖 **Step 2: Content Aware Fill Magic**
 
-### Step 1: Seleksi area yang ingin dihapus
+![Content Aware Fill Menu](../public/img/cleaner/step2.png)
 
-![img](/img/cleaner/step1-1.png)
+::: details 🎛️ **Akses Content Aware Fill**
+**Path:** `Edit > Content Aware Fill`
 
-Pastikan layer yang ingin dihapus sudah diseleksi. Kemudian tandai area yang ingin dihapus dengan `Polygonal Marquee Tool` atau `Rectangular Marquee Tool`. Bebas mau pakai yang mana.
+Shortcut alternatif: `Shift + F5` → Pilih "Content-Aware"
+:::
 
-### Step 2: Content aware fill
+#### 🔧 **Pengaturan Mode Custom**
 
-Pilih `Edit > Content Aware Fill` seperti dibawah ini.
+![Custom Mode Selection](../public/img/cleaner/step2-1.png)
 
-![img](/img/cleaner/step2.png)
+::: warning 🎯 **Mode Custom - WAJIB!**
+**Selalu pilih Mode Custom** sebelum proceed. Mode ini memungkinkan kamu:
+- **Kontrol sumber referensi** untuk AI
+- **Exclude area yang tidak diinginkan** dari sampling
+- **Fine-tune hasil** sesuai kebutuhan specific
 
-Nantinya akan muncul sebuah window baru. Sebelumnya pastikan mode custom sudah dipilih seperti gambar dibawah:
+**Default mode sering gagal** karena AI sample dari area yang salah!
+:::
 
-![img](/img/cleaner/step2-1.png)
+#### 🎨 **Menentukan Area Referensi**
 
-mode ini membiarkan penggunanya menentukan "sumber" atau "referensi" bagi AI photoshop untuk mengetahui akan diisi apa area seleksinya. Selanjutnya kita pilih area disekitar objek yang ingin dihapus seperti biasa.
+![Selection Reference Area](../public/img/cleaner/step2-2.png)
 
-![img](/img/cleaner/step2-2.png)
+::: info 🖌️ **Strategi Sampling Area**
+**Green Area (Sampling Zone):**
+- Pilih background yang **mirip** dengan area yang akan di-recreate
+- **Hindari area dengan teks lain** atau elemen yang tidak diinginkan  
+- **Include pattern/texture** yang konsisten dengan target area
+- **Multiple small areas** sering lebih baik dari satu area besar
 
-Kalau dirasa hasilnya kurang rapih, boleh coba seleksi ulang area referensinya sampai dapat yang cocok. Untuk patokan, hasil seperti diatas sudah bisa dibilang bagus dan rapih `(karena endingnya juga bakal ditiban teks lagi)` Pilih OK untuk menyelesaikan prosesnya.
+**Tips Advanced:**
+- Untuk gradasi: Sample dari area gradasi yang smooth
+- Untuk texture: Sample dari texture yang clean dan repetitive
+- Untuk objek: Sample dari objek serupa di area lain
+:::
 
-Kalau sudah keluar, pencet `CTRL + D` untuk deselect area seleksi.
+::: tip 🔄 **Iterative Process**
+Jangan expect perfect di attempt pertama! 
 
-### Step 3: Practice makes perfect!
+**Workflow:**
+1. Try initial sampling area
+2. Check preview result
+3. **Adjust sampling area** jika hasil kurang bagus
+4. **Re-sample** dari area berbeda jika perlu
+5. Repeat sampai dapat hasil yang memuaskan
 
-Selesai! Inti dari cleaner itu aja. Sebagian besar cleaning bisa selesai hanya dengan Seleksi > content aware fill kayak diatas, tapi terkadang juga dibutuhkan cleaning manual pakai brush! Balik lagi, semua tergantung kondisi dan seberapa kreatif kalian dalam menggunakan selection tools dan content aware fill.
+**Standard Kualitas:** Hasil seperti gambar di atas sudah **bagus dan rapi** untuk scanlation (toh akan ditiban teks lagi).
+:::
 
-Bonus, ini hasil cleaning + typeset kedua paling susah menurut gw selama nge-TL di Alterkai.
+**Selesai editing?** Tekan `CTRL + D` untuk deselect area.
 
-![img](/img/cleaner/path.png)
+### 🎓 **Step 3: Practice Makes Perfect!**
 
-Semangat mencoba! Semakin lama jam terbang kalian, semakin jago juga kok lama-lama!
+::: tip 🎯 **Core Workflow Summary**
+**80% cleaning bisa diselesaikan dengan:**
+1. **Seleksi area** → 
+2. **Content Aware Fill** → 
+3. **Repeat** untuk area lain
 
-Oiya, HARAM SEKALI HUKUMNYA PAKAI WAND MAGIC TOOL. `Terutama untuk daerah luas, hasilnya dijamin bakalan jelek (kayak hasil cleaning MahoAko awal-awal.)`
+**20% sisanya butuh:**
+- Manual brush work untuk detail
+- Clone stamp untuk pattern matching  
+- Creative problem solving untuk case unik
+:::
 
-::navigator
----
-nextLink: '/redraw'
-nextText: 'Redraw'
-nextDesc: 'Penjelasan mendetail mengenai posisi Redraw.'
-prevLink: '/typesetter'
-prevText: 'Typesetter'
-prevDesc: 'Penjelasan mendetail mengenai posisi Typesetter..'
----
-::
+## 🎨 **Advanced Techniques & Tips**
+
+### 🖌️ **Manual Cleaning Methods**
+
+::: details 🎨 **Brush Technique**
+**Kapan digunakan:**
+- Background polos yang gampang di-match
+- Touch-up setelah Content Aware Fill
+- Area kecil yang butuh presisi tinggi
+
+**Tips:**
+- Gunakan soft brush dengan opacity 50-80%
+- Build up coverage secara gradual
+- Match pressure dan flow dengan background texture
+:::
+
+::: details 🧬 **Clone Stamp Mastery**  
+**Perfect untuk:**
+- Pattern repetitive (wallpaper, bricks, etc)
+- Texture organic (grass, clouds, hair)
+- Area yang butuh exact match
+
+**Advanced Tips:**
+- Gunakan multiple clone sources untuk variasi
+- Adjust brush hardness sesuai texture target
+- Rotate dan scale clone source untuk natural look
+:::
+
+### 🚫 **Tools yang HARAM Digunakan**
+
+::: danger ⚠️ **Magic Wand Tool - FORBIDDEN!**
+**JANGAN PERNAH pakai Magic Wand Tool** untuk area luas!
+
+**Mengapa haram:**
+- Selection tidak presisi, sering include area yang tidak diinginkan
+- Hasil cleaning terlihat jagged dan tidak professional  
+- Merusak edge dan transition yang smooth
+- **Contoh korban:** Cleaning MahoAko awal-awal yang jelek 😅
+
+**Exception:** Boleh untuk area sangat kecil dengan background solid perfect match
+:::
+
+### 🏆 **Showcase: Advanced Cleaning**
+
+![Complex Cleaning Example](../public/img/cleaner/path.png)
+
+::: info 🎪 **Case Study: Level 3 Cleaning**
+Ini adalah **salah satu cleaning + typeset tersulit** selama nge-TL di Alterkai.
+
+**Challenges:**
+- Dense text coverage di multiple areas
+- Complex background dengan detail architecture
+- Multiple layer depth dan perspective
+- Harus maintain consistency lighting dan shading
+
+**Techniques Used:**
+- Multiple Content Aware Fill sessions dengan different sampling
+- Manual brush work untuk fine details
+- Clone stamp untuk repetitive elements
+- Layer masking untuk seamless blending
+
+**Time Investment:** ~3 jam untuk hasil seperti ini
+**Lesson:** Patience dan multiple technique combination adalah kunci!
+:::
+
+## 🚀 **Memulai Journey sebagai Cleaner**
+
+### 📈 **Learning Path Recommendations**
+
+::: details 🎯 **Fase 1: Foundation (Minggu 1-2)**
+**Focus:** Master basic tools dan Level 0-1 cleaning
+
+**Essential Skills:**
+- Selection tools (rectangular, polygonal lasso)
+- Brush basics dan color matching  
+- Layer management basic
+- File format understanding (PSD vs PNG export)
+
+**Practice Projects:**
+- Clean dialog bubbles dari manga favorit
+- Simple background polos cleaning
+- Build confidence dengan volume cleaning
+
+**Success Metric:** Bisa clean 1 chapter Level 0-1 dalam 1 jam
+:::
+
+::: details 🎪 **Fase 2: Intermediate (Minggu 3-8)**  
+**Focus:** Content Aware Fill mastery dan Level 2 cleaning
+
+**Advanced Skills:**
+- Content Aware Fill dengan custom sampling
+- Clone stamp dan healing tools
+- Gradasi recreation techniques
+- Quality assessment dan self-review
+
+**Milestone Projects:**
+- Challenge Level 2 cleaning dengan gradasi
+- Experiment dengan different sampling strategies
+- Build personal technique library
+
+**Success Metric:** Comfortable handle Level 2, occasional Level 3 success
+:::
+
+::: details 👑 **Fase 3: Advanced (Bulan 2+)**
+**Focus:** Level 3 mastery dan efficiency optimization
+
+**Professional Skills:**
+- Complex background recreation
+- Multiple technique integration
+- Speed optimization tanpa sacrifice quality
+- Troubleshooting difficult cases
+
+**Expert Challenges:**
+- Tackle most difficult cleaning cases
+- Develop signature techniques
+- Mentor junior cleaners
+
+**Success Metric:** Consistent Level 3 quality, efficient workflow
+:::
+
+### 💪 **Mindset & Motivation**
+
+::: info 🌟 **Growth Philosophy**
+**"Semakin lama jam terbang, semakin jago!"**
+
+**Key Success Factors:**
+- **Patience is everything** - Rushing = bad results
+- **Learn from mistakes** - Every failed attempt teaches something  
+- **Experiment fearlessly** - Try different approaches
+- **Community support** - Share techniques dengan fellow cleaners
+
+**Reality Check:** Cleaning adalah **meditation in disguise** - therapeutic tapi butuh mental stamina tinggi.
+:::
+
+::: warning 🎯 **Managing Expectations**
+**Cleaning Life Reality:**
+- 😴 **Labor intensive** - Banyak detail work yang repetitive
+- 🕐 **Time consuming** - Quality cleaning tidak bisa di-rush
+- 👁️ **Eye strain** - Butuh break regular untuk eye health
+- 🎨 **Artistic growth** - Skill visual problem-solving terus berkembang
+
+**Worth it because:**
+- 🎉 **Foundation skill** - Transfer ke graphic design, photo editing  
+- 🏆 **Visible impact** - Karyamu directly affect reading experience
+- 💼 **Professional pathway** - Photo retouching, digital art preparation
+- 🧘 **Meditative process** - Therapeutic untuk personality tertentu
+:::
+
+## 🎭 Pesan Penutup
+
+> **"Good cleaning is invisible - pembaca tidak sadar ada kerja keras di balik setiap halaman yang bersih dan rapi."**
+
+Menjadi cleaner adalah **being the unsung hero** dalam scanlation team. Tanpa karyamu, typesetter akan struggle, dan pembaca akan distracted sama teks original yang masih nongol. 
+
+**Every pixel matters,** setiap selection yang presisi, setiap Content Aware Fill yang perfect, adalah kontribusi untuk ribuan pembaca yang bisa enjoy cerita tanpa gangguan visual.
+
+::: tip 🌟 **Ready to Start Cleaning?**
+Mulai dengan **Level 0-1**, master basic tools, dan **jangan takut eksperimen**. Build patience dan attention to detail - dalam beberapa bulan, kamu akan surprised seberapa jauh skill visual problem-solving kamu berkembang!
+
+**Ganbatte, future cleaning ninja!** 🥷
+:::

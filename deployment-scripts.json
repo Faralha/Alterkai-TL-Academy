@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build:com": "VITE_DOMAIN=com vitepress build",
+    "build:myid": "VITE_DOMAIN=myid vitepress build",
+    "build:both": "npm run build:com && npm run build:myid"
+  }
+}

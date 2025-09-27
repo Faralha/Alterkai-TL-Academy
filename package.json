@@ -5,11 +5,10 @@
   "main": ".prettierrc.js",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "repository": {
     "type": "git",
@@ -21,17 +20,13 @@
     "url": "https://github.com/Faralha/Alterkai-TL-Academy/issues"
   },
   "homepage": "https://github.com/Faralha/Alterkai-TL-Academy#readme",
-  "dependencies": {
-    "@nuxt/content": "^3.4.0",
-    "@nuxt/image": "^1.10.0",
-    "@nuxt/ui": "^3.0.2",
-    "@nuxtjs/robots": "^5.2.9",
-    "@nuxtjs/sitemap": "^7.2.10",
-    "nuxt": "^3.16.2",
-    "nuxt-disqus": "^1.1.1",
-    "nuxt-gtag": "^3.0.2"
-  },
   "devDependencies": {
-    "prettier": "^3.5.3"
-  }
+    "@types/node": "^24.5.2",
+    "prettier": "^3.5.3",
+    "vitepress": "2.0.0-alpha.12"
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
+  },
+  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
 }
