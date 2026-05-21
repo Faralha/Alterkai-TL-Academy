@@ -4,6 +4,10 @@ import '../styles/custom.css';
 const SITE_DESC =
   'Platform pembelajaran manga translation dan scanlation terlengkap dalam bahasa Indonesia. Pelajari translator, typesetter, cleaner, redraw, dan quality control secara gratis.';
 
+// Showcase section temporarily hidden until real work is curated.
+// Flip to true to re-enable.
+const SHOW_SHOWCASE = false;
+
 const categories = [
   {
     tag: 'TRANSLATE',
@@ -298,7 +302,7 @@ const showcase = [
       </div>
     </section>
 
-    <!-- SHOWCASE -->
+    {SHOW_SHOWCASE && (
     <section id="showcase" class="kawaii-section">
       <div class="kawaii-container" style="padding:0">
         <div class="kawaii-section-head">
@@ -392,6 +396,7 @@ const showcase = [
         </div>
       </div>
     </section>
+    )}
 
     <!-- FOOTER -->
     <footer class="kawaii-footer">
