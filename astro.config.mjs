@@ -10,9 +10,6 @@ const SITE = isDotCom
 export default defineConfig({
   site: SITE,
   trailingSlash: 'never',
-  build: {
-    format: 'file',
-  },
   integrations: [
     starlight({
       title: 'Alterkai TL Academy',
