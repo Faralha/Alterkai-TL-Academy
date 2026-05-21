@@ -1,0 +1,63 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Sidebar.astro';
+
+const { sidebar, entry } = Astro.props;
+const slug = (entry as any)?.slug ?? '';
+
+const PATHS: Record<string, { jalur: string; total: number; color: string }> = {
+  perkenalan: { jalur: 'PERKENALAN', total: 1, color: 'primary' },
+  translator: { jalur: 'TRANSLATOR', total: 12, color: 'primary' },
+  typesetter: { jalur: 'TYPESETTER', total: 14, color: 'tertiary' },
+  cleaner:    { jalur: 'CLEANER',    total: 18, color: 'secondary' },
+  redraw:     { jalur: 'REDRAW',     total: 9,  color: 'secondary' },
+  qc:         { jalur: 'QUALITY CHK',total: 7,  color: 'primary' },
+  about:      { jalur: 'ABOUT',      total: 1,  color: 'primary' },
+};
+const meta = PATHS[slug] ?? { jalur: 'TUTORIAL', total: 1, color: 'primary' };
+
+function countTutorials(items: any[]): number {
+  let n = 0;
+  for (const it of items) {
+    if (it.type === 'link') n++;
+    if (it.entries) n += countTutorials(it.entries);
+  }
+  return n;
+}
+const totalLinks = countTutorials(sidebar as any[]);
+---
+
+<div class="ak-progress-card" data-color={meta.color}>
+  <div class="ak-progress-label">JALUR</div>
+  <div class="ak-progress-name">{meta.jalur}</div>
+  <div class="ak-progress-row">
+    <span>Progress</span>
+    <span data-progress-text>1 / {totalLinks || meta.total}</span>
+  </div>
+  <div class="ak-progress-bar">
+    <div
+      class="ak-progress-bar-fill"
+      style={`width:${Math.min(100, Math.round(100 / Math.max(1, totalLinks)))}%`}
+      data-progress-fill
+    ></div>
+  </div>
+</div>
+
+<Default {...Astro.props} />
+
+<script is:inline>
+  // Re-paint progress card based on localStorage of completed slugs.
+  (function () {
+    try {
+      const done = JSON.parse(localStorage.getItem('ak-done') || '[]');
+      const text = document.querySelector('[data-progress-text]');
+      const fill = document.querySelector('[data-progress-fill]');
+      if (!text || !fill) return;
+      const totalEl = text.textContent || '';
+      const total = parseInt(totalEl.split('/')[1], 10) || 1;
+      const pct = Math.min(100, Math.round((done.length / total) * 100));
+      text.textContent = done.length + ' / ' + total;
+      fill.style.width = pct + '%';
+    } catch (e) {}
+  })();
+</script>

@@ -22,4 +22,20 @@ Contributions are always welcome!
 
 Want to suggest a features but can't code? Kindly open an Issues. Or if you can code, any pull request that may benefit are always welcome.
 
-This website is built primarily using Nuxt and Nuxt-content for the CMS. All texts/content can easily be accessed on `Content/` folder.
+This website is built with [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). All content lives in `src/content/docs/` as plain Markdown — no JS knowledge required to contribute a tutorial.
+
+## Local development
+
+```bash
+pnpm install
+pnpm dev      # http://localhost:4321
+pnpm build    # static site -> dist/
+pnpm preview
+```
+
+Multi-domain builds:
+
+```bash
+VITE_DOMAIN=com  pnpm build  # academy.alterkaiscans.com
+VITE_DOMAIN=myid pnpm build  # academy.alterkaiscans.my.id (default)
+```

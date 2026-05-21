@@ -1,10 +1,8 @@
 ---
 title: 'Translator'
 description: 'Penjelasan mendetail mengenai posisi Translator/Penerjemah.'
-lang: id-ID
----
 
-# ✏️ Translator
+---
 
 > **Menerjemahkan komik dari bahasa asing ke Indonesia dengan akurat dan natural**
 
@@ -12,45 +10,48 @@ Translator adalah tulang punggung dari sebuah scanlation. Tanpa terjemahan yang 
 
 ## 📊 Spesifikasi Posisi
 
-::: details 📈 **Tingkat Kesulitan: Sedang**
+<details>
+<summary>📈 **Tingkat Kesulitan: Sedang**</summary>
 Memerlukan kemampuan bahasa yang baik dan pemahaman konteks budaya. Tidak hanya menerjemahkan kata-kata, tapi juga nuansa dan feeling dari dialog original.
-:::
+</details>
 
-::: details ⏱️ **Estimasi Waktu: 1-2 Hari/Chapter**
+<details>
+<summary>⏱️ **Estimasi Waktu: 1-2 Hari/Chapter**</summary>
 Waktu dapat bervariasi tergantung:
 - Panjang chapter (15-30 halaman)
 - Kompleksitas dialog dan terminology
 - Penelitian referensi yang dibutuhkan
 - Tingkat kesulitan bahasa sumber
-:::
+</details>
 
-::: details 📄 **Format Pengumpulan: *.txt**
+<details>
+<summary>📄 **Format Pengumpulan: *.txt**</summary>
 File teks sederhana yang mudah dibaca dan diedit oleh semua tim. Format yang universal dan tidak memerlukan software khusus.
-:::
+</details>
 
 ## :star: Kriteria Ideal Seorang Translator :star:
 
 Sebagai satu-satunya translator dalam proyek scanlation, kamu harus memiliki kemampuan yang komprehensif dan bisa menangani berbagai aspek penerjemahan secara mandiri.
 
-::: info 📝 **Kemampuan Penerjemahan Akurat**
+:::note[📝 **Kemampuan Penerjemahan Akurat**]
 Mampu menerjemahkan percakapan, monolog internal, narasi, dan teks lainnya dari bahasa sumber (umumnya Jepang, Inggris, atau China) ke bahasa Indonesia yang natural dan mudah dipahami.
 
 **Indikator:** Terjemahan terasa seperti ditulis asli dalam bahasa Indonesia, tidak kaku atau aneh.
 :::
 
-::: info 🗣️ **Skill Adaptasi Dialog**
+:::note[🗣️ **Skill Adaptasi Dialog**]
 Pandai menyesuaikan panjang dialog agar sesuai dengan ukuran bubble tanpa mengurangi makna. Bisa membuat dialog pendek tapi tetap powerful dan bermakna.
 
 **Indikator:** Dialog pas di bubble, tidak terpotong atau terlalu sesak, tapi tetap menyampaikan emosi yang sama.
 :::
 
-::: info 🎭 **Kepekaan Budaya & Localization**
+:::note[🎭 **Kepekaan Budaya & Localization**]
 Memahami konteks budaya kedua bahasa dan bisa mengadaptasi referensi, idiom, atau joke yang tidak familiar bagi pembaca Indonesia dengan cara yang natural.
 
 **Indikator:** Pembaca Indonesia bisa relate dengan humor dan referensi, tanpa kehilangan essence cerita original.
 :::
 
-::: info 🔍 **Konsistensi & Manajemen Project**
+:::note[🔍 **Konsistensi & Manajemen Project**]
 Mampu menjaga konsistensi terminologi, nama karakter, dan gaya bahasa sepanjang series. Terorganisir dalam membuat dan memelihara glossary pribadi.
 
 **Indikator:** Nama karakter, skill, dan istilah khusus konsisten dari chapter 1 sampai terakhir.
@@ -62,9 +63,9 @@ Mampu menjaga konsistensi terminologi, nama karakter, dan gaya bahasa sepanjang 
 
 Manga diterjemahkan per unit bubble dialog - setiap kotak percakapan diterjemahkan secara individual untuk menjaga flow cerita yang natural.
 
-![Bubble Dialog](../public/img/translator/bubble.png)
+![Bubble Dialog](/img/translator/bubble.png)
 
-::: tip 🎯 **Jenis Teks yang Diterjemahkan**
+:::tip[🎯 **Jenis Teks yang Diterjemahkan**]
 - **Dialog karakter** - Percakapan antar karakter
 - **Monolog internal** - Pikiran dalam hati karakter  
 - **Narasi** - Teks penjelasan cerita
@@ -77,7 +78,8 @@ Manga diterjemahkan per unit bubble dialog - setiap kotak percakapan diterjemahk
 
 ### 📋 Format & Standar Pengumpulan
 
-::: details 📄 **Template File .txt**
+<details>
+<summary>📄 **Template File .txt**</summary>
 ```
 JUDUL: [Nama Manga] (contoh: Mahou Shoujo ni Akogarete)
 CHAPTER: [Chapter] (contoh: Ch. 10)
@@ -91,9 +93,9 @@ hi: hai, ...
 HAL. 2
 we: Kita kudu berangkat sekarang
 ```
-:::
+</details>
 
-::: warning ⚠️ **Aturan Wajib**
+:::caution[⚠️ **Aturan Wajib**]
 - ✅ **Gunakan format .txt** - Universal dan mudah dibuka
 - ✅ **Beri header lengkap** - Judul, nama translator, tanggal
 - ✅ **Penanda halaman jelas** - `HAL. 1`, `Hal. 2`, atau `Page 1`
@@ -106,7 +108,8 @@ we: Kita kudu berangkat sekarang
 
 ### 🇬🇧➡️🇮🇩 English to Indonesian
 
-::: details 📄 **Assassin Ch. 10.txt**
+<details>
+<summary>📄 **Assassin Ch. 10.txt**</summary>
 ```
 Assassin and Cinderella
 Ch. 10
@@ -131,21 +134,23 @@ amai-san!
 where: mau kemana kita…?
 
 ```
-:::
+</details>
 
 
-::: details 💡 **Analisis Terjemahan EN-ID**
+<details>
+<summary>💡 **Analisis Terjemahan EN-ID**</summary>
 Terjemahan dari English ke Indonesian umumnya lebih straightforward karena:
 - Struktur kalimat yang relatif mirip
 - Banyak kosakata serapan yang sudah familiar
 - Konteks budaya Barat yang sudah banyak dikenal
 
 **Tips:** Fokus pada naturalisasi bahasa agar tidak terasa kaku atau Google Translate.
-:::
+</details>
 
 ### 🇯🇵➡️🇮🇩 Japanese to Indonesian  
 
-::: details 📄 **Gunbured Ch. 16.txt**
+<details>
+<summary>📄 **Gunbured Ch. 16.txt**</summary>
 ```
 Gunbured x Sisters
 Chapter 16 嫌な予感　・　 Firasat Buruk
@@ -172,9 +177,10 @@ TL ria
 君たち教団を: Kami tidak akan membiarkan kalian lenyap kok.
 本気になれば: Santai saja. Sekali vampir darah murni serius, kami tidak terkalahkan♥
 ```
-:::
+</details>
 
-::: details 🌸 **Analisis Terjemahan JP-ID**
+<details>
+<summary>🌸 **Analisis Terjemahan JP-ID**</summary>
 Terjemahan dari Japanese memiliki tantangan khusus:
 - **Honorifics** - san, kun, chan, senpai (pertahankan atau adaptasi?)
 - **Keigo** - Tingkat kesopanan dalam bahasa Jepang  
@@ -182,9 +188,9 @@ Terjemahan dari Japanese memiliki tantangan khusus:
 - **Partikel** - wa, ga, wo yang tidak ada padanannya
 
 **Tips:** Pahami konteks situasi dan hubungan antar karakter untuk menentukan register bahasa yang tepat.
-:::
+</details>
 
-::: tip 🎯 **Penanda Dialog**
+:::tip[🎯 **Penanda Dialog**]
 Gunakan **2-3 kata pertama dari teks original** sebagai penanda untuk memudahkan typesetter menemukan lokasi teks yang tepat di halaman manga.
 
 **Contoh:**
@@ -196,7 +202,7 @@ Gunakan **2-3 kata pertama dari teks original** sebagai penanda untuk memudahkan
 
 ### ✅ **Yang HARUS Dilakukan**
 
-::: tip 📝 **1. Terjemah per Kalimat Utuh**
+:::tip[📝 **1. Terjemah per Kalimat Utuh**]
 **✅ Benar:** Terjemahkan sebagai satu kesatuan kalimat yang lengkap
 - "I'm going to the store" → "Aku mau ke toko"
 
@@ -206,7 +212,7 @@ Gunakan **2-3 kata pertama dari teks original** sebagai penanda untuk memudahkan
 Konteks kalimat utuh memberikan makna yang tepat dan natural.
 :::
 
-::: tip 🎭 **2. Pahami Konteks Cerita**
+:::tip[🎭 **2. Pahami Konteks Cerita**]
 - **Situasi:** Apakah sedang tegang, romantis, atau comedy?
 - **Karakter:** Bagaimana personality dan cara bicara tokoh?
 - **Hubungan:** Formal, casual, atau intimate relationship?
@@ -215,7 +221,7 @@ Konteks kalimat utuh memberikan makna yang tepat dan natural.
 **Contoh:** "Baka" bisa jadi "Bodoh", "Dasar", "Aduh kamu", tergantung konteks.
 :::
 
-::: tip 🔍 **3. Riset & Referensi Mendalam**
+:::tip[🔍 **3. Riset & Referensi Mendalam**]
 **Sumber yang Recommended:**
 - 🌐 **Google Translate** - Referensi awal, jangan langsung copas
 - 📚 **Kamus Online** - KBBI, Jisho.org untuk Japanese
@@ -227,7 +233,7 @@ Konteks kalimat utuh memberikan makna yang tepat dan natural.
 `Celestia (Global) ≠ Xinghui (CN) - gunakan yang familiar bagi pembaca Indonesia`
 :::
 
-::: tip 🎯 **4. Konsistensi Terminologi**
+:::tip[🎯 **4. Konsistensi Terminologi**]
 Buat **glossary pribadi** untuk:
 - Nama karakter dan tempat
 - Skill/jutsu/ability names  
@@ -237,7 +243,7 @@ Buat **glossary pribadi** untuk:
 
 ### ❌ **Yang HARUS Dihindari**
 
-::: danger 🚫 **1. Word-by-Word Translation**
+:::danger[🚫 **1. Word-by-Word Translation**]
 Terjemahan literal kata per kata menghasilkan:
 - Kalimat kaku dan tidak natural
 - Hilangnya nuansa emosi
@@ -245,7 +251,7 @@ Terjemahan literal kata per kata menghasilkan:
 - Pembaca bingung dan tidak nyaman baca
 :::
 
-::: danger 🤖 **2. Google Translate Mentah-mentah**
+:::danger[🤖 **2. Google Translate Mentah-mentah**]
 Google Translate boleh sebagai **referensi awal**, tapi:
 - Sering salah konteks dan nuansa
 - Tidak paham culture reference
@@ -255,7 +261,7 @@ Google Translate boleh sebagai **referensi awal**, tapi:
 **Always do manual editing dan adaptation!**
 :::
 
-::: danger 😵 **3. Mengabaikan Konteks**
+:::danger[😵 **3. Mengabaikan Konteks**]
 Kesalahan fatal yang sering terjadi:
 - Tidak paham relationship antar karakter
 - Salah interpretasi mood scene
@@ -263,7 +269,7 @@ Kesalahan fatal yang sering terjadi:
 - Tidak konsisten dengan personality karakter
 :::
 
-::: danger ⏰ **4. Terburu-buru & Tidak Proofread**
+:::danger[⏰ **4. Terburu-buru & Tidak Proofread**]
 - Typo dan kesalahan ketik
 - Inconsistent naming/terminology  
 - Dialog cut off atau terlalu panjang untuk bubble
@@ -272,11 +278,11 @@ Kesalahan fatal yang sering terjadi:
 
 ## 🏆 Tips Pro Translator
 
-::: info 💡 **Mindset yang Tepat**
+:::note[💡 **Mindset yang Tepat**]
 Jangan hanya jadi "penerjemah" - jadilah **"penulis ulang cerita"** dalam bahasa Indonesia. Tujuannya adalah pembaca Indonesia merasakan experience yang sama dengan pembaca bahasa original.
 :::
 
-::: info 🎨 **Adaptasi Kreatif**  
+:::note[🎨 **Adaptasi Kreatif**]
 - **Jokes/Puns:** Ubah ke humor yang relatable buat Indonesia
 - **Cultural References:** Ganti dengan yang familiar (tapi jangan berlebihan)
 - **Idioms:** Gunakan peribahasa Indonesia yang setara makna
@@ -287,7 +293,8 @@ Jangan hanya jadi "penerjemah" - jadilah **"penulis ulang cerita"** dalam bahasa
 
 ### 📚 **Skill yang Perlu Dikembangkan**
 
-::: details 🌐 **Kemampuan Bahasa**
+<details>
+<summary>🌐 **Kemampuan Bahasa**</summary>
 **Bahasa Sumber (minimal salah satu):**
 - 🇯🇵 **Japanese** - Untuk manga/light novel Jepang (paling umum)
 - 🇬🇧 **English** - Untuk manhwa/manhua yang sudah diterjemahkan ke EN
@@ -296,21 +303,23 @@ Jangan hanya jadi "penerjemah" - jadilah **"penulis ulang cerita"** dalam bahasa
 
 **Bahasa Target:**
 - 🇮🇩 **Bahasa Indonesia** - Harus fasih dan natural, pahami ragam formal-informal
-:::
+</details>
 
-::: details 📖 **Pengetahuan Budaya Pop**
+<details>
+<summary>📖 **Pengetahuan Budaya Pop**</summary>
 - **Anime/Manga Terminology** - Istilah umum yang sudah diadopsi fans
 - **Gaming Terms** - Skill, stats, RPG elements  
 - **Internet Slang** - Meme dan bahasa anak muda yang relevan
 - **Cultural Context** - Tradisi, makanan, sistem sekolah, dll
-:::
+</details>
 
-::: details 🔧 **Tools & Software**
+<details>
+<summary>🔧 **Tools & Software**</summary>
 - **Text Editor** - Notepad++, VS Code, atau yang nyaman
 - **Dictionary Apps** - Jisho.org, Google Translate, KBBI
 - **Image Viewer** - Untuk melihat raw manga sambil translate
 - **OCR Software** - Untuk extract text dari image (opsional)
-:::
+</details>
 
 ### 🎯 **Cara Bergabung dengan Tim Scanlation**
 
@@ -331,7 +340,7 @@ Jangan hanya jadi "penerjemah" - jadilah **"penulis ulang cerita"** dalam bahasa
 
 ### 💰 **Penghasilan & Monetisasi**
 
-::: warning 💡 **Realitas Finansial**
+:::caution[💡 **Realitas Finansial**]
 **Scanlation umumnya bersifat volunteer/hobbyist**, tapi ada beberapa kemungkinan:
 
 - 🎁 **Donation-based** - Reader yang appreciate bisa donasi
@@ -362,6 +371,6 @@ Menjadi translator bukan hanya soal kemampuan bahasa, tapi juga **empathy** untu
 
 Setiap chapter yang kamu terjemahkan adalah jembatan yang menghubungkan dunia cerita dengan ribuan pembaca Indonesia. **Keep learning, stay passionate, dan nikmati prosesnya!** 
 
-::: tip 🌟 **Ready to Start?**
+:::tip[🌟 **Ready to Start?**]
 Mulai dengan project kecil, fokus pada kualitas daripada quantity, dan jangan takut bertanya ke translator senior. Everyone starts somewhere - yang penting adalah **konsistensi dan passion** untuk terus berkembang!
 :::

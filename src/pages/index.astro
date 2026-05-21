@@ -1,0 +1,441 @@
+---
+import '../styles/custom.css';
+
+const SITE_DESC =
+  'Platform pembelajaran manga translation dan scanlation terlengkap dalam bahasa Indonesia. Pelajari translator, typesetter, cleaner, redraw, dan quality control secara gratis.';
+
+const categories = [
+  {
+    tag: 'TRANSLATE',
+    jp: 'ほんやく',
+    label: 'Translator',
+    desc: 'Dari membaca raw sampai menjaga karakter terdengar otentik.',
+    count: 12,
+    href: '/translator',
+    color: 'pink',
+    step: '01',
+  },
+  {
+    tag: 'CLEAN',
+    jp: 'クリーン',
+    label: 'Cleaner / Redraw',
+    desc: 'Teknik clean balon, redraw SFX, dan menambal background.',
+    count: 18,
+    href: '/cleaner',
+    color: 'teal',
+    step: '02',
+    lifted: true,
+  },
+  {
+    tag: 'TYPESET',
+    jp: 'たいぷ',
+    label: 'Typesetter',
+    desc: 'Pemilihan font tepat, hierarki, kerning, sampai shaping SFX.',
+    count: 14,
+    href: '/typesetter',
+    color: 'yellow',
+    step: '03',
+  },
+];
+
+const members = [
+  { role: 'FOUNDER · TRANSLATOR', name: 'Sonohara Yuna', jp: '園原' },
+  { role: 'CLEANER · REDRAW', name: 'Faralha', jp: 'ファラ' },
+  { role: 'TYPESETTER', name: 'Mei Aoyama', jp: '青山' },
+  { role: 'QUALITY CHECK', name: 'Kira H.', jp: 'キラ' },
+];
+
+const showcase = [
+  {
+    title: 'Mahou Shoujo ni Akogarete',
+    vol: 11,
+    color: 'pink',
+    palette: {
+      bg: '#fbe9f0',
+      skin: '#ffd9c8',
+      hair: '#7fd6d6',
+      hair2: '#ffb2c8',
+      shirt: '#2db5ba',
+    },
+  },
+  {
+    title: 'Kanojo, Hikaru ga…',
+    vol: 4,
+    color: 'teal',
+    palette: {
+      bg: '#e6f4f4',
+      skin: '#ffe2cc',
+      hair: '#ffb2c8',
+      hair2: '#e8488a',
+      shirt: '#6e5dd8',
+    },
+  },
+  {
+    title: 'Otome no Teikoku',
+    vol: 22,
+    color: 'yellow',
+    palette: {
+      bg: '#fff4d6',
+      skin: '#ffd9c8',
+      hair: '#b58a55',
+      hair2: '#e8488a',
+      shirt: '#2db5ba',
+    },
+  },
+];
+---
+
+<!doctype html>
+<html lang="id-ID">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Alterkai TL Academy — Belajar Translate Manga</title>
+    <meta name="description" content={SITE_DESC} />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500;1,6..72,600&family=Inter:wght@300;400;500;600;700;800;900&family=Inter+Tight:wght@600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;600;900&family=Shippori+Mincho:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    />
+    <meta name="theme-color" content="#ff4d8d" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Alterkai TL Academy" />
+    <meta
+      property="og:title"
+      content="Alterkai TL Academy — Belajar Translate Manga"
+    />
+    <meta property="og:description" content={SITE_DESC} />
+    <meta property="og:image" content="/img/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/img/logo.png" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Alterkai Scans" />
+  </head>
+  <body class="kawaii-page">
+    <!-- NAV -->
+    <nav class="kawaii-nav">
+      <div class="kawaii-brand">
+        <div class="kawaii-logo">Alterkai<span class="dot">.</span></div>
+        <div class="kawaii-badge">ACADEMY · v3</div>
+      </div>
+      <div class="kawaii-nav-links">
+        <a href="#materi">Materi</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#tim">Tim</a>
+        <a href="/perkenalan">Resource</a>
+      </div>
+      <a class="kawaii-btn kawaii-btn--ink" href="/perkenalan">MULAI BELAJAR →</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="kawaii-hero">
+      <div class="kawaii-kana kawaii-kana--a" aria-hidden="true">あ</div>
+      <div class="kawaii-kana kawaii-kana--ka" aria-hidden="true">カ</div>
+
+      <svg
+        class="kawaii-star"
+        style="top:80px;right:120px;--s:48px"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path
+          d="M12 0 L13.5 10.5 L24 12 L13.5 13.5 L12 24 L10.5 13.5 L0 12 L10.5 10.5 Z"
+          fill="#ff4d8d"></path>
+      </svg>
+      <svg
+        class="kawaii-star"
+        style="bottom:100px;left:100px;--s:36px"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path
+          d="M12 0 L13.5 10.5 L24 12 L13.5 13.5 L12 24 L10.5 13.5 L0 12 L10.5 10.5 Z"
+          fill="#2dc4c4"></path>
+      </svg>
+      <div class="kawaii-shin" aria-hidden="true">新</div>
+
+      <div class="kawaii-hero-inner">
+        <div class="kawaii-eyebrow">
+          <span class="dot"></span>
+          SCANLATION ACADEMY · UPDATED MEI 2026
+        </div>
+
+        <h1 class="kawaii-h1">
+          Bikin scan<br />
+          yang <span class="italic">indah</span>{' '}
+          <span class="highlight">dibaca.</span>
+        </h1>
+
+        <div class="kawaii-hero-row">
+          <p class="kawaii-hero-lede">
+            Akademi terbuka untuk Translator, Cleaner, dan Typesetter manga yang
+            ingin meningkatkan keterampilan — dari pemula sampai mahir, gratis
+            selamanya.
+          </p>
+
+          <div class="kawaii-hero-ctas">
+            <a class="kawaii-btn kawaii-btn--primary kawaii-btn--lg" href="/perkenalan">
+              MULAI BELAJAR →
+            </a>
+            <a class="kawaii-btn kawaii-btn--cream kawaii-btn--lg" href="/perkenalan">
+              TONTON INTRO
+            </a>
+          </div>
+        </div>
+
+        <div class="kawaii-stats">
+          <div class="kawaii-stat">
+            <div class="kawaii-stat-num">44</div>
+            <div class="kawaii-stat-label">TUTORIAL</div>
+          </div>
+          <div class="kawaii-stat">
+            <div class="kawaii-stat-num">03</div>
+            <div class="kawaii-stat-label">JALUR</div>
+          </div>
+          <div class="kawaii-stat">
+            <div class="kawaii-stat-num">1.2K</div>
+            <div class="kawaii-stat-label">PEMBELAJAR</div>
+          </div>
+          <div class="kawaii-stat">
+            <div class="kawaii-stat-num">05 thn</div>
+            <div class="kawaii-stat-label">SEJAK 2021</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section id="materi" class="kawaii-section">
+      <div class="kawaii-container" style="padding:0">
+        <div class="kawaii-section-head">
+          <div>
+            <div class="kawaii-section-tag">SECTION 01 · MATERI</div>
+            <h2 class="kawaii-h2">
+              Pilih jalurmu.<br />
+              <span class="italic">Mulai hari ini.</span>
+            </h2>
+          </div>
+          <div class="kawaii-quiz">
+            <span>Bingung mulai dari mana?</span>
+            <a href="/perkenalan">Cek quiz →</a>
+          </div>
+        </div>
+
+        <div class="kawaii-cats">
+          {
+            categories.map((cat) => (
+              <a
+                href={cat.href}
+                class:list={[
+                  'kawaii-cat',
+                  `kawaii-cat--${cat.color}`,
+                  cat.lifted && 'kawaii-cat--lifted',
+                ]}
+              >
+                <div
+                  class:list={['kawaii-cat-jp', `kawaii-cat-jp--${cat.color === 'yellow' ? 'gold' : cat.color}`]}
+                  aria-hidden="true"
+                >
+                  {cat.jp}
+                </div>
+                <span class="kawaii-cat-step">{cat.step} / 03</span>
+                <div style="position:relative">
+                  <div class="kawaii-cat-tag">{cat.tag}</div>
+                  <div class="kawaii-cat-label">{cat.label}</div>
+                </div>
+                <p class="kawaii-cat-desc">{cat.desc}</p>
+                <div class="kawaii-cat-foot">
+                  <span class="kawaii-cat-count">{cat.count} TUTORIAL</span>
+                  <span class="kawaii-btn kawaii-btn--ink" style="padding:8px 13px;font-size:11px;box-shadow:none">
+                    BUKA →
+                  </span>
+                </div>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="tim" class="kawaii-about">
+      <div class="kawaii-about-grid">
+        <div class="kawaii-about-left">
+          <div class="kawaii-about-bigjp" aria-hidden="true">仲間</div>
+          <div class="kawaii-section-tag">SECTION 02 · TENTANG</div>
+          <h2 class="kawaii-h2" style="font-size:clamp(2rem,4.5vw,56px)">
+            Tim kecil yang<br />
+            <span class="italic">terlalu cinta</span><br />
+            manga.
+          </h2>
+          <p
+            style="font-size:16px;line-height:1.7;margin-top:28px;max-width:440px;font-weight:500"
+          >
+            Alterkai dimulai oleh empat orang yang lelah menunggu volume
+            favoritnya diterjemahkan. Sekarang kami berbagi semua yang sudah
+            kami pelajari — gratis, terbuka, dan akan terus diperbarui.
+          </p>
+        </div>
+
+        <div class="kawaii-about-right">
+          {
+            members.map((m) => (
+              <div class="kawaii-member">
+                <div class="kawaii-member-jp">{m.jp}</div>
+                <div>
+                  <div class="kawaii-member-role">{m.role}</div>
+                  <div class="kawaii-member-name">{m.name}</div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOWCASE -->
+    <section id="showcase" class="kawaii-section">
+      <div class="kawaii-container" style="padding:0">
+        <div class="kawaii-section-head">
+          <div>
+            <div class="kawaii-section-tag">SECTION 03 · SHOWCASE</div>
+            <h2 class="kawaii-h2" style="font-size:clamp(2rem,4.5vw,56px)">
+              Karya yang<br />
+              <span class="italic italic--teal">sudah selesai.</span>
+            </h2>
+          </div>
+          <a class="kawaii-btn kawaii-btn--cream" href="https://alterkaiscans.my.id">LIHAT SEMUA →</a>
+        </div>
+
+        <div class="kawaii-showcase">
+          {
+            showcase.map((s) => (
+              <article class:list={['kawaii-card', `kawaii-card--${s.color}`]}>
+                <div
+                  class="kawaii-card-cover"
+                  style={`background:${s.palette.bg}`}
+                >
+                  <svg
+                    viewBox="0 0 240 340"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid slice"
+                    style="display:block"
+                    aria-hidden="true"
+                  >
+                    <circle cx="50" cy="40" r="60" fill={s.palette.hair2} opacity=".35" />
+                    <circle cx="200" cy="80" r="70" fill={s.palette.shirt} opacity=".25" />
+                    <circle cx="180" cy="280" r="90" fill={s.palette.hair} opacity=".3" />
+                    <path
+                      d="M 60 80 Q 80 30 130 35 Q 180 40 195 95 Q 205 140 195 180 L 50 180 Q 45 130 60 80 Z"
+                      fill={s.palette.hair}
+                    />
+                    <ellipse cx="125" cy="135" rx="42" ry="50" fill={s.palette.skin} />
+                    <ellipse cx="108" cy="138" rx="6" ry="9" fill="#221a14" />
+                    <ellipse cx="142" cy="138" rx="6" ry="9" fill="#221a14" />
+                    <circle cx="110" cy="135" r="2" fill="#fff" />
+                    <circle cx="144" cy="135" r="2" fill="#fff" />
+                    <ellipse cx="98" cy="153" rx="6" ry="3" fill={s.palette.hair2} opacity=".7" />
+                    <ellipse cx="152" cy="153" rx="6" ry="3" fill={s.palette.hair2} opacity=".7" />
+                    <path
+                      d="M 118 162 Q 125 168 132 162"
+                      stroke="#221a14"
+                      stroke-width="1.5"
+                      fill="none"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M 75 110 Q 65 150 80 200 Q 90 220 95 180 Q 100 140 92 105 Z"
+                      fill={s.palette.hair2}
+                    />
+                    <path
+                      d="M 60 200 L 100 215 L 125 200 L 150 215 L 190 200 L 200 340 L 50 340 Z"
+                      fill={s.palette.shirt}
+                    />
+                    <path
+                      d="M 100 215 L 125 245 L 150 215 L 145 250 L 105 250 Z"
+                      fill="#fff"
+                      opacity=".7"
+                    />
+                    <path
+                      d="M 35 220 l 2 8 l 8 2 l -8 2 l -2 8 l -2 -8 l -8 -2 l 8 -2 z"
+                      fill="#fff"
+                      opacity=".9"
+                    />
+                    <path
+                      d="M 210 230 l 1.5 6 l 6 1.5 l -6 1.5 l -1.5 6 l -1.5 -6 l -6 -1.5 l 6 -1.5 z"
+                      fill="#fff"
+                      opacity=".9"
+                    />
+                  </svg>
+                  <div
+                    style={`position:absolute;bottom:12px;right:12px;width:38px;height:38px;border-radius:50%;background:#fff;color:${s.palette.shirt};display:grid;place-items:center;font-family:'Inter Tight',Inter;font-weight:900;font-size:18px;box-shadow:0 2px 8px rgba(0,0,0,.15)`}
+                  >
+                    {s.vol}
+                  </div>
+                </div>
+                <div class="kawaii-card-meta">
+                  <div>
+                    <div class="kawaii-card-title">{s.title}</div>
+                    <div class="kawaii-card-sub">Vol. {s.vol} · 2025</div>
+                  </div>
+                  <div class="kawaii-card-arrow">→</div>
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="kawaii-footer">
+      <div class="kawaii-footer-inner">
+        <div class="kawaii-footer-mark">
+          alterkai<span class="dot">.</span>
+        </div>
+        <div class="kawaii-footer-cols">
+          <div class="kawaii-footer-lede">
+            Belajar scanlation dari komunitas yang sudah berkarya sejak 2021.
+            Gratis, terbuka, terus diperbarui.
+          </div>
+          <div class="kawaii-footer-col">
+            <div class="kawaii-footer-col-title kawaii-footer-col-title--pink">ACADEMY</div>
+            <ul>
+              <li><a href="/translator">Translator</a></li>
+              <li><a href="/cleaner">Cleaner</a></li>
+              <li><a href="/typesetter">Typesetter</a></li>
+            </ul>
+          </div>
+          <div class="kawaii-footer-col">
+            <div class="kawaii-footer-col-title kawaii-footer-col-title--teal">ALTERKAI</div>
+            <ul>
+              <li><a href="#tim">Tim</a></li>
+              <li><a href="#showcase">Showcase</a></li>
+              <li><a href="https://alterkaiscans.my.id">Discord</a></li>
+            </ul>
+          </div>
+          <div class="kawaii-footer-col kawaii-footer-col--italic">
+            <div class="kawaii-footer-col-title kawaii-footer-col-title--yellow">LINK</div>
+            <ul>
+              <li><a href="https://alterkaiscans.my.id">bit.ly/alterkai</a></li>
+              <li><a href="https://alterkaiscans.com">fb.me/alterkaiscans</a></li>
+              <li><a href="https://trakteer.id/faralha">trakteer.id/faralha</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="kawaii-footer-bottom">
+          <span>© 2026 ALTERKAI · FANMADE · NON-COMMERCIAL</span>
+          <span>academy.alterkaiscans.my.id</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

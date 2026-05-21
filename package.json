@@ -1,32 +1,35 @@
 {
   "name": "alterkai-tl-academy",
-  "version": "1.0.0",
-  "description": "![Website](https://img.shields.io/website?url=https%3A%2F%2Facademy.alterkaiscans.my.id)\r ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/faralha/Alterkai-TL-Academy)",
-  "main": ".prettierrc.js",
+  "version": "3.0.0",
+  "description": "Platform pembelajaran manga translation dan scanlation gratis dalam bahasa Indonesia",
   "private": true,
+  "type": "module",
   "scripts": {
-    "prettier": "prettier --write .",
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Faralha/Alterkai-TL-Academy.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Faralha/Alterkai-TL-Academy/issues"
   },
   "homepage": "https://github.com/Faralha/Alterkai-TL-Academy#readme",
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/starlight": "^0.30.6",
+    "astro": "^5.1.5",
+    "sharp": "^0.33.5"
+  },
   "devDependencies": {
     "@types/node": "^24.5.2",
-    "prettier": "^3.5.3",
-    "vitepress": "2.0.0-alpha.12"
-  },
-  "dependencies": {
-    "vue": "^3.5.22"
+    "prettier": "^3.5.3"
   },
   "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
 }

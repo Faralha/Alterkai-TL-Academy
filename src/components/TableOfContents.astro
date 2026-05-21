@@ -1,0 +1,51 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/TableOfContents.astro';
+
+const { toc, entry } = Astro.props;
+const slug = (entry as any)?.slug ?? '';
+---
+
+<div class="ak-toc-wrap">
+  {toc && (
+    <>
+      <Default {...Astro.props} />
+      <button
+        type="button"
+        class="ak-toc-cta"
+        data-ak-done-btn
+        data-slug={slug}
+      >
+        ✓ TANDAI SELESAI
+      </button>
+    </>
+  )}
+</div>
+
+<script is:inline>
+  (function () {
+    const KEY = 'ak-done';
+    const btn = document.querySelector('[data-ak-done-btn]');
+    if (!btn) return;
+    const slug = btn.getAttribute('data-slug') || '';
+    const read = () => {
+      try { return JSON.parse(localStorage.getItem(KEY) || '[]'); }
+      catch { return []; }
+    };
+    const write = (arr) => localStorage.setItem(KEY, JSON.stringify(arr));
+    const refresh = () => {
+      const done = read();
+      const isDone = done.includes(slug);
+      btn.classList.toggle('is-done', isDone);
+      btn.textContent = isDone ? '✓ TUTORIAL SELESAI' : '✓ TANDAI SELESAI';
+    };
+    btn.addEventListener('click', () => {
+      let done = read();
+      if (done.includes(slug)) done = done.filter((s) => s !== slug);
+      else done.push(slug);
+      write(done);
+      refresh();
+    });
+    refresh();
+  })();
+</script>

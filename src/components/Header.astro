@@ -1,0 +1,34 @@
+---
+import config from 'virtual:starlight/user-config';
+import type { Props } from '@astrojs/starlight/props';
+import Search from 'virtual:starlight/components/Search';
+import ThemeSelect from 'virtual:starlight/components/ThemeSelect';
+
+const shouldRenderSearch =
+  config.pagefind ||
+  config.components.Search !== '@astrojs/starlight/components/Search.astro';
+---
+
+<div class="ak-header">
+  <a class="ak-header-brand" href="/">
+    <span class="ak-header-logo">Alterkai<span class="dot">.</span></span>
+    <span class="ak-header-badge">ACADEMY</span>
+  </a>
+
+  <div class="ak-header-search">
+    {shouldRenderSearch && <Search {...Astro.props} />}
+  </div>
+
+  <div class="ak-header-right">
+    <a
+      class="ak-header-link"
+      href="https://github.com/Faralha/Alterkai-TL-Academy"
+      target="_blank"
+      rel="noopener"
+    >
+      Discord
+    </a>
+    <a class="ak-header-cta" href="/perkenalan">PROFIL</a>
+    <ThemeSelect {...Astro.props} />
+  </div>
+</div>
