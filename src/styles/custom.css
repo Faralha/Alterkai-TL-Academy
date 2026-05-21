@@ -831,8 +831,12 @@ starlight-toc nav > h2::before {
   box-sizing: border-box;
 }
 
-.kawaii-page a {
+.kawaii-page a:not(.kawaii-btn) {
   color: inherit;
+  text-decoration: none;
+}
+
+.kawaii-page a.kawaii-btn {
   text-decoration: none;
 }
 
@@ -1377,7 +1381,7 @@ starlight-toc nav > h2::before {
   background: var(--ak-cream);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 [data-theme='dark'] .kawaii-about-right {
@@ -1385,50 +1389,62 @@ starlight-toc nav > h2::before {
 }
 
 .kawaii-member {
-  padding: 25px 22px; /* 32 * 0.78, 28 * 0.78 */
+  padding: 38px 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 240px;
+  min-height: 360px;
+  gap: 28px;
 }
 
 .kawaii-member:nth-child(1) {
   border-right: var(--ak-border);
-  border-bottom: var(--ak-border);
 }
+
 .kawaii-member:nth-child(2) {
-  border-bottom: var(--ak-border);
   background: var(--ak-secondary-light);
 }
+
 [data-theme='dark'] .kawaii-member:nth-child(2) {
   background: rgba(45, 196, 196, 0.12);
-}
-.kawaii-member:nth-child(3) {
-  border-right: var(--ak-border);
-  background: var(--ak-tertiary);
-}
-[data-theme='dark'] .kawaii-member:nth-child(3) {
-  background: rgba(217, 152, 0, 0.18);
 }
 
 .kawaii-member-jp {
   font-family: var(--ak-font-jp);
   font-weight: 800;
-  font-size: 56px;
+  font-size: 96px;
   line-height: 1;
 }
 
 .kawaii-member:nth-child(1) .kawaii-member-jp {
   color: var(--ak-primary);
 }
+
 .kawaii-member:nth-child(2) .kawaii-member-jp {
   color: var(--ak-secondary);
+  position: relative;
 }
-.kawaii-member:nth-child(3) .kawaii-member-jp {
-  color: var(--ak-tertiary-deep);
+
+/* Hiatus stamp on the second member */
+.kawaii-member:nth-child(2) .kawaii-member-jp::after {
+  content: 'HIATUS';
+  position: absolute;
+  top: 18px;
+  left: -8px;
+  transform: rotate(-12deg);
+  padding: 4px 10px;
+  border: 2px solid var(--ak-primary);
+  color: var(--ak-primary);
+  font-family: var(--ak-font-body);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  background: rgba(255, 250, 242, 0.92);
+  pointer-events: none;
 }
-.kawaii-member:nth-child(4) .kawaii-member-jp {
-  color: var(--ak-ink);
+
+[data-theme='dark'] .kawaii-member:nth-child(2) .kawaii-member-jp::after {
+  background: rgba(31, 26, 34, 0.92);
 }
 
 .kawaii-member-role {
@@ -1673,11 +1689,16 @@ starlight-toc nav > h2::before {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
-  .kawaii-member:nth-child(1),
-  .kawaii-member:nth-child(2),
-  .kawaii-member:nth-child(3) {
+  .kawaii-member:nth-child(1) {
     border-right: none;
     border-bottom: var(--ak-border);
+  }
+  .kawaii-member {
+    min-height: 260px;
+    padding: 28px 24px;
+  }
+  .kawaii-member-jp {
+    font-size: 72px;
   }
   .kawaii-footer-cols {
     grid-template-columns: 1fr;
