@@ -1,0 +1,45 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+
+const PAGE_TITLE_ID = '_top';
+
+const { entry } = Astro.props;
+const slug = (entry as any).slug ?? (entry.id ?? '').replace(/\.md$/, '');
+
+const PATH_META: Record<
+  string,
+  { kind: string; color: 'pink' | 'teal' | 'yellow'; trail: string }
+> = {
+  perkenalan: { kind: 'PERKENALAN', color: 'pink', trail: 'PENGENALAN' },
+  translator: { kind: 'TRANSLATOR', color: 'pink', trail: 'TUTORIAL' },
+  typesetter: { kind: 'TYPESETTER', color: 'yellow', trail: 'TUTORIAL' },
+  cleaner:    { kind: 'CLEANER',    color: 'teal',   trail: 'TUTORIAL' },
+  redraw:     { kind: 'REDRAW',     color: 'teal',   trail: 'TUTORIAL' },
+  qc:         { kind: 'QUALITY CHECK', color: 'pink', trail: 'TUTORIAL' },
+  about:      { kind: 'ABOUT',      color: 'pink', trail: 'INFO' },
+};
+
+const meta = PATH_META[slug] ?? { kind: 'MATERI', color: 'pink', trail: 'TUTORIAL' };
+const desc = entry.data.description;
+---
+
+<div class="ak-page-head">
+  <div class="ak-breadcrumb">
+    <span>ALTERKAI ACADEMY</span>
+    <span class="sep">›</span>
+    <span>{meta.trail}</span>
+    <span class="sep">›</span>
+    <span class="current">{meta.kind}</span>
+  </div>
+
+  <div class={`ak-tut-badge-row ak-tut-badge-row--${meta.color}`}>
+    <span class={`ak-tut-badge ak-tut-badge--${meta.color}`}>
+      JALUR · {meta.kind}
+    </span>
+    <span class="ak-tut-meta">{slug ? `${slug}.md` : ''}</span>
+  </div>
+
+  <h1 id={PAGE_TITLE_ID} class="ak-page-title">{entry.data.title}</h1>
+
+  {desc && <p class="ak-page-lede">{desc}</p>}
+</div>

@@ -1,61 +1,62 @@
 ---
 title: 'Typesetter'
 description: 'Penjelasan mendetail mengenai posisi Typesetter.'
-lang: id-ID
----
 
-# 🖋️ Typesetter
+---
 
 > **Mengubah raw manga menjadi karya seni yang siap dibaca dengan menggabungkan visual dan teks secara harmonis**
 
 Typesetter adalah seniman digital yang bertanggung jawab membuat terjemahan menjadi hidup di halaman manga. Lebih dari sekedar memasukkan teks, posisi ini membutuhkan mata estetik, kesabaran tinggi, dan pemahaman mendalam tentang flow visual manga.
 
-![Typesetter Header](../public/img/typesetter/typesetter-header.png)
+![Typesetter Header](/img/typesetter/typesetter-header.png)
 
 ## 📊 Spesifikasi Posisi
 
-::: details 📈 **Tingkat Kesulitan: Susah**
+<details>
+<summary>📈 **Tingkat Kesulitan: Susah**</summary>
 Membutuhkan kombinasi skill teknis (software editing), artistik (typography & layout), dan perhatian detail yang tinggi. Setiap bubble harus perfect sebelum release.
-:::
+</details>
 
-::: details ⏱️ **Estimasi Waktu: 2-3 Hari/Chapter**
+<details>
+<summary>⏱️ **Estimasi Waktu: 2-3 Hari/Chapter**</summary>
 Waktu dapat bervariasi tergantung:
 - Jumlah halaman dan dialog density
 - Kompleksitas layout dan bubble shapes
 - Quality standard tim scanlation
 - Experience level typesetter
 - Clean quality dari cleaner sebelumnya
-:::
+</details>
 
-::: details 📄 **Format Pengumpulan: Multiple**
+<details>
+<summary>📄 **Format Pengumpulan: Multiple**</summary>
 - 🖼️ **Indonesia:** `*.png, *.jpg` - Hasil final export
 - 🗂️ **Luar Negeri:** `*.psd, *.psb` - Working files untuk revision
 - 📁 **Backup:** Source files untuk maintenance
-:::
+</details>
 
 ## 🌟 Kriteria Ideal Seorang Typesetter
 
 Sebagai yang bertanggung jawab pada tahap final sebelum release, typesetter harus memiliki kombinasi kemampuan teknis dan artistik yang mumpuni.
 
-::: info 🎨 **Mata Estetik & Rasa Seni**
+:::note[🎨 **Mata Estetik & Rasa Seni**]
 Mampu merasakan alur visual halaman manga dan menempatkan teks dengan harmonis. Memahami hirarki visual dan dapat membuat tipografi yang tidak mengganggu gambar asli.
 
 **Indikator:** Hasil typeset terlihat profesional, teks mudah dibaca, dan tidak bentrok dengan gambar.
 :::
 
-::: info ⚙️ **Kemampuan Teknis**
+:::note[⚙️ **Kemampuan Teknis**]
 Menguasai aplikasi editing untuk manipulasi gambar, pengaturan layer, dan format teks. Bisa bekerja dengan berbagai format file dan resolusi.
 
 **Indikator:** Alur kerja efisien, kualitas hasil konsisten, dan mampu mengatasi masalah teknis.
 :::
 
-::: info 🔍 **Ketelitian Tinggi**
+:::note[🔍 **Ketelitian Tinggi**]
 Teliti dalam penempatan teks, konsistensi ukuran font, perataan, dan spasi. Tidak ada typo atau kesalahan format yang lolos ke rilis.
 
 **Indikator:** Tidak toleran terhadap kesalahan, gaya konsisten sepanjang chapter.
 :::
 
-::: info 📖 **Memahami Alur Baca**
+:::note[📖 **Memahami Alur Baca**]
 Memahami cara pembaca membaca manga (kanan-kiri, alur panel) dan dapat memandu mata pembaca dengan tipografi yang tepat.
 
 **Indikator:** Pembaca tidak bingung urutan baca dialog, pengalaman baca yang natural.
@@ -65,7 +66,7 @@ Memahami cara pembaca membaca manga (kanan-kiri, alur panel) dan dapat memandu m
 
 ### 🇮🇩 **Standard Indonesia - Creative Freedom**
 
-::: tip 🎨 **Kebebasan Kreatif**
+:::tip[🎨 **Kebebasan Kreatif**]
 Di Indonesia, typesetter diberi **kebebasan penuh** untuk menggunakan aplikasi apapun yang familiar, selama hasil akhirnya berkualitas profesional.
 
 **Aplikasi Populer:**
@@ -78,7 +79,7 @@ Di Indonesia, typesetter diberi **kebebasan penuh** untuk menggunakan aplikasi a
 
 ### 🌍 **Standar Internasional - Tingkat Profesional**
 
-::: warning 📋 **Syarat Profesional**
+:::caution[📋 **Syarat Profesional**]
 Scanlation luar negeri umumnya mensyaratkan **Adobe Photoshop** dengan file kerja `.psd/.psb` untuk kolaborasi dan alur revisi.
 
 **Mengapa Photoshop?**
@@ -94,14 +95,15 @@ Scanlation luar negeri umumnya mensyaratkan **Adobe Photoshop** dengan file kerj
 
 Font adalah jiwa dari typeset yang baik. Pemilihan font yang tepat bisa membuat atau menghancurkan pengalaman baca. Setiap scanlation punya pedoman berbeda, tapi prinsip dasarnya sama: **mudah dibaca dan harmoni estetik**.
 
-::: danger 🚫 **Font Terlarang**
+:::danger[🚫 **Font Terlarang**]
 **JANGAN PERNAH pakai Comic Sans MS!** 
 Ini adalah dosa besar dalam dunia tipografi dan akan langsung merusak kredibilitas karyamu. Percaya deh! 😅
 :::
 
 ### 📚 **Manga (Japanese Style)**
 
-::: details 🗾 **Rekomendasi Font untuk Manga**
+<details>
+<summary>🗾 **Rekomendasi Font untuk Manga**</summary>
 Manga membutuhkan font yang bersih, mudah dibaca, tapi tetap punya karakter yang cocok dengan gaya gambar Jepang.
 
 **📝 Dialog Biasa:**
@@ -118,13 +120,14 @@ Manga membutuhkan font yang bersih, mudah dibaca, tapi tetap punya karakter yang
 
 **🤫 Bisik/Ngomong Kecil:**
 - `Shadows Into Light` ([Google Fonts](https://fonts.google.com/specimen/Shadows+Into+Light)) - Nuansa tulisan tangan yang natural
-:::
+</details>
 
-![Font Example](../public/img/typesetter/contoh-font.png)
+![Font Example](/img/typesetter/contoh-font.png)
 
 ### 📱 **Manhwa/Manhua (Webtoon Style)**
 
-::: details 🌏 **Rekomendasi Font untuk Webtoon**
+<details>
+<summary>🌏 **Rekomendasi Font untuk Webtoon**</summary>
 Manhwa/Manhua umumnya punya gaya gambar yang lebih modern dan berwarna-warni, jadi fontnya bisa lebih beragam.
 
 **📝 Dialog Biasa:**
@@ -138,11 +141,11 @@ Manhwa/Manhua umumnya punya gaya gambar yang lebih modern dan berwarna-warni, ja
 
 **🤏 Teks Kecil:**
 - `Telefante Bold` - Tetap mudah dibaca di ukuran kecil
-:::
+</details>
 
 ### 📥 **Font Resources**
 
-::: tip 💎 **Dimana Dapet Font-font Ini**
+:::tip[💎 **Dimana Dapet Font-font Ini**]
 **Gratis:**
 - Google Fonts - Shadows Into Light dan alternatif lainnya
 - DaFont - Banyak font komik gratis
@@ -156,7 +159,7 @@ Manhwa/Manhua umumnya punya gaya gambar yang lebih modern dan berwarna-warni, ja
 **⚠️ Catatan Legal:** Pastikan font yang digunakan legal untuk proyek kamu. Untuk penggunaan komersial, pertimbangkan beli lisensi.
 :::
 
-::: warning 🎁 **Special untuk Tim Alterkai**
+:::caution[🎁 **Special untuk Tim Alterkai**]
 Staff Alterkai mendapat akses ke complete font library gratis! Contact admin untuk resource pack lengkap 😉
 :::
 
@@ -165,7 +168,7 @@ Staff Alterkai mendapat akses ke complete font library gratis! Contact admin unt
 
 ### ✅ **Yang HARUS Dilakukan**
 
-::: tip 📁 **1. Manajemen File - Satu File per Halaman**
+:::tip[📁 **1. Manajemen File - Satu File per Halaman**]
 **✅ Direkomendasikan:** Setiap halaman = satu file terpisah
 - `Chapter1_Page01.psd`, `Chapter1_Page02.psd`, dll.
 
@@ -180,7 +183,7 @@ Staff Alterkai mendapat akses ke complete font library gratis! Contact admin unt
 *Minus:* Revisi ribet, ukuran file bengkak, kolaborasi sulit
 :::
 
-::: tip ⚖️ **2. Perataan Teks - Selalu Tengah**
+:::tip[⚖️ **2. Perataan Teks - Selalu Tengah**]
 Rata teks ke **tengah horizontal** dan **tengah vertikal** di dalam bubble untuk keseimbangan yang optimal.
 
 **Mengapa rata tengah?**
@@ -190,7 +193,7 @@ Rata teks ke **tengah horizontal** dan **tengah vertikal** di dalam bubble untuk
 - Cocok dengan berbagai bentuk bubble
 :::
 
-::: tip ✂️ **3. Pemotongan Teks yang Cerdas**
+:::tip[✂️ **3. Pemotongan Teks yang Cerdas**]
 Potong kalimat pada titik potong yang natural untuk muat bentuk bubble dan mudah dibaca.
 
 **Titik Potong yang Bagus:**
@@ -200,7 +203,7 @@ Potong kalimat pada titik potong yang natural untuk muat bentuk bubble dan mudah
 - Jaga kata penekanan di satu baris
 :::
 
-::: tip 🌬️ **4. Manajemen Whitespace yang Tepat**
+:::tip[🌬️ **4. Manajemen Whitespace yang Tepat**]
 Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 
 **Pedoman Spasi:**
@@ -210,11 +213,11 @@ Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 - **Margin konsisten** sepanjang chapter
 :::
 
-![Typesetter Tutorial](../public/img/typesetter/tutorial-ts.png)
+![Typesetter Tutorial](/img/typesetter/tutorial-ts.png)
 
 ### ❌ **Yang HARUS Dihindari**
 
-::: danger 📐 **1. Inkonsistensi Resolusi**
+:::danger[📐 **1. Inkonsistensi Resolusi**]
 **❌ Kesalahan Fatal:** Export dengan resolusi berbeda dari materi sumber
 
 **Akibatnya:**
@@ -226,7 +229,7 @@ Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 **Solusi:** Selalu samakan resolusi sumber, cek sebelum export final
 :::
 
-::: danger 📏 **2. Tipografi Tidak Konsisten**
+:::danger[📏 **2. Tipografi Tidak Konsisten**]
 **❌ Masalah Besar:**
 - Ukuran font berubah-ubah tanpa alasan
 - Spasi tidak konsisten antar bubble
@@ -236,7 +239,7 @@ Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 **Dampak:** Terlihat tidak profesional, alur baca terganggu, konsistensi brand rusak
 :::
 
-::: danger ⚡ **3. Terburu-buru dalam Proses**
+:::danger[⚡ **3. Terburu-buru dalam Proses**]
 **❌ Kesalahan Umum dari Buru-buru:**
 - Typo yang lolos ke rilis final
 - Teks meluber dari bubble  
@@ -251,7 +254,7 @@ Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 
 ### 🎪 **Typography Psychology**
 
-::: info 🧠 **Ketebalan Font untuk Dampak Emosional**
+:::note[🧠 **Ketebalan Font untuk Dampak Emosional**]
 - **Regular:** Percakapan normal, nada netral
 - **Bold:** Penekanan, informasi penting, emosi kuat
 - **Italic:** Pikiran, kenangan, penekanan halus
@@ -262,7 +265,8 @@ Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 
 ### 🎨 **Creative Techniques**
 
-::: details 💫 **Tipografi Efek Khusus**
+<details>
+<summary>💫 **Tipografi Efek Khusus**</summary>
 **Tipografi Sound Effect (SFX):**
 - Font lebih besar dan tebal untuk suara benturan
 - Teks melengkung untuk efek gerakan  
@@ -273,11 +277,11 @@ Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 - Font sedikit lebih kecil dan tipis untuk momen sedih
 - Teks bergetar/terdistorsi untuk kejutan atau takut
 - Gradien fade untuk kesadaran yang memudar
-:::
+</details>
 
 ### 📱 **Mobile-First Consideration**
 
-::: warning 📲 **Perilaku Pembaca Modern**
+:::caution[📲 **Perilaku Pembaca Modern**]
 Mayoritas pembaca sekarang baca di HP, jadi:
 
 - **Ukuran font minimum:** 12pt untuk mudah dibaca di HP
@@ -290,7 +294,8 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 
 ### 📈 **Learning Path & Skill Development**
 
-::: details 🎯 **Fase 1: Dasar (Bulan 1-2)**
+<details>
+<summary>🎯 **Fase 1: Dasar (Bulan 1-2)**</summary>
 **Skill Penting:**
 - 🖥️ **Penguasaan Aplikasi** - Pilih satu alat utama dan kuasai fungsi dasar
 - 📖 **Alur Baca** - Pahami alur panel manga dan hirarki bubble dialog  
@@ -301,9 +306,10 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 - Typeset oneshot pendek (10-15 halaman)
 - Remake halaman manga terkenal dengan gaya sendiri
 - Gabung grup latihan atau tantangan komunitas
-:::
+</details>
 
-::: details 🎪 **Fase 2: Menengah (Bulan 3-6)**
+<details>
+<summary>🎪 **Fase 2: Menengah (Bulan 3-6)**</summary>
 **Skill Lanjutan:**
 - 🎨 **Tipografi Kreatif** - Styling SFX, variasi font emosional
 - ⚡ **Optimasi Kecepatan** - Kembangkan alur kerja dan shortcut pribadi
@@ -314,9 +320,10 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 - Gabung tim scanlation mapan sebagai typesetter cadangan
 - Ambil komitmen series reguler (bulanan/mingguan)
 - Eksperimen dengan genre berbeda (action, romance, comedy)
-:::
+</details>
 
-::: details 👑 **Fase 3: Ahli (Bulan 6+)**
+<details>
+<summary>👑 **Fase 3: Ahli (Bulan 6+)**</summary>
 **Skill Profesional:**
 - 🎯 **Konsistensi Gaya** - Kembangkan standar kualitas khas
 - 📋 **Manajemen Proyek** - Tangani multiple series bersamaan  
@@ -327,11 +334,11 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 - Posisi lead typesetter
 - Kontrol kualitas untuk tipografi
 - Koordinator pelatihan untuk member baru
-:::
+</details>
 
 ### 💰 **Career Opportunities & Monetization**
 
-::: tip 💡 **Sumber Penghasilan**
+:::tip[💡 **Sumber Penghasilan**]
 **Peluang Freelance:**
 - 📚 **Kerja Komisi** - Typeset manga/manhwa pribadi
 - 🎨 **Desain Grafis** - Skill typeset sangat bisa ditransfer
@@ -365,7 +372,7 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 
 ### 🌟 **Reality Check & Motivation**
 
-::: info 💪 **Pola Pikir Berkembang**
+:::note[💪 **Pola Pikir Berkembang**]
 **Semua orang mulai dari nol.** Yang penting bukan seberapa bagus hasil pertama kamu, tapi **seberapa komit** kamu untuk terus berkembang.
 
 **Faktor Kunci Sukses:**
@@ -375,7 +382,7 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 - **Visi Jangka Panjang** - Ini maraton, bukan sprint
 :::
 
-::: warning 🎭 **Mengelola Ekspektasi**
+:::caution[🎭 **Mengelola Ekspektasi**]
 **Realita Kehidupan Scanlation:**
 - 😴 **Sepi apresiasi** - Pembaca jarang komen, jangan harap viral
 - ⏰ **Investasi Waktu** - Kerja berkualitas butuh waktu, jangan buru-buru
@@ -391,7 +398,7 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 
 ### 🎯 **Success Story Inspiration**
 
-::: tip 🌟 **Studi Kasus: Perjalanan MahoAko**
+:::tip[🌟 **Studi Kasus: Perjalanan MahoAko**]
 *"MahoAko awal rilis juga sepi kok. Baru ramenya 2023-2024 pas animenya rilis."*
 
 **Pelajaran yang Dipetik:**
@@ -411,7 +418,7 @@ Menjadi typesetter adalah **menggabungkan seni dan teknologi** untuk menciptakan
 
 **Ingat:** Di balik setiap pengalaman baca manga yang hebat, ada typesetter yang passionate tentang keahlian mereka. **Terus belajar, sabar, dan nikmati prosesnya!**
 
-::: tip 🌟 **Siap Memulai Perjalanan?**
+:::tip[🌟 **Siap Memulai Perjalanan?**]
 Mulai dengan proyek kecil, fokus pada **kualitas daripada kuantitas**, dan jangan takut bertanya ke typesetter senior. Bangun **portofolio perlahan tapi pasti** - dalam 6 bulan, kamu akan kaget seberapa jauh skill kamu berkembang!
 
 **Ganbatte, calon typesetter masa depan!** 🎌
