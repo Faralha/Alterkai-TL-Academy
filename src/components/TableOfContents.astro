@@ -1,15 +1,13 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/TableOfContents.astro';
 
-const { toc, entry } = Astro.props;
-const slug = (entry as any)?.slug ?? '';
+const { toc, id: slug } = Astro.locals.starlightRoute;
 ---
 
 <div class="ak-toc-wrap">
   {toc && (
     <>
-      <Default {...Astro.props} />
+      <Default />
       <button
         type="button"
         class="ak-toc-cta"

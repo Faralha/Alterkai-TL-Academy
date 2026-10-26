@@ -23,13 +23,19 @@ export default defineConfig({
       lastUpdated: true,
       // Reading mode: keep the on-page TOC to section headings only.
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
+      // Heading anchor links wrap each heading and break the numbered H2 layout in custom.css.
+      markdown: { headingLinks: false },
       defaultLocale: 'root',
       locales: {
         root: { label: 'Bahasa Indonesia', lang: 'id-ID' },
       },
-      social: {
-        github: 'https://github.com/Faralha/Alterkai-TL-Academy',
-      },
+      social: [
+        {
+          icon: 'github',
+          label: 'GitHub',
+          href: 'https://github.com/Faralha/Alterkai-TL-Academy',
+        },
+      ],
       customCss: ['./src/styles/custom.css'],
       components: {
         Header: './src/components/Header.astro',

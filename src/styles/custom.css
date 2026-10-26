@@ -171,13 +171,11 @@ body {
 
 .sl-markdown-content h2 {
   font-size: clamp(1.45rem, 2.4vw, 1.75rem);
-  margin-top: 2.5rem;
 }
 
 .sl-markdown-content h3 {
   font-size: 1.2rem;
   font-weight: 650;
-  margin-top: 2rem;
 }
 
 .sl-markdown-content h4 {
@@ -380,7 +378,6 @@ starlight-toc nav a {
 
 starlight-toc a {
   font-weight: 500;
-  font-size: 0.85rem;
   border-radius: 0 !important;
 }
 
@@ -886,12 +883,8 @@ starlight-theme-select select {
 
 starlight-toc nav > h2 {
   font-family: var(--ak-font-body);
-  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 0.7rem;
-  color: var(--ak-read-muted);
-  margin-bottom: 0.6rem;
 }
 
 /* ============================================================================

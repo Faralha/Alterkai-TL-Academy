@@ -1,9 +1,7 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/Sidebar.astro';
 
-const { sidebar, entry } = Astro.props;
-const slug = (entry as any)?.slug ?? '';
+const { sidebar, id: slug } = Astro.locals.starlightRoute;
 
 const PATHS: Record<string, { jalur: string; total: number; color: string }> = {
   perkenalan: { jalur: 'PERKENALAN', total: 1, color: 'primary' },
@@ -44,7 +42,7 @@ const totalLinks = countTutorials(sidebar as any[]);
   </div>
 </div>
 
-<Default {...Astro.props} />
+<Default />
 
 <script is:inline>
   // Re-paint progress card based on localStorage of completed slugs.

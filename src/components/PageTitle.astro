@@ -1,11 +1,10 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
 import RoleSpec from './RoleSpec.astro';
 
 const PAGE_TITLE_ID = '_top';
 
-const { entry } = Astro.props;
-const slug = (entry as any).slug ?? (entry.id ?? '').replace(/\.md$/, '');
+// Route `id` is the page slug (e.g. `translator`), without the file extension.
+const { entry, id: slug } = Astro.locals.starlightRoute;
 
 const PATH_META: Record<
   string,
@@ -42,7 +41,7 @@ const { icon, heroImage, spec } = entry.data;
   </div>
 
   <h1 id={PAGE_TITLE_ID} class="ak-page-title">
-    {icon && <span class="ak-page-title-icon" aria-hidden="true">{icon}</span>}
+    {icon && <span class="ak-page-title-icon" aria-hidden="true">{icon}</span>}{' '}
     {entry.data.title}
   </h1>
 

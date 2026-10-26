@@ -1,10 +1,9 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
 import { getCollection } from 'astro:content';
 import { Icon } from '@astrojs/starlight/components';
 
 // Prev/next cards with the target page's description, like the old Nuxt navigator.
-const { pagination } = Astro.props;
+const { pagination } = Astro.locals.starlightRoute;
 const { prev, next } = pagination;
 
 const docs = await getCollection('docs');

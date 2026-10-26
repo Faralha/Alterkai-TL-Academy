@@ -1,6 +1,5 @@
 ---
 import config from 'virtual:starlight/user-config';
-import type { Props } from '@astrojs/starlight/props';
 import Search from 'virtual:starlight/components/Search';
 import ThemeSelect from 'virtual:starlight/components/ThemeSelect';
 
@@ -16,7 +15,7 @@ const shouldRenderSearch =
   </a>
 
   <div class="ak-header-search">
-    {shouldRenderSearch && <Search {...Astro.props} />}
+    {shouldRenderSearch && <Search />}
   </div>
 
   <div class="ak-header-right">
@@ -29,6 +28,6 @@ const shouldRenderSearch =
       Discord
     </a>
     <a class="ak-header-cta" href="/perkenalan">PROFIL</a>
-    <ThemeSelect {...Astro.props} />
+    <ThemeSelect />
   </div>
 </div>
