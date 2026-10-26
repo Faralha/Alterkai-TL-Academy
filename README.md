@@ -11,10 +11,13 @@ A website that's build entirely to educate newbies into Scanlate. Features easy-
 
 - A brief History and explanation on Scanlation
 - Explanation and guide to:
-  - Typeset
   - Translate
+  - Typeset
   - Clean
-  - Redraw (soon)
+  - Redraw
+  - Quality Control
+- Role summary (difficulty, time, file format) and Do's / Don'ts on every tutorial
+- Progress tracking: mark a tutorial as done, saved in your browser
 
 ## Contributing
 
@@ -22,15 +25,26 @@ Contributions are always welcome!
 
 Want to suggest a features but can't code? Kindly open an Issues. Or if you can code, any pull request that may benefit are always welcome.
 
-This website is built with [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). All content lives in `src/content/docs/` as plain Markdown — no JS knowledge required to contribute a tutorial. Before writing, read the [content style guide](CONTENT-GUIDE.md) (in Indonesian).
+This website is built with [Astro](https://astro.build) 7 and [Starlight](https://starlight.astro.build) 0.42. All content lives in `src/content/docs/`: plain Markdown (`.md`) for most pages, MDX (`.mdx`) for pages that use the `DoDont` component. No JS knowledge required to contribute a tutorial. Before writing, read the [content style guide](CONTENT-GUIDE.md) (in Indonesian).
+
+Where things live:
+
+- `src/content/docs/` — tutorial pages. Frontmatter fields (`icon`, `heroImage`, `spec`) are defined in `src/content.config.ts`
+- `src/components/` — Starlight overrides (`Header`, `PageTitle`, `Sidebar`, `TableOfContents`, `Pagination`) plus `RoleSpec` and `DoDont`
+- `src/styles/custom.css` — site styles, including the tutorial reading mode
+- `src/pages/index.astro` — landing page
+- `public/img/` — images used in the tutorials
 
 ## Local development
 
+Requires Node.js 22.23.4 or newer and pnpm (`corepack enable` sets it up).
+
 ```bash
 pnpm install
-pnpm dev      # http://localhost:4321
-pnpm build    # static site -> dist/
+pnpm dev            # http://localhost:4321
+pnpm build          # checks content, then builds the static site -> dist/
 pnpm preview
+pnpm check:content  # Markdown breakage + style guide check only
 ```
 
 Multi-domain builds:
