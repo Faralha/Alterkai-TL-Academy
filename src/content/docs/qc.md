@@ -1,7 +1,8 @@
 ---
 title: 'Quality Control (QC)'
 description: 'Penjelasan mendetail mengenai posisi Quality Control/Proofreader.'
-
+icon: 🔍
+next: false
 ---
 
 > **Guardian terakhir kualitas - mata elang yang memastikan setiap detail perfect sebelum sampai ke tangan pembaca**
@@ -11,26 +12,32 @@ Quality Control adalah posisi paling krusial dan menantang dalam tim scanlation.
 ## 📊 Spesifikasi Posisi
 
 <details>
-<summary>📈 **Tingkat Kesulitan: SANGAT TINGGI**</summary>
+<summary>📈 <strong>Tingkat Kesulitan: SANGAT TINGGI</strong></summary>
+
 Posisi paling demanding yang membutuhkan **pengalaman di semua role scanlation** - translation, typesetting, cleaning, bahkan redraw. QC harus bisa spot error yang missed oleh specialist di setiap bidang. **Ini bukan entry-level position.**
+
 </details>
 
 <details>
-<summary>⏱️ **Estimasi Waktu: 2-4 Jam/Chapter**</summary>
+<summary>⏱️ <strong>Estimasi Waktu: 2-4 Jam/Chapter</strong></summary>
+
 Waktu review yang sangat bervariasi:
 - **First pass:** 1-2 jam untuk overall review
 - **Detail checking:** 1-2 jam untuk technical aspects
 - **Cross-reference:** 30-60 menit untuk consistency check
 - **Final polish:** 30 menit untuk last-minute fixes
 - **Emergency revision:** +2-4 jam jika major issues found
+
 </details>
 
 <details>
-<summary>📄 **Format Kerja: Multi-dimensional**</summary>
+<summary>📄 <strong>Format Kerja: Multi-dimensional</strong></summary>
+
 - 📋 **Review checklists** - Systematic quality assessment
 - 📝 **Error documentation** - Detailed feedback untuk team  
 - ✏️ **Direct corrections** - Minor fixes yang bisa langsung diperbaiki
 - 🔄 **Revision coordination** - Major issues yang butuh rework
+
 </details>
 
 ## 🌟 Kriteria Ideal Seorang QC
@@ -92,7 +99,8 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 ### 📝 **Translation Quality Assurance**
 
 <details>
-<summary>🗣️ **Language & Localization Review**</summary>
+<summary>🗣️ <strong>Language & Localization Review</strong></summary>
+
 **Not just grammar checking** - ini tentang overall communication effectiveness.
 
 **Key focus areas:**
@@ -112,12 +120,14 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - Inconsistent character personality di dialogue
 - Cultural references yang confusing atau inappropriate
 - Terminology yang berubah-ubah tanpa reason
+
 </details>
 
 ### 🖋️ **Typography & Visual Presentation**
 
 <details>
-<summary>🎨 **Technical Excellence Review**</summary>
+<summary>🎨 <strong>Technical Excellence Review</strong></summary>
+
 **Pixel-perfect standards** - QC harus punya mata untuk visual inconsistency yang subtle.
 
 **Typography checklist:**
@@ -137,12 +147,14 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Art style integration** - Typeset elements blend seamlessly?
 - **Perspective accuracy** - 3D text placement correct untuk panel perspective?
 - **Mood consistency** - Typography support scene atmosphere?
+
 </details>
 
 ### 🧹 **Technical Quality Control**
 
 <details>
-<summary>⚙️ **Production Standards Verification**</summary>
+<summary>⚙️ <strong>Production Standards Verification</strong></summary>
+
 **Behind-the-scenes technical excellence** yang affect user experience tapi tidak immediately obvious.
 
 **File quality checks:**
@@ -161,6 +173,7 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Cross-platform compatibility** - Looks good di mobile, tablet, desktop?
 - **Reader app testing** - Compatible dengan popular manga reader apps?
 - **Print quality** - Maintainkan quality jika printed (untuk physical releases)?
+
 </details>
 
 ## 🎓 Path to Become QC
@@ -193,7 +206,8 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 ### 🎯 **Skill Development Phases**
 
 <details>
-<summary>📚 **Phase 1: Multi-Role Mastery (Tahun 1-2)**</summary>
+<summary>📚 <strong>Phase 1: Multi-Role Mastery (Tahun 1-2)</strong></summary>
+
 **Goal:** Become competent di multiple scanlation roles
 
 **Focus activities:**
@@ -213,10 +227,12 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - Team members seek feedback dari kamu
 - Comfortable teaching basic skills ke newcomers
 - Personal work quality consistently high
+
 </details>
 
 <details>
-<summary>🔍 **Phase 2: Critical Eye Development (Tahun 2-3)**</summary>
+<summary>🔍 <strong>Phase 2: Critical Eye Development (Tahun 2-3)</strong></summary>
+
 **Goal:** Develop advanced quality assessment capabilities
 
 **Skill building:**
@@ -236,10 +252,12 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - Feedback yang helpful dan well-received oleh team
 - Ability to prioritize critical vs minor issues
 - Understanding of reader impact dari different quality levels
+
 </details>
 
 <details>
-<summary>👑 **Phase 3: QC Leadership (Tahun 3+)**</summary>
+<summary>👑 <strong>Phase 3: QC Leadership (Tahun 3+)</strong></summary>
+
 **Goal:** Full QC responsibility dengan leadership capabilities
 
 **Advanced responsibilities:**
@@ -259,6 +277,7 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - Ability to make difficult quality decisions under pressure
 - Track record of preventing major quality disasters
 - Recognition from scanlation community sebagai quality expert
+
 </details>
 
 ## ⚙️ QC Workflow & Methodology
@@ -296,7 +315,8 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 ### 📊 **Error Classification & Prioritization**
 
 <details>
-<summary>🚨 **Critical Issues (MUST FIX)**</summary>
+<summary>🚨 <strong>Critical Issues (MUST FIX)</strong></summary>
+
 **Release blockers** - Issues yang akan significantly damage reader experience:
 
 - **Major translation errors** - Wrong meaning, character misidentification
@@ -306,10 +326,12 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Technical failures** - Corrupted files, missing pages, format incompatibilities
 
 **Response:** Stop release, coordinate immediate fixes, rerun full QC after correction
+
 </details>
 
 <details>
-<summary>⚠️ **High Priority (SHOULD FIX)**</summary>
+<summary>⚠️ <strong>High Priority (SHOULD FIX)</strong></summary>
+
 **Quality degraders** - Noticeable issues yang affect professional standards:
 
 - **Grammar errors** - Obvious mistakes yang break reading flow
@@ -319,10 +341,12 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Layout problems** - Suboptimal bubble placement, minor flow disruptions
 
 **Response:** Document for correction, assess time constraints, fix if feasible within schedule
+
 </details>
 
 <details>
-<summary>💡 **Enhancement Opportunities (COULD IMPROVE)**</summary>
+<summary>💡 <strong>Enhancement Opportunities (COULD IMPROVE)</strong></summary>
+
 **Polish potential** - Areas untuk improvement yang tidak critical:
 
 - **Style refinements** - Better font choices, improved spacing
@@ -331,6 +355,7 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Flow optimizations** - Minor layout adjustments untuk better reading experience
 
 **Response:** Note for future reference, implement if time permits, include di team training examples
+
 </details>
 
 ## 🛠️ QC Tools & Resources
@@ -362,7 +387,8 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 ### 📚 **Knowledge Base Development**
 
 <details>
-<summary>📖 **Personal QC Library**</summary>
+<summary>📖 <strong>Personal QC Library</strong></summary>
+
 **Systematic knowledge collection** untuk consistent quality decisions:
 
 **Reference Collections:**
@@ -382,6 +408,7 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Priority matrices** - Resource allocation untuk different issue types
 - **Team communication templates** - Efficient feedback delivery methods
 - **Process checklists** - Systematic approach untuk complex projects
+
 </details>
 
 ## 🎯 Advanced QC Specializations
@@ -389,7 +416,8 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 ### 🌏 **Localization Quality Specialist**
 
 <details>
-<summary>🗣️ **Cultural Adaptation Expert**</summary>
+<summary>🗣️ <strong>Cultural Adaptation Expert</strong></summary>
+
 **Beyond translation** - ensuring cultural resonance untuk Indonesian audience:
 
 **Specialization focus:**
@@ -405,12 +433,14 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Localization ethics** - Balance antara accuracy dan cultural appropriateness
 
 **Career pathway:** Indonesian localization consultant untuk official publishers, cultural advisor untuk media companies
+
 </details>
 
 ### 🖥️ **Technical Quality Specialist**
 
 <details>
-<summary>⚙️ **Production Excellence Expert**</summary>
+<summary>⚙️ <strong>Production Excellence Expert</strong></summary>
+
 **Behind-the-scenes perfection** untuk optimal technical delivery:
 
 **Technical focus areas:**
@@ -426,6 +456,7 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Quality automation** - Scripting dan tools untuk systematic quality verification
 
 **Professional applications:** Digital publishing consultant, quality assurance untuk official manga publishers, technical advisor untuk scanlation communities
+
 </details>
 
 ## ✅❌ QC Best Practices & Pitfalls
@@ -571,7 +602,8 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 ### 🌟 **QC Excellence Recognition**
 
 <details>
-<summary>🎖️ **Professional Milestones**</summary>
+<summary>🎖️ <strong>Professional Milestones</strong></summary>
+
 **Measurable achievements** yang indicate QC mastery:
 
 **Technical Excellence:**
@@ -591,6 +623,7 @@ Kemampuan menganalisis **WHY** something feels off, bukan cuma detect THAT somet
 - **Reader appreciation** - Community feedback yang recognize quality impact
 - **Skill transfer** - Ability untuk teach QC skills ke others effectively
 - **Professional growth** - Opportunities dalam related industries based on QC experience
+
 </details>
 
 ### 🚀 **Beyond Scanlation: Professional Applications**

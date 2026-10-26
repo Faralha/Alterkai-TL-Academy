@@ -1,7 +1,13 @@
 ---
 title: 'Translator'
 description: 'Penjelasan mendetail mengenai posisi Translator/Penerjemah.'
-
+icon: ✏️
+heroImage:
+  src: /img/translator/translator-header.png
+  alt: Contoh file hasil terjemahan
+prev:
+  link: /perkenalan
+  label: Perkenalan
 ---
 
 > **Menerjemahkan komik dari bahasa asing ke Indonesia dengan akurat dan natural**
@@ -11,25 +17,31 @@ Translator adalah tulang punggung dari sebuah scanlation. Tanpa terjemahan yang 
 ## 📊 Spesifikasi Posisi
 
 <details>
-<summary>📈 **Tingkat Kesulitan: Sedang**</summary>
+<summary>📈 <strong>Tingkat Kesulitan: Sedang</strong></summary>
+
 Memerlukan kemampuan bahasa yang baik dan pemahaman konteks budaya. Tidak hanya menerjemahkan kata-kata, tapi juga nuansa dan feeling dari dialog original.
+
 </details>
 
 <details>
-<summary>⏱️ **Estimasi Waktu: 1-2 Hari/Chapter**</summary>
+<summary>⏱️ <strong>Estimasi Waktu: 1-2 Hari/Chapter</strong></summary>
+
 Waktu dapat bervariasi tergantung:
 - Panjang chapter (15-30 halaman)
 - Kompleksitas dialog dan terminology
 - Penelitian referensi yang dibutuhkan
 - Tingkat kesulitan bahasa sumber
+
 </details>
 
 <details>
-<summary>📄 **Format Pengumpulan: *.txt**</summary>
+<summary>📄 <strong>Format Pengumpulan: *.txt</strong></summary>
+
 File teks sederhana yang mudah dibaca dan diedit oleh semua tim. Format yang universal dan tidak memerlukan software khusus.
+
 </details>
 
-## :star: Kriteria Ideal Seorang Translator :star:
+## ⭐ Kriteria Ideal Seorang Translator ⭐
 
 Sebagai satu-satunya translator dalam proyek scanlation, kamu harus memiliki kemampuan yang komprehensif dan bisa menangani berbagai aspek penerjemahan secara mandiri.
 
@@ -79,7 +91,8 @@ Manga diterjemahkan per unit bubble dialog - setiap kotak percakapan diterjemahk
 ### 📋 Format & Standar Pengumpulan
 
 <details>
-<summary>📄 **Template File .txt**</summary>
+<summary>📄 <strong>Template File .txt</strong></summary>
+
 ```
 JUDUL: [Nama Manga] (contoh: Mahou Shoujo ni Akogarete)
 CHAPTER: [Chapter] (contoh: Ch. 10)
@@ -93,6 +106,7 @@ hi: hai, ...
 HAL. 2
 we: Kita kudu berangkat sekarang
 ```
+
 </details>
 
 :::caution[⚠️ **Aturan Wajib**]
@@ -109,7 +123,8 @@ we: Kita kudu berangkat sekarang
 ### 🇬🇧➡️🇮🇩 English to Indonesian
 
 <details>
-<summary>📄 **Assassin Ch. 10.txt**</summary>
+<summary>📄 <strong>Assassin Ch. 10.txt</strong></summary>
+
 ```
 Assassin and Cinderella
 Ch. 10
@@ -134,23 +149,30 @@ amai-san!
 where: mau kemana kita…?
 
 ```
+
 </details>
 
+Contoh lain hasil terjemahan EN-ID (setiap baris diawali kata pertama dari teks RAW sebagai penanda):
+
+![Contoh file terjemahan EN-ID](/img/translator/example.png)
 
 <details>
-<summary>💡 **Analisis Terjemahan EN-ID**</summary>
+<summary>💡 <strong>Analisis Terjemahan EN-ID</strong></summary>
+
 Terjemahan dari English ke Indonesian umumnya lebih straightforward karena:
 - Struktur kalimat yang relatif mirip
 - Banyak kosakata serapan yang sudah familiar
 - Konteks budaya Barat yang sudah banyak dikenal
 
 **Tips:** Fokus pada naturalisasi bahasa agar tidak terasa kaku atau Google Translate.
+
 </details>
 
 ### 🇯🇵➡️🇮🇩 Japanese to Indonesian  
 
 <details>
-<summary>📄 **Gunbured Ch. 16.txt**</summary>
+<summary>📄 <strong>Gunbured Ch. 16.txt</strong></summary>
+
 ```
 Gunbured x Sisters
 Chapter 16 嫌な予感　・　 Firasat Buruk
@@ -177,10 +199,16 @@ TL ria
 君たち教団を: Kami tidak akan membiarkan kalian lenyap kok.
 本気になれば: Santai saja. Sekali vampir darah murni serius, kami tidak terkalahkan♥
 ```
+
 </details>
 
+Contoh lain hasil terjemahan JP-ID:
+
+![Contoh file terjemahan JP-ID](/img/translator/tl-jp.png)
+
 <details>
-<summary>🌸 **Analisis Terjemahan JP-ID**</summary>
+<summary>🌸 <strong>Analisis Terjemahan JP-ID</strong></summary>
+
 Terjemahan dari Japanese memiliki tantangan khusus:
 - **Honorifics** - san, kun, chan, senpai (pertahankan atau adaptasi?)
 - **Keigo** - Tingkat kesopanan dalam bahasa Jepang  
@@ -188,6 +216,7 @@ Terjemahan dari Japanese memiliki tantangan khusus:
 - **Partikel** - wa, ga, wo yang tidak ada padanannya
 
 **Tips:** Pahami konteks situasi dan hubungan antar karakter untuk menentukan register bahasa yang tepat.
+
 </details>
 
 :::tip[🎯 **Penanda Dialog**]
@@ -203,7 +232,7 @@ Gunakan **2-3 kata pertama dari teks original** sebagai penanda untuk memudahkan
 ### ✅ **Yang HARUS Dilakukan**
 
 :::tip[📝 **1. Terjemah per Kalimat Utuh**]
-**✅ Benar:** Terjemahkan sebagai satu kesatuan kalimat yang lengkap
+**✅ Benar:** <mark>Terjemahkan sebagai satu kesatuan kalimat yang lengkap</mark>
 - "I'm going to the store" → "Aku mau ke toko"
 
 **❌ Salah:** Terjemah kata per kata  
@@ -229,7 +258,7 @@ Konteks kalimat utuh memberikan makna yang tepat dan natural.
 - 🎮 **Official Release** - Cek terjemahan resmi jika ada
 - 👥 **Community Forums** - Reddit, MyAnimeList discussions
 
-**Contoh Kasus:** Nama karakter sering berbeda antar region  
+**Contoh Kasus:** <mark>Nama karakter sering berbeda antar region</mark>  
 `Celestia (Global) ≠ Xinghui (CN) - gunakan yang familiar bagi pembaca Indonesia`
 :::
 
@@ -294,7 +323,8 @@ Jangan hanya jadi "penerjemah" - jadilah **"penulis ulang cerita"** dalam bahasa
 ### 📚 **Skill yang Perlu Dikembangkan**
 
 <details>
-<summary>🌐 **Kemampuan Bahasa**</summary>
+<summary>🌐 <strong>Kemampuan Bahasa</strong></summary>
+
 **Bahasa Sumber (minimal salah satu):**
 - 🇯🇵 **Japanese** - Untuk manga/light novel Jepang (paling umum)
 - 🇬🇧 **English** - Untuk manhwa/manhua yang sudah diterjemahkan ke EN
@@ -303,22 +333,27 @@ Jangan hanya jadi "penerjemah" - jadilah **"penulis ulang cerita"** dalam bahasa
 
 **Bahasa Target:**
 - 🇮🇩 **Bahasa Indonesia** - Harus fasih dan natural, pahami ragam formal-informal
+
 </details>
 
 <details>
-<summary>📖 **Pengetahuan Budaya Pop**</summary>
+<summary>📖 <strong>Pengetahuan Budaya Pop</strong></summary>
+
 - **Anime/Manga Terminology** - Istilah umum yang sudah diadopsi fans
 - **Gaming Terms** - Skill, stats, RPG elements  
 - **Internet Slang** - Meme dan bahasa anak muda yang relevan
 - **Cultural Context** - Tradisi, makanan, sistem sekolah, dll
+
 </details>
 
 <details>
-<summary>🔧 **Tools & Software**</summary>
+<summary>🔧 <strong>Tools & Software</strong></summary>
+
 - **Text Editor** - Notepad++, VS Code, atau yang nyaman
 - **Dictionary Apps** - Jisho.org, Google Translate, KBBI
 - **Image Viewer** - Untuk melihat raw manga sambil translate
 - **OCR Software** - Untuk extract text dari image (opsional)
+
 </details>
 
 ### 🎯 **Cara Bergabung dengan Tim Scanlation**

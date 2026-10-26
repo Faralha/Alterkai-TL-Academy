@@ -1,7 +1,7 @@
 ---
 title: 'Cleaner'
 description: 'Penjelasan mendetail mengenai posisi Cleaner.'
-
+icon: 🧹
 ---
 
 > **Mengubah halaman manga mentah menjadi kanvas bersih yang siap untuk dipoles typesetter**
@@ -11,25 +11,31 @@ Cleaner adalah ninja di balik layar yang membuat magic happen. Tanpa mereka, typ
 ## 📊 Spesifikasi Posisi
 
 <details>
-<summary>📈 **Tingkat Kesulitan: Susah**</summary>
+<summary>📈 <strong>Tingkat Kesulitan: Susah</strong></summary>
+
 Membutuhkan kombinasi skill teknis aplikasi editing, mata artistik untuk recreate background, dan kesabaran untuk detail work yang memakan waktu lama. Setiap kesalahan akan keliatan di hasil final.
+
 </details>
 
 <details>
-<summary>⏱️ **Estimasi Waktu: 1-2 Hari/Chapter**</summary>
+<summary>⏱️ <strong>Estimasi Waktu: 1-2 Hari/Chapter</strong></summary>
+
 Waktu sangat bervariasi tergantung:
 - Kompleksitas background dan jumlah teks
 - Level cleaning yang dibutuhkan (0-3)
 - Quality standard tim dan personal skill
 - Condition raw manga (scan quality, noise level)
 - Tools dan software yang digunakan
+
 </details>
 
 <details>
-<summary>📄 **Format Pengumpulan: Multiple**</summary>
+<summary>📄 <strong>Format Pengumpulan: Multiple</strong></summary>
+
 - 🖼️ **Indonesia:** `*.png, *.jpg` - Hasil final untuk typesetter
 - 🗂️ **Professional:** `*.psd, *.psb` - Working files dengan layers intact
 - 📁 **Backup:** Source files untuk revision dan emergency
+
 </details>
 
 ## 🌟 Kriteria Ideal Seorang Cleaner
@@ -96,7 +102,8 @@ Setiap halaman manga punya tingkat kesulitan cleaning yang berbeda. Memahami lev
 
 ### 📝 **Level 0: Dialog Bubble** 
 <details>
-<summary>🟢 **Kesulitan: Sangat Mudah**</summary>
+<summary>🟢 <strong>Kesulitan: Sangat Mudah</strong></summary>
+
 **Target:** Menghapus teks yang berada di dalam bubble dialog saja.
 
 **Karakteristik:**
@@ -111,11 +118,13 @@ Setiap halaman manga punya tingkat kesulitan cleaning yang berbeda. Memahami lev
 
 **Estimasi Waktu:** 15-30 menit per chapter
 **Skill Level:** Pemula friendly
+
 </details>
 
 ### 🔷 **Level 1: Teks di Background Polos**
 <details>
-<summary>🔵 **Kesulitan: Mudah**</summary>
+<summary>🔵 <strong>Kesulitan: Mudah</strong></summary>
+
 **Target:** Menghapus teks di luar bubble pada background solid/polos.
 
 **Karakteristik:**
@@ -131,11 +140,13 @@ Setiap halaman manga punya tingkat kesulitan cleaning yang berbeda. Memahami lev
 **Tips:** Gunakan eyedropper untuk sample warna background yang tepat
 **Estimasi Waktu:** 30-60 menit per chapter  
 **Skill Level:** Pemula dengan sedikit ketelitian
+
 </details>
 
 ### 🔶 **Level 2: Background Gradasi**
 <details>
-<summary>🟠 **Kesulitan: Sedang**</summary>
+<summary>🟠 <strong>Kesulitan: Sedang</strong></summary>
+
 **Target:** Menghapus teks dari background yang punya gradasi warna atau tekstur.
 
 **Karakteristik:**
@@ -151,11 +162,13 @@ Setiap halaman manga punya tingkat kesulitan cleaning yang berbeda. Memahami lev
 **Challenge:** Bikin ulang gradasi yang natural dan seamless
 **Estimasi Waktu:** 1-3 jam per chapter
 **Skill Level:** Intermediate, butuh Photoshop
+
 </details>
 
 ### 🔴 **Level 3: Background Kompleks + Dense Text**
 <details>
-<summary>🔴 **Kesulitan: Sangat Sulit (Final Boss)**</summary>
+<summary>🔴 <strong>Kesulitan: Sangat Sulit (Final Boss)</strong></summary>
+
 **Target:** Cleaning dari background dengan objek, detail, atau banyak teks.
 
 **Karakteristik:**
@@ -176,6 +189,7 @@ Setiap halaman manga punya tingkat kesulitan cleaning yang berbeda. Memahami lev
 **Skill Level:** Advanced, butuh experience dan patience tinggi
 
 **Pro Tip:** Keahlian memilih area sumber Content Aware Fill adalah game changer di level ini!
+
 </details>
 
 ### 🎮 **Progression Path**
@@ -254,10 +268,12 @@ Jika **Content Aware Fill tidak bisa digunakan**, kemungkinan besar layer belum 
 ![Content Aware Fill Menu](/img/cleaner/step2.png)
 
 <details>
-<summary>🎛️ **Akses Content Aware Fill**</summary>
+<summary>🎛️ <strong>Akses Content Aware Fill</strong></summary>
+
 **Path:** `Edit > Content Aware Fill`
 
 Shortcut alternatif: `Shift + F5` → Pilih "Content-Aware"
+
 </details>
 
 #### 🔧 **Pengaturan Mode Custom**
@@ -324,7 +340,8 @@ Jangan expect perfect di attempt pertama!
 ### 🖌️ **Manual Cleaning Methods**
 
 <details>
-<summary>🎨 **Brush Technique**</summary>
+<summary>🎨 <strong>Brush Technique</strong></summary>
+
 **Kapan digunakan:**
 - Background polos yang gampang di-match
 - Touch-up setelah Content Aware Fill
@@ -334,10 +351,12 @@ Jangan expect perfect di attempt pertama!
 - Gunakan soft brush dengan opacity 50-80%
 - Build up coverage secara gradual
 - Match pressure dan flow dengan background texture
+
 </details>
 
 <details>
-<summary>🧬 **Clone Stamp Mastery**</summary>
+<summary>🧬 <strong>Clone Stamp Mastery</strong></summary>
+
 **Perfect untuk:**
 - Pattern repetitive (wallpaper, bricks, etc)
 - Texture organic (grass, clouds, hair)
@@ -347,6 +366,7 @@ Jangan expect perfect di attempt pertama!
 - Gunakan multiple clone sources untuk variasi
 - Adjust brush hardness sesuai texture target
 - Rotate dan scale clone source untuk natural look
+
 </details>
 
 ### 🚫 **Tools yang HARAM Digunakan**
@@ -391,7 +411,8 @@ Ini adalah **salah satu cleaning + typeset tersulit** selama nge-TL di Alterkai.
 ### 📈 **Learning Path Recommendations**
 
 <details>
-<summary>🎯 **Fase 1: Foundation (Minggu 1-2)**</summary>
+<summary>🎯 <strong>Fase 1: Foundation (Minggu 1-2)</strong></summary>
+
 **Focus:** Master basic tools dan Level 0-1 cleaning
 
 **Essential Skills:**
@@ -406,10 +427,12 @@ Ini adalah **salah satu cleaning + typeset tersulit** selama nge-TL di Alterkai.
 - Build confidence dengan volume cleaning
 
 **Success Metric:** Bisa clean 1 chapter Level 0-1 dalam 1 jam
+
 </details>
 
 <details>
-<summary>🎪 **Fase 2: Intermediate (Minggu 3-8)**</summary>
+<summary>🎪 <strong>Fase 2: Intermediate (Minggu 3-8)</strong></summary>
+
 **Focus:** Content Aware Fill mastery dan Level 2 cleaning
 
 **Advanced Skills:**
@@ -424,10 +447,12 @@ Ini adalah **salah satu cleaning + typeset tersulit** selama nge-TL di Alterkai.
 - Build personal technique library
 
 **Success Metric:** Comfortable handle Level 2, occasional Level 3 success
+
 </details>
 
 <details>
-<summary>👑 **Fase 3: Advanced (Bulan 2+)**</summary>
+<summary>👑 <strong>Fase 3: Advanced (Bulan 2+)</strong></summary>
+
 **Focus:** Level 3 mastery dan efficiency optimization
 
 **Professional Skills:**
@@ -442,6 +467,7 @@ Ini adalah **salah satu cleaning + typeset tersulit** selama nge-TL di Alterkai.
 - Mentor junior cleaners
 
 **Success Metric:** Consistent Level 3 quality, efficient workflow
+
 </details>
 
 ### 💪 **Mindset & Motivation**

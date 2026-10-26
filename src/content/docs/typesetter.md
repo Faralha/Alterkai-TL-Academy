@@ -1,37 +1,44 @@
 ---
 title: 'Typesetter'
 description: 'Penjelasan mendetail mengenai posisi Typesetter.'
-
+icon: 🖋️
+heroImage:
+  src: /img/typesetter/typesetter-header.png
+  alt: Typesetter Header
 ---
 
 > **Mengubah raw manga menjadi karya seni yang siap dibaca dengan menggabungkan visual dan teks secara harmonis**
 
 Typesetter adalah seniman digital yang bertanggung jawab membuat terjemahan menjadi hidup di halaman manga. Lebih dari sekedar memasukkan teks, posisi ini membutuhkan mata estetik, kesabaran tinggi, dan pemahaman mendalam tentang flow visual manga.
 
-![Typesetter Header](/img/typesetter/typesetter-header.png)
-
 ## 📊 Spesifikasi Posisi
 
 <details>
-<summary>📈 **Tingkat Kesulitan: Susah**</summary>
+<summary>📈 <strong>Tingkat Kesulitan: Susah</strong></summary>
+
 Membutuhkan kombinasi skill teknis (software editing), artistik (typography & layout), dan perhatian detail yang tinggi. Setiap bubble harus perfect sebelum release.
+
 </details>
 
 <details>
-<summary>⏱️ **Estimasi Waktu: 2-3 Hari/Chapter**</summary>
+<summary>⏱️ <strong>Estimasi Waktu: 2-3 Hari/Chapter</strong></summary>
+
 Waktu dapat bervariasi tergantung:
 - Jumlah halaman dan dialog density
 - Kompleksitas layout dan bubble shapes
 - Quality standard tim scanlation
 - Experience level typesetter
 - Clean quality dari cleaner sebelumnya
+
 </details>
 
 <details>
-<summary>📄 **Format Pengumpulan: Multiple**</summary>
+<summary>📄 <strong>Format Pengumpulan: Multiple</strong></summary>
+
 - 🖼️ **Indonesia:** `*.png, *.jpg` - Hasil final export
 - 🗂️ **Luar Negeri:** `*.psd, *.psb` - Working files untuk revision
 - 📁 **Backup:** Source files untuk maintenance
+
 </details>
 
 ## 🌟 Kriteria Ideal Seorang Typesetter
@@ -103,7 +110,8 @@ Ini adalah dosa besar dalam dunia tipografi dan akan langsung merusak kredibilit
 ### 📚 **Manga (Japanese Style)**
 
 <details>
-<summary>🗾 **Rekomendasi Font untuk Manga**</summary>
+<summary>🗾 <strong>Rekomendasi Font untuk Manga</strong></summary>
+
 Manga membutuhkan font yang bersih, mudah dibaca, tapi tetap punya karakter yang cocok dengan gaya gambar Jepang.
 
 **📝 Dialog Biasa:**
@@ -120,6 +128,7 @@ Manga membutuhkan font yang bersih, mudah dibaca, tapi tetap punya karakter yang
 
 **🤫 Bisik/Ngomong Kecil:**
 - `Shadows Into Light` ([Google Fonts](https://fonts.google.com/specimen/Shadows+Into+Light)) - Nuansa tulisan tangan yang natural
+
 </details>
 
 ![Font Example](/img/typesetter/contoh-font.png)
@@ -127,7 +136,8 @@ Manga membutuhkan font yang bersih, mudah dibaca, tapi tetap punya karakter yang
 ### 📱 **Manhwa/Manhua (Webtoon Style)**
 
 <details>
-<summary>🌏 **Rekomendasi Font untuk Webtoon**</summary>
+<summary>🌏 <strong>Rekomendasi Font untuk Webtoon</strong></summary>
+
 Manhwa/Manhua umumnya punya gaya gambar yang lebih modern dan berwarna-warni, jadi fontnya bisa lebih beragam.
 
 **📝 Dialog Biasa:**
@@ -141,6 +151,7 @@ Manhwa/Manhua umumnya punya gaya gambar yang lebih modern dan berwarna-warni, ja
 
 **🤏 Teks Kecil:**
 - `Telefante Bold` - Tetap mudah dibaca di ukuran kecil
+
 </details>
 
 ### 📥 **Font Resources**
@@ -266,7 +277,8 @@ Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 ### 🎨 **Creative Techniques**
 
 <details>
-<summary>💫 **Tipografi Efek Khusus**</summary>
+<summary>💫 <strong>Tipografi Efek Khusus</strong></summary>
+
 **Tipografi Sound Effect (SFX):**
 - Font lebih besar dan tebal untuk suara benturan
 - Teks melengkung untuk efek gerakan  
@@ -277,6 +289,7 @@ Berikan ruang nafas antara teks dan tepi bubble untuk kenyamanan visual.
 - Font sedikit lebih kecil dan tipis untuk momen sedih
 - Teks bergetar/terdistorsi untuk kejutan atau takut
 - Gradien fade untuk kesadaran yang memudar
+
 </details>
 
 ### 📱 **Mobile-First Consideration**
@@ -295,7 +308,8 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 ### 📈 **Learning Path & Skill Development**
 
 <details>
-<summary>🎯 **Fase 1: Dasar (Bulan 1-2)**</summary>
+<summary>🎯 <strong>Fase 1: Dasar (Bulan 1-2)</strong></summary>
+
 **Skill Penting:**
 - 🖥️ **Penguasaan Aplikasi** - Pilih satu alat utama dan kuasai fungsi dasar
 - 📖 **Alur Baca** - Pahami alur panel manga dan hirarki bubble dialog  
@@ -306,10 +320,12 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 - Typeset oneshot pendek (10-15 halaman)
 - Remake halaman manga terkenal dengan gaya sendiri
 - Gabung grup latihan atau tantangan komunitas
+
 </details>
 
 <details>
-<summary>🎪 **Fase 2: Menengah (Bulan 3-6)**</summary>
+<summary>🎪 <strong>Fase 2: Menengah (Bulan 3-6)</strong></summary>
+
 **Skill Lanjutan:**
 - 🎨 **Tipografi Kreatif** - Styling SFX, variasi font emosional
 - ⚡ **Optimasi Kecepatan** - Kembangkan alur kerja dan shortcut pribadi
@@ -320,10 +336,12 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 - Gabung tim scanlation mapan sebagai typesetter cadangan
 - Ambil komitmen series reguler (bulanan/mingguan)
 - Eksperimen dengan genre berbeda (action, romance, comedy)
+
 </details>
 
 <details>
-<summary>👑 **Fase 3: Ahli (Bulan 6+)**</summary>
+<summary>👑 <strong>Fase 3: Ahli (Bulan 6+)</strong></summary>
+
 **Skill Profesional:**
 - 🎯 **Konsistensi Gaya** - Kembangkan standar kualitas khas
 - 📋 **Manajemen Proyek** - Tangani multiple series bersamaan  
@@ -334,6 +352,7 @@ Mayoritas pembaca sekarang baca di HP, jadi:
 - Posisi lead typesetter
 - Kontrol kualitas untuk tipografi
 - Koordinator pelatihan untuk member baru
+
 </details>
 
 ### 💰 **Career Opportunities & Monetization**

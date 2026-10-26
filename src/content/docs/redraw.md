@@ -1,7 +1,7 @@
 ---
 title: 'Redraw'
 description: 'Penjelasan mendetail mengenai posisi Redraw.'
-
+icon: 🎨
 ---
 
 > **Seniman digital yang menghidupkan kembali elemen visual yang hilang, menciptakan seamless art experience untuk pembaca**
@@ -11,25 +11,31 @@ Redraw adalah posisi paling artistik dalam tim scanlation. Ketika cleaning gagal
 ## 📊 Spesifikasi Posisi
 
 <details>
-<summary>📈 **Tingkat Kesulitan: Sedang-Tinggi**</summary>
+<summary>📈 <strong>Tingkat Kesulitan: Sedang-Tinggi</strong></summary>
+
 Membutuhkan kombinasi skill menggambar tradisional, digital art techniques, dan kemampuan analisis visual untuk meniru art style orang lain dengan akurat. Level kesulitan sangat tergantung kompleksitas artwork original.
+
 </details>
 
 <details>
-<summary>⏱️ **Estimasi Waktu: 1-3 Hari/Chapter**</summary>
+<summary>⏱️ <strong>Estimasi Waktu: 1-3 Hari/Chapter</strong></summary>
+
 Waktu sangat bervariasi tergantung:
 - Kompleksitas art style manga (simple vs detailed)
 - Jumlah area yang butuh redraw per chapter
 - Level kerusakan dari proses cleaning sebelumnya
 - Experience level dalam meniru art style specific
 - Tools dan hardware yang digunakan (tablet, stylus quality)
+
 </details>
 
 <details>
-<summary>📄 **Format Pengumpulan: Fleksibel**</summary>
+<summary>📄 <strong>Format Pengumpulan: Fleksibel</strong></summary>
+
 - 🖼️ **Final Output:** `*.png, *.jpg` - Hasil akhir untuk typesetter
 - 🗂️ **Working Files:** `*.psd, *.psb, *.clip` - Source files dengan layers
 - 📁 **Reference Pack:** Screenshots original untuk quality check
+
 </details>
 
 ## 🌟 Kriteria Ideal Seorang Redrawer
@@ -136,7 +142,8 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 ### 🖊️ **Hardware Requirements**
 
 <details>
-<summary>📱 **Drawing Tablet Recommendations**</summary>
+<summary>📱 <strong>Drawing Tablet Recommendations</strong></summary>
+
 **Entry Level:**
 - **Wacom Intuos** ($60-80) - Reliable, driver support excellent
 - **Huion H610 Pro** ($40-60) - Budget option dengan good performance
@@ -151,6 +158,7 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 - Pressure sensitivity: minimum 2048 levels (8192 recommended)
 - Active area: minimum 6x4 inch (10x6 recommended)
 - Tilt support: optional tapi helpful untuk natural shading
+
 </details>
 
 ## 🎯 Redraw Techniques & Approaches
@@ -158,7 +166,8 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 ### 🖌️ **Basic Redraw Methods**
 
 <details>
-<summary>🎨 **1. Line Art Recreation**</summary>
+<summary>🎨 <strong>1. Line Art Recreation</strong></summary>
+
 **Kapan digunakan:** Character outlines, panel borders, simple geometric shapes
 
 **Technique:**
@@ -171,10 +180,12 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 - Zoom in untuk precision, zoom out untuk overall flow check
 - Use reference grid atau guidelines untuk proportions
 - Vector layers jika software support (easy scaling/editing)
+
 </details>
 
 <details>
-<summary>🌈 **2. Color & Tone Matching**</summary>
+<summary>🌈 <strong>2. Color & Tone Matching</strong></summary>
+
 **Kapan digunakan:** Flat colors, screentones, gradient backgrounds
 
 **Technique:**
@@ -187,10 +198,12 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 - Multiple sampling points untuk color variation
 - Noise/texture overlay untuk paper texture matching
 - Adjustment layers untuk global color correction
+
 </details>
 
 <details>
-<summary>🖼️ **3. Texture & Pattern Recreation**</summary>
+<summary>🖼️ <strong>3. Texture & Pattern Recreation</strong></summary>
+
 **Kapan digunakan:** Hair, fabric, backgrounds, natural elements
 
 **Technique:**
@@ -203,12 +216,14 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 - Save common textures sebagai custom brushes
 - Document artist-specific pattern preferences
 - Build personal reference library per series
+
 </details>
 
 ### 🚀 **Advanced Techniques**
 
 <details>
-<summary>🎪 **Perspective & 3D Reconstruction**</summary>
+<summary>🎪 <strong>Perspective & 3D Reconstruction</strong></summary>
+
 **For complex backgrounds dan architectural elements**
 
 **Tools:**
@@ -223,10 +238,12 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 3. Rough sketch basic shapes
 4. Refine details maintaining perspective rules
 5. Final render dengan appropriate line weights
+
 </details>
 
 <details>
-<summary>🔬 **Style Analysis & Mimicry**</summary>
+<summary>🔬 <strong>Style Analysis & Mimicry</strong></summary>
+
 **Deep dive into artist's visual language**
 
 **Analysis Points:**
@@ -241,6 +258,7 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 - Practice drawing sama character dari different angles
 - Recreate existing panels sebagai training exercise
 - Build style guide document untuk future reference
+
 </details>
 
 ## 📚 Learning Path untuk Redrawer
@@ -248,7 +266,8 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 ### 🎯 **Phase 1: Foundation Skills (Bulan 1-2)**
 
 <details>
-<summary>📖 **Essential Art Fundamentals**</summary>
+<summary>📖 <strong>Essential Art Fundamentals</strong></summary>
+
 **Basic Drawing Skills:**
 - Line control dan confidence building
 - Basic perspective dan proportions  
@@ -268,10 +287,11 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 - Practice basic screentone application
 
 **Success Metric:** Comfortable dengan software, bisa recreate simple elements dengan guidance
+
 </details>
 
 <details>
-<summary>🎨 **Phase 2: Style Mimicry (Bulan 3-6)**</summary>
+<summary>🎨 <strong>Phase 2: Style Mimicry (Bulan 3-6)</strong></summary>
 
 **Intermediate Skills:**
 - Style analysis dan pattern recognition
@@ -292,10 +312,11 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 - Collaboration dengan cleaner untuk integrated workflow
 
 **Success Metric:** Bisa handle most common redraw tasks, results blend seamlessly dengan original art
+
 </details>
 
 <details>
-<summary>👑 **Phase 3: Professional Level (Bulan 6+)**</summary>
+<summary>👑 <strong>Phase 3: Professional Level (Bulan 6+)</strong></summary>
 
 **Advanced Skills:**
 - Multiple style versatility
@@ -316,6 +337,7 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 - Potential transition ke original artwork creation
 
 **Success Metric:** Consistent professional quality, efficient workflow, leadership capabilities
+
 </details>
 
 ### 💰 **Career Opportunities**
@@ -402,7 +424,8 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 ### 🏆 **Case Study 1: Character Hair Redraw**
 
 <details>
-<summary>💇 **Challenge: Complex Hair Texture**</summary>
+<summary>💇 <strong>Challenge: Complex Hair Texture</strong></summary>
+
 **Scenario:** Cleaning process damaged character's detailed hair rendering di multiple panels.
 
 **Analysis:**
@@ -421,12 +444,14 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 **Result:** Seamless integration yang readers tidak notice sebagai redraw work
 **Time Investment:** 2-3 jam per complex hair redraw
 **Lesson Learned:** Investment di custom brush creation pays off untuk repetitive elements
+
 </details>
 
 ### 🏢 **Case Study 2: Background Architecture**
 
 <details>
-<summary>🏗️ **Challenge: Complex Building Detail**</summary>
+<summary>🏗️ <strong>Challenge: Complex Building Detail</strong></summary>
+
 **Scenario:** Large text overlay destroyed significant portion dari detailed building background.
 
 **Complexity Factors:**
@@ -451,6 +476,7 @@ Bisa switch antara different art styles depending on series yang dikerjakan. Tid
 **Outcome:** Complex background yang maintain architectural accuracy dan artistic consistency
 **Time Investment:** 4-6 jam untuk major background reconstruction
 **Skills Developed:** Perspective construction, photo reference integration, patience untuk detail work
+
 </details>
 
 ## 🎪 Community & Resources

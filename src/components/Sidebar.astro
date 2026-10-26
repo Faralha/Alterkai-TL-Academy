@@ -19,7 +19,8 @@ const meta = PATHS[slug] ?? { jalur: 'TUTORIAL', total: 1, color: 'primary' };
 function countTutorials(items: any[]): number {
   let n = 0;
   for (const it of items) {
-    if (it.type === 'link') n++;
+    // External links (Alterkai Scans, Trakteer) aren't lessons.
+    if (it.type === 'link' && !/^https?:\/\//.test(it.href)) n++;
     if (it.entries) n += countTutorials(it.entries);
   }
   return n;

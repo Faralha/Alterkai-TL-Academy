@@ -1,7 +1,13 @@
 ---
 title: 'Perkenalan'
 description: 'Sebuah perkenalan singkat ke dalam dunia Scanlator.'
-
+icon: 📚
+heroImage:
+  src: /img/perkenalan/perkenalan-header.png
+  alt: Perkenalan dunia Scanlator
+next:
+  link: /translator
+  label: ✏️ Translator
 ---
 
 Sebelum belajar, kita harus tau apa saja istilah-istilah yang dipakai di dunia TL, beserta alur kerjanya.
@@ -12,15 +18,17 @@ Loh kok bukan? Terus TL itu artinya apa?
 
 ![Not Scanlator](/img/perkenalan/not-scanlator.png)
 
-Begini, TL itu bagian dari scanlator, tapi orang indonesia suka pakai bahasa "TL" sebagai "Mereka yang menerjemahkan komik", termasuk proses mengedit. Nggak salah sebenernya, cuman dalam konteks pembelajaran sekarang, rasanya kurang tepat.
+Begini, <mark>TL itu bagian dari scanlator,</mark> tapi orang indonesia suka pakai bahasa "TL" sebagai "Mereka yang menerjemahkan komik", termasuk proses mengedit. Nggak salah sebenernya, cuman dalam konteks pembelajaran sekarang, rasanya <mark>kurang tepat.</mark>
 
-Maka kedepannya, TL atau 'mereka yang mengedit manga ke Indonesia' akan disebut dengan "Scanlator", akronim dari Scan and Translate-or.
+Maka kedepannya, TL atau 'mereka yang mengedit manga ke Indonesia' akan <mark>disebut dengan "Scanlator",</mark> akronim dari Scan and Translate-or.
 
 :::note
 TL itu bagian dari Scanlator. Pelaku yang mengerjakannya disebut Scanlator.
 :::
 
 ## Posisi di dalam Scanlator
+
+![Posisi Scanlator: Translator, Typesetter, Cleaner, Redraw, Quality Control](/img/perkenalan/posisi-scanlator-2.png)
 
 :::tip[✏️ Translator]
 Bertugas menerjemahkan dari bahasa asing ke Indonesia. Memahami konteks cerita dan mencari referensi untuk menghasilkan terjemahan yang natural dan sesuai karakter.
@@ -54,7 +62,7 @@ Dalam situasi ideal, ada 4 fase utama sebuah scanlator berjalan.
 
 ![Workflow](/img/perkenalan/workflow.png)
 
-Seperti dilihat dalam gambar, setiap posisi akan memiliki titik start yang saling berbeda. Translator dan cleaning bisa mulai bersamaan, lantaran keduanya tidak saling terikat dan tidak ada ketergantungan (dependencies). Lain cerita dengan redraw, yang harus menunggu cleaning. Atau typesetter, yang harus menunggu redraw dan juga translator.
+Seperti dilihat dalam gambar, setiap posisi akan memiliki <mark>titik start yang saling berbeda.</mark> Translator dan cleaning bisa mulai bersamaan, lantaran keduanya tidak saling terikat dan tidak ada ketergantungan (dependencies). Lain cerita dengan redraw, yang harus menunggu cleaning. Atau typesetter, yang harus menunggu redraw dan juga translator.
 
 :::tip
 Translator✏️ dan Cleaner🧹 bisa mulai barengan/duluan. Beda dengan redraw yang butuh hasil dari Cleaning.

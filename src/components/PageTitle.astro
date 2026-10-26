@@ -21,6 +21,7 @@ const PATH_META: Record<
 
 const meta = PATH_META[slug] ?? { kind: 'MATERI', color: 'pink', trail: 'TUTORIAL' };
 const desc = entry.data.description;
+const { icon, heroImage } = entry.data;
 ---
 
 <div class="ak-page-head">
@@ -39,7 +40,18 @@ const desc = entry.data.description;
     <span class="ak-tut-meta">{slug ? `${slug}.md` : ''}</span>
   </div>
 
-  <h1 id={PAGE_TITLE_ID} class="ak-page-title">{entry.data.title}</h1>
+  <h1 id={PAGE_TITLE_ID} class="ak-page-title">
+    {icon && <span class="ak-page-title-icon" aria-hidden="true">{icon}</span>}
+    {entry.data.title}
+  </h1>
 
   {desc && <p class="ak-page-lede">{desc}</p>}
+
+  {
+    heroImage && (
+      <figure class="ak-page-banner">
+        <img src={heroImage.src} alt={heroImage.alt} loading="eager" decoding="async" />
+      </figure>
+    )
+  }
 </div>
