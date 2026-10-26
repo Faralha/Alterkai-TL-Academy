@@ -544,8 +544,15 @@ starlight-theme-select select {
 
 @media (max-width: 50rem) {
   .ak-header-link,
-  .ak-header-badge {
+  .ak-header-badge,
+  /* The mobile menu has its own theme picker. */
+  .ak-header-right starlight-theme-select {
     display: none;
+  }
+
+  /* Keep clear of Starlight's fixed menu button. */
+  :root[data-has-sidebar] .ak-header-right {
+    margin-inline-end: calc(var(--sl-menu-button-size) + var(--sl-nav-gap));
   }
 }
 
