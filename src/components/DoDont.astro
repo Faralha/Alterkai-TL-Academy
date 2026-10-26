@@ -1,0 +1,35 @@
+---
+// Two-column Do's / Don'ts block for MDX pages. Usage:
+//
+//   <DoDont>
+//   <div slot="do">
+//
+//   1. ...
+//
+//   </div>
+//   <div slot="dont">
+//
+//   1. ...
+//
+//   </div>
+//   </DoDont>
+//
+// Columns stack on narrow screens.
+interface Props {
+  doLabel?: string;
+  dontLabel?: string;
+}
+
+const { doLabel = "Do's", dontLabel = "Don'ts" } = Astro.props;
+---
+
+<div class="ak-dodont">
+  <section class="ak-dodont-col ak-dodont-col--do">
+    <p class="ak-dodont-label"><span aria-hidden="true">✓</span> {doLabel}</p>
+    <slot name="do" />
+  </section>
+  <section class="ak-dodont-col ak-dodont-col--dont">
+    <p class="ak-dodont-label"><span aria-hidden="true">✕</span> {dontLabel}</p>
+    <slot name="dont" />
+  </section>
+</div>

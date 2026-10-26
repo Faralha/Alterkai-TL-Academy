@@ -13,6 +13,14 @@ export const collections = {
         heroImage: z
           .object({ src: z.string(), alt: z.string().default('') })
           .optional(),
+        // Role summary shown as a strip under the page title.
+        spec: z
+          .object({
+            difficulty: z.string(),
+            time: z.string(),
+            format: z.string(),
+          })
+          .optional(),
       }),
     }),
   }),

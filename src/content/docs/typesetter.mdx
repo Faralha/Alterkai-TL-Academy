@@ -5,13 +5,15 @@ icon: 🖋️
 heroImage:
   src: /img/typesetter/typesetter-header.png
   alt: Typesetter Header
+spec:
+  difficulty: "Susah"
+  time: "2-3 hari/chapter"
+  format: "*.png, *.jpg, atau *.psd/*.psb"
 ---
 
-Typesetter bertugas memasukkan teks hasil terjemahan ke dalam halaman komik yang sudah dibersihkan. Bukan cuma tempel teks, tapi juga memilih font, ukuran, dan posisi supaya teksnya enak dibaca dan nyatu sama gambarnya.
+import DoDont from '../../components/DoDont.astro';
 
-- Tingkat kesulitan: `Susah`
-- Estimasi pengerjaan: `2-3 hari/chapter`
-- Format pengumpulan: `*.png`, `*.jpg`, atau `*.psd/*.psb`
+Typesetter bertugas memasukkan teks hasil terjemahan ke dalam halaman komik yang sudah dibersihkan. Bukan cuma tempel teks, tapi juga memilih font, ukuran, dan posisi supaya teksnya enak dibaca dan nyatu sama gambarnya.
 
 ## Aplikasi
 
@@ -45,20 +47,25 @@ Selain Google Fonts di atas, kalian harus nyari sendiri tempat download-nya, mis
 
 ## Do's and Don'ts
 
-### Do's
+<DoDont>
+<div slot="do">
 
 1. **Pisah file tiap halaman.** Satu file untuk satu halaman, bukan satu file untuk satu chapter. Jadi halaman 1 chapter 1 jadi file sendiri, halaman 2 file sendiri, dan seterusnya. Satu file per chapter sih boleh aja dan memang lebih cepat, tapi kalau ada revisi berarti cleaning dan typeset ulang. Ga praktis.
 2. **Rata tengah.** Teks rata tengah secara horizontal dan vertikal di dalam bubble.
 3. **Penggal kalimat kalau perlu.** Potong di tempat yang natural: setelah tanda baca, sebelum kata sambung (dan, tapi, atau), atau di jeda bicara. Jangan sampai satu kata penting kepotong ke baris lain.
 4. **Beri whitespace.** Kasih jarak supaya teks nggak terlalu mepet sama dinding bubble. Detailnya lihat gambar di bawah.
 
-![Contoh whitespace dan perataan teks](/img/typesetter/tutorial-ts.png)
-
-### Don'ts
+</div>
+<div slot="dont">
 
 1. Export dengan resolusi yang berbeda dari canvas atau gambar mentahan.
 2. Ukuran font dan whitespace yang nggak konsisten antar bubble.
 3. Buru-buru sampai teks meluber dari bubble atau typo lolos ke rilis.
+
+</div>
+</DoDont>
+
+![Contoh whitespace dan perataan teks](/img/typesetter/tutorial-ts.png)
 
 :::tip[Cek di HP]
 Kebanyakan pembaca baca di HP. Sebelum kirim, buka hasilnya di HP dan pastikan teks terkecil pun masih kebaca.

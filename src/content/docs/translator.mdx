@@ -8,13 +8,15 @@ heroImage:
 prev:
   link: /perkenalan
   label: Perkenalan
+spec:
+  difficulty: "Sedang"
+  time: "1-2 hari/chapter"
+  format: "*.txt"
 ---
 
-Translator bertugas menerjemahkan komik dari bahasa asing ke bahasa Indonesia. Kedengarannya simpel, tapi terjemahan yang bagus itu bukan cuma benar artinya, tapi juga enak dibaca dan terasa natural, seolah-olah komiknya memang ditulis dalam bahasa Indonesia.
+import DoDont from '../../components/DoDont.astro';
 
-- Tingkat kesulitan: `Sedang`
-- Estimasi pengerjaan: `1-2 hari/chapter`
-- Format pengumpulan: `*.txt`
+Translator bertugas menerjemahkan komik dari bahasa asing ke bahasa Indonesia. Kedengarannya simpel, tapi terjemahan yang bagus itu bukan cuma benar artinya, tapi juga enak dibaca dan terasa natural, seolah-olah komiknya memang ditulis dalam bahasa Indonesia.
 
 ## Teknis Pengerjaan
 
@@ -128,19 +130,24 @@ Dari bahasa Jepang ada tantangan tambahan: honorific (`-san`, `-kun`, `-senpai`)
 
 ## Do's and Don'ts
 
-### Do's
+<DoDont>
+<div slot="do">
 
 1. **Terjemahkan per kalimat.** Maksudnya <mark>terjemahkan sebagai satu kalimat utuh</mark>, jangan kata per kata. Satu kalimat bisa berubah artinya kalau diterjemahkan terpisah.
 2. **Pahami konteks.** Lagi tegang, romantis, atau komedi? Karakternya cuek atau sopan? "Baka" bisa jadi "bodoh", "dasar", atau "ih, kamu ini" tergantung situasinya.
 3. **Cari referensi.** Google Translate dan kamus (KBBI, Jisho.org) boleh dipakai sebagai titik awal. Kadang kalian juga harus buka wiki komiknya, <mark>buat paham dunia serta nama karakternya</mark>. Nama karakter antara RAW dan versi resminya sering beda, misalnya Celestia (Global) dan Xinghui (CN) di STRINOVA.
 4. **Jaga konsistensi.** Catat nama karakter, tempat, skill, dan istilah khusus di glossary pribadi, supaya chapter 1 sampai terakhir tetap sama.
 
-### Don'ts
+</div>
+<div slot="dont">
 
 1. Terjemah per kata.
 2. Nggak ngerti konteks, lalu asal tebak.
 3. Copas mentah-mentah dari Google Translate.
 4. Buru-buru dan nggak baca ulang. Typo dan nama yang berubah-ubah itu kelihatan banget di mata pembaca.
+
+</div>
+</DoDont>
 
 :::tip[Pegangan utama]
 Bayangkan kamu bukan cuma penerjemah, tapi penulis ulang cerita dalam bahasa Indonesia. Kalau pembaca bisa ikut ketawa atau ikut sedih tanpa sadar ini terjemahan, berarti kamu berhasil.

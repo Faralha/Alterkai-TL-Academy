@@ -53,6 +53,8 @@
   --ak-read-line: #e6dfd5;
   --ak-read-accent: #d63a72;
   --ak-read-accent-soft: rgba(255, 77, 141, 0.1);
+  /* Highlighter: needs to read as a marker stroke, so stronger than accent-soft */
+  --ak-read-mark: #ffc4da;
   --ak-read-note: #2a9a9a;
   --ak-read-tip: #d63a72;
   --ak-read-caution: #c08400;
@@ -73,6 +75,7 @@
   --ak-read-line: #2f2932;
   --ak-read-accent: #ff8fb4;
   --ak-read-accent-soft: rgba(255, 122, 166, 0.12);
+  --ak-read-mark: rgba(255, 92, 150, 0.42);
   --ak-read-note: #5cc4c4;
   --ak-read-tip: #ff8fb4;
   --ak-read-caution: #e0a83a;
@@ -635,6 +638,107 @@ starlight-theme-select select {
   letter-spacing: 0;
 }
 
+/* Role spec strip (Kesulitan · Estimasi · Format) */
+.ak-role-spec {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 20px 0 0;
+  border: var(--ak-read-border);
+  border-radius: var(--ak-radius-read);
+  overflow: hidden;
+}
+
+.ak-role-spec-item {
+  padding: 10px 14px;
+  margin: 0;
+}
+
+.ak-role-spec-item + .ak-role-spec-item {
+  border-left: var(--ak-read-border);
+}
+
+.ak-role-spec dt {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ak-read-muted);
+}
+
+.ak-role-spec dd {
+  margin: 2px 0 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ak-read-heading);
+}
+
+@media (max-width: 36rem) {
+  .ak-role-spec {
+    grid-template-columns: 1fr;
+  }
+
+  .ak-role-spec-item + .ak-role-spec-item {
+    border-left: none;
+    border-top: var(--ak-read-border);
+  }
+}
+
+/* Do's / Don'ts two-column block */
+.sl-markdown-content .ak-dodont {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 1.25rem;
+}
+
+.sl-markdown-content .ak-dodont-col {
+  --ak-dodont-color: var(--ak-read-note);
+  margin: 0;
+  padding: 14px 16px 6px;
+  border: var(--ak-read-border);
+  border-top: 3px solid var(--ak-dodont-color);
+  border-radius: var(--ak-radius-read);
+  background: var(--ak-read-surface);
+}
+
+.sl-markdown-content .ak-dodont-col--dont {
+  --ak-dodont-color: var(--ak-read-danger);
+}
+
+.sl-markdown-content .ak-dodont-label {
+  margin: 0 0 0.5rem;
+  font-family: var(--ak-font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ak-read-heading);
+}
+
+.sl-markdown-content .ak-dodont-label span {
+  color: var(--ak-dodont-color);
+  margin-right: 0.25em;
+}
+
+.sl-markdown-content .ak-dodont-col :is(ol, ul) {
+  margin-top: 0;
+  padding-left: 1.2rem;
+}
+
+.sl-markdown-content .ak-dodont-col li {
+  font-size: 0.97rem;
+  line-height: 1.6;
+}
+
+.sl-markdown-content .ak-dodont-col li + li {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 48rem) {
+  .sl-markdown-content .ak-dodont {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Header banner (replaces the Nuxt-era ::intro image) */
 .ak-page-banner {
   margin: 24px 0 0;
@@ -663,8 +767,8 @@ starlight-theme-select select {
 
 /* Highlighted key phrases (replaces the Nuxt-era [text]{style} spans) */
 .sl-markdown-content mark {
-  background: var(--ak-read-accent-soft);
-  color: inherit;
+  background: var(--ak-read-mark);
+  color: var(--ak-read-heading);
   padding: 0.05em 0.2em;
   border-radius: 3px;
   box-decoration-break: clone;

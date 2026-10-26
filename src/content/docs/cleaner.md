@@ -2,13 +2,13 @@
 title: 'Cleaner'
 description: 'Penjelasan mendetail mengenai posisi Cleaner.'
 icon: 🧹
+spec:
+  difficulty: "Susah"
+  time: "1-2 hari/chapter"
+  format: "*.png, *.jpg, atau *.psb"
 ---
 
 Cleaner bertugas membersihkan komik dari segala teks, mulai dari dialog, narasi, sampai efek, supaya halamannya siap diisi typesetter.
-
-- Tingkat kesulitan: `Susah`
-- Estimasi pengerjaan: `1-2 hari/chapter`
-- Format pengumpulan: `*.png`, `*.jpg`, atau `*.psb`
 
 ## Teknis Pengerjaan
 

@@ -1,0 +1,24 @@
+---
+// Compact "Kesulitan · Estimasi · Format" strip for tutorial pages.
+interface Props {
+  spec: { difficulty: string; time: string; format: string };
+}
+
+const { spec } = Astro.props;
+const items = [
+  { label: 'Kesulitan', value: spec.difficulty },
+  { label: 'Estimasi', value: spec.time },
+  { label: 'Format', value: spec.format },
+];
+---
+
+<dl class="ak-role-spec">
+  {
+    items.map((item) => (
+      <div class="ak-role-spec-item">
+        <dt>{item.label}</dt>
+        <dd>{item.value}</dd>
+      </div>
+    ))
+  }
+</dl>

@@ -3,13 +3,15 @@ title: 'Quality Control (QC)'
 description: 'Penjelasan mendetail mengenai posisi Quality Control/Proofreader.'
 icon: 🔍
 next: false
+spec:
+  difficulty: "Susah"
+  time: "2-4 jam/chapter"
+  format: "Daftar revisi (*.txt / chat tim)"
 ---
 
-QC adalah pengecekan terakhir sebelum chapter dirilis. Tugasnya mengecek ulang semuanya, mulai dari terjemahan sampai editing, lalu memastikan yang salah dibenerin. Biasanya posisi ini dipegang langsung sama yang punya scanlator, atau orang yang sudah pernah pegang beberapa posisi lain.
+import DoDont from '../../components/DoDont.astro';
 
-- Tingkat kesulitan: `Susah`
-- Estimasi pengerjaan: `2-4 jam/chapter`
-- Format pengumpulan: daftar revisi (`*.txt` atau langsung di chat tim)
+QC adalah pengecekan terakhir sebelum chapter dirilis. Tugasnya mengecek ulang semuanya, mulai dari terjemahan sampai editing, lalu memastikan yang salah dibenerin. Biasanya posisi ini dipegang langsung sama yang punya scanlator, atau orang yang sudah pernah pegang beberapa posisi lain.
 
 ## Yang Dicek
 
@@ -60,17 +62,22 @@ Kalau waktunya mepet, dahulukan yang paling kerasa buat pembaca: salah arti, nam
 
 ## Do's and Don'ts
 
-### Do's
+<DoDont>
+<div slot="do">
 
 1. Kasih feedback yang jelas dan bisa langsung dikerjakan, bukan cuma "ini jelek".
 2. Simpan glossary series, supaya bisa ngecek konsistensi nama dan istilah.
 3. Kasih tahu juga kalau hasilnya bagus. Anggota tim lebih semangat kalau kerjaannya dihargai.
 
-### Don'ts
+</div>
+<div slot="dont">
 
 1. Ngedit sendiri diam-diam tanpa bilang ke yang ngerjain. Mereka jadi nggak belajar dari kesalahannya.
 2. Maksain selera pribadi sebagai "aturan" kalau hasilnya sebenarnya sudah benar.
 3. Nahan rilis lama-lama cuma demi hal kecil yang hampir nggak kelihatan.
+
+</div>
+</DoDont>
 
 :::tip[Pegangan utama]
 QC itu bagian dari tim, bukan hakim. Tujuannya bikin chapter enak dibaca dan bikin tim makin jago, bukan nyari-nyari kesalahan.

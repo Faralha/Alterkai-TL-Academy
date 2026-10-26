@@ -1,5 +1,6 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
+import RoleSpec from './RoleSpec.astro';
 
 const PAGE_TITLE_ID = '_top';
 
@@ -21,7 +22,7 @@ const PATH_META: Record<
 
 const meta = PATH_META[slug] ?? { kind: 'MATERI', color: 'pink', trail: 'TUTORIAL' };
 const desc = entry.data.description;
-const { icon, heroImage } = entry.data;
+const { icon, heroImage, spec } = entry.data;
 ---
 
 <div class="ak-page-head">
@@ -46,6 +47,8 @@ const { icon, heroImage } = entry.data;
   </h1>
 
   {desc && <p class="ak-page-lede">{desc}</p>}
+
+  {spec && <RoleSpec spec={spec} />}
 
   {
     heroImage && (

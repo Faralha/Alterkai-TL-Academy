@@ -2,13 +2,15 @@
 title: 'Redraw'
 description: 'Penjelasan mendetail mengenai posisi Redraw.'
 icon: 🎨
+spec:
+  difficulty: "Sedang"
+  time: "1-2 hari/chapter"
+  format: "*.png, *.jpg, atau *.psb"
 ---
 
-Redraw bertugas menggambar ulang bagian gambar yang ikut terhapus waktu cleaning. Targetnya sederhana tapi susah: hasilnya harus nyatu sama gambar aslinya, sampai pembaca nggak sadar bagian itu pernah digambar ulang.
+import DoDont from '../../components/DoDont.astro';
 
-- Tingkat kesulitan: `Sedang`
-- Estimasi pengerjaan: `1-2 hari/chapter`
-- Format pengumpulan: `*.png`, `*.jpg`, atau `*.psb`
+Redraw bertugas menggambar ulang bagian gambar yang ikut terhapus waktu cleaning. Targetnya sederhana tapi susah: hasilnya harus nyatu sama gambar aslinya, sampai pembaca nggak sadar bagian itu pernah digambar ulang.
 
 ## Kapan Redraw Dibutuhkan?
 
@@ -42,17 +44,22 @@ Pen tablet sangat membantu buat line art, tapi bukan syarat wajib buat mulai. Ba
 
 ## Do's and Don'ts
 
-### Do's
+<DoDont>
+<div slot="do">
 
 1. Ikuti gaya gambar artist aslinya, termasuk ketebalan garis dan cara shading-nya.
 2. Fokus ke bagian yang paling kelihatan. Area yang nanti ketutup teks lagi nggak perlu sempurna.
 3. Simpan file kerja dengan layer, supaya gampang direvisi.
 
-### Don'ts
+</div>
+<div slot="dont">
 
 1. Bikin karakter jadi "lebih bagus" atau lebih detail dari aslinya. Hasil redraw yang terlalu beda malah jadi mencolok.
 2. Kerja di resolusi yang lebih kecil dari gambar mentahan.
 3. Merge semua layer sebelum hasilnya dicek.
+
+</div>
+</DoDont>
 
 :::tip[Pegangan utama]
 Redraw yang bagus itu nggak kelihatan. Kalau pembaca bisa nunjuk bagian mana yang digambar ulang, berarti masih perlu dirapikan.

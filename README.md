@@ -22,7 +22,7 @@ Contributions are always welcome!
 
 Want to suggest a features but can't code? Kindly open an Issues. Or if you can code, any pull request that may benefit are always welcome.
 
-This website is built with [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). All content lives in `src/content/docs/` as plain Markdown — no JS knowledge required to contribute a tutorial.
+This website is built with [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). All content lives in `src/content/docs/` as plain Markdown — no JS knowledge required to contribute a tutorial. Before writing, read the [content style guide](CONTENT-GUIDE.md) (in Indonesian).
 
 ## Local development
 
