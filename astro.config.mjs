@@ -21,6 +21,8 @@ export default defineConfig({
       },
       favicon: '/favicon.ico',
       lastUpdated: true,
+      // Reading mode: keep the on-page TOC to section headings only.
+      tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
       defaultLocale: 'root',
       locales: {
         root: { label: 'Bahasa Indonesia', lang: 'id-ID' },
@@ -92,7 +94,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500;1,6..72,600&family=Inter:wght@300;400;500;600;700;800;900&family=Inter+Tight:wght@600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;600;900&family=Shippori+Mincho:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap',
+            href: 'https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600..800&family=Plus+Jakarta+Sans:wght@400..800&family=Newsreader:opsz,wght@6..72,700&display=swap',
           },
         },
         { tag: 'meta', attrs: { name: 'theme-color', content: '#ff4d8d' } },
